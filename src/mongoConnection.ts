@@ -8,14 +8,15 @@ const options = {
   useUnifiedTopology: true,
 };
 
-function mongoConnection() {
-  mongoose.connect(connectionString, options).catch((err) => console.log(err));
+export const mongoConnection = () => {
+  mongoose.set('strictQuery', true)
+  mongoose.connect(connectionString, options)
+      .then(()=> console.log('MongoDB connected...'))
+      .catch((err) => console.log(err));
 
   // When the connection is disconnected
   mongoose.connection.on('disconnected', () => {
     console.log('Mongoose default connection disconnected');
   });
 }
-
-export default mongoConnection;
 
