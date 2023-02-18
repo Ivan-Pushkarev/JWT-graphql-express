@@ -1,6 +1,7 @@
 import {ApolloServer} from '@apollo/server';
 import {startStandaloneServer} from '@apollo/server/standalone';
 import {mongoConnection} from "./mongoConnection";
+import User from "./Model";
 
 mongoConnection()
 
@@ -49,15 +50,11 @@ const users = [
 // This resolver retrieves books from the "books" array above.
 const resolvers = {
     Query: {
-        users: () => users,
+        users: async () => User.find(),
     },
     Mutation: {
-        createUser: (parent, args) => {
-            const newUser = {
-                _id: users.length + 1,
-                ...args.input,
-            };
-            users.push(newUser);
+        createUser: async (parent, args) => {
+           const newUser = await User.create({...args.input})
             return newUser;
         }
     }
