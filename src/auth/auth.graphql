@@ -1,0 +1,44 @@
+type User {
+  _id: ID!
+  firstName: String
+  lastName: String
+  email: String
+  password: String
+  avatar: String
+  googleId: String
+  createdAt: String
+  updatedAt: String
+}
+
+input RegisterInput {
+  firstName: String!
+  lastName: String!
+  email: String!
+  password: String!
+}
+input LoginInput {
+  email: String!
+  password: String!
+}
+
+type Tokens {
+  accessToken: String
+  refreshToken: String
+}
+type AuthResponse {
+  user: User
+  accessToken: String
+  refreshToken: String
+}
+
+type Query {
+  getUsers: [User]
+  currentUser: User
+}
+
+type Mutation {
+  register(input: RegisterInput): AuthResponse
+  login(input: LoginInput): AuthResponse
+  logout: String
+  refreshTokens: Tokens
+}
