@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e56691",
+  "name": {
+    "ru": "Вычислите и выведите в консоль. 5 процентов от 1140",
+    "en": "Calculate and output to the console. 5 percent of 1140",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Только одна строка.\n\nНапишите команду `console.log(1140 * 5 / 100);`\n\nСоблюдайте пробелы и знаки пунктуации.",
+    "en": "Only one line.\n\nWrite the command `console.log(1140 * 5 / 100);`\n\nObserve spaces and punctuation marks.",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log(1140 * 5 / 100);",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

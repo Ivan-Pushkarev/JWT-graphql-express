@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e87",
+  "name": {
+    "ru": "Нарисуйте стрелу символами",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `arrowArt`, которая принимает строку.\n\nПусть функция возьмет строку и нарисует стрелку из символов `>` и `=`.\n\nПример запуска функции:\n```javascript\narrowArt(''); // '>=>'\narrowArt('r'); // '>>==R==>>'\narrowArt('go'); // '>>==GO==>>'\narrowArt('abc'); // '>>>===ABC===>>>'\narrowArt('abcd'); // '>>>>====ABCD====>>>>'\narrowArt('pasv'); // '>>>>====PASV====>>>>'\narrowArt('coding'); // '>>>>>>======CODING======>>>>>>'\n```\n\nКаждый элемент стрелки повторяется столько раз, сколько символов в исходной строке.\n\nЕсли строка пустая, то стрелка должна быть такая: `'>=>'`.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function arrowArt(name) {\n  const l = name.length;\n  if (l === 0) return '>=>';\n  return (\n    '>'.repeat(l) + '='.repeat(l) + name.toUpperCase() + '='.repeat(l) + '>'.repeat(l)\n  );\n}",
+  "openTest": "it('Created function arrowArt', () => {\n  expect(arrowArt).to.be.a('function');\n});\n\nit('arrowArt(\"\") should return \">=>\"', () => {\n  expect(arrowArt('')).to.be.equal('>=>');\n});\n\nit('arrowArt(\"r\") should return \">=R=>\"', () => {\n  expect(arrowArt('r')).to.be.equal('>=R=>');\n} );\n\nit('arrowArt(\"abc\") should return \">>>===ABC===>>>\"', () => {\n  expect(arrowArt('abc')).to.be.equal('>>>===ABC===>>>');\n});\n\nit('arrowArt(\"abcd\") should return \">>>>====ABCD====>>>>\"', () => {\n  expect(arrowArt('abcd')).to.be.equal('>>>>====ABCD====>>>>');\n});\n\nit('arrowArt(\"pasv\") should return \">>>>====PASV====>>>>\"', () => {\n  expect(arrowArt('pasv')).to.be.equal('>>>>====PASV====>>>>');\n});\n\nit('arrowArt(\"coding\") should return \">>>>>>======CODING======>>>>>>\"', () => {\n  expect(arrowArt('coding')).to.be.equal('>>>>>>======CODING======>>>>>>');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

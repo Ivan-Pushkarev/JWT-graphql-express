@@ -1,0 +1,23 @@
+{
+  "_id": "63c09b2fcf0eea67a07bcecc",
+  "name": {
+    "ru": "Какой массив длиннее?",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию 'compareArr', которая принимает параметры:\n* `arr1` - массив элементов\n* `arr2` - массив элементов.\n\nФункция должна определить длину каждого массива и вернуть строку вида:\n* `Array1 is longer and its length is `n`,\nесли длина первого массива больше длины второго, `n` - длина первого массива,\n\n* `Array2 is longer and its length is `n`,\nесли длина второго массива больше длины первого, `n` - длина второго массива,\n\n* `Arrays are equal`, если длины массивов равны.\n\nПример запуска функции:\n```javascript\ncompareArr([1, 2, 3], [1, 2, 3, 4, 5])\n// Array2 is longer and its length is 5\n```\n\nПохожий пример:\n```javascript\ncompareStr(\"abc\", \"hello\")\n// String2 is longer and its length is 5\n\ncompareStr(\"name\", \"hi\")\n// String1 is longer and its length is 4\n\ncompareStr(\"123\", \"abc\")\n// Strings are equal\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function compareArr(arr1, arr2) {\n  let arr1Length = arr1.length;\n  let arr2Length = arr2.length;\n  if (arr1Length > arr2Length) {\n    return 'Array1 is longer and its length is ' + arr1Length;\n  } else if (arr1Length < arr2Length) {\n    return 'Array2 is longer and its length is ' + arr2Length;\n  } else {\n    return 'Arrays are equal';\n  }\n}",
+  "openTest": "it('Created function compareArr', () => {\n  expect(compareArr).to.be.a('function');\n});\n\nit('Function returns string', () => {\n  expect(compareArr([1], [1, 2, 3])).to.be.a('string');\n});\n\nit('compareArr([1, 2, 3], [1, 2, 3, 4, 5]) returns `Array2 is longer and its length is 5`', () => {\n  expect(compareArr([1, 2, 3], [1, 2, 3, 4, 5])).eq('Array2 is longer and its length is 5');\n\n});\n\nit('compareArr([1, 2, 3, 4, 5], [1, 2, 3]) returns `Array1 is longer and its length is 5`', () => {\n  expect(compareArr([1, 2, 3, 4, 5], [1, 2, 3])).eq('Array1 is longer and its length is 5');\n});\n\nit('compareArr([1, 2, 3], [1, 2, 3]) returns `Arrays are equal`', () => {\n  expect(compareArr([1, 2, 3], [1, 2, 3])).eq('Arrays are equal');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

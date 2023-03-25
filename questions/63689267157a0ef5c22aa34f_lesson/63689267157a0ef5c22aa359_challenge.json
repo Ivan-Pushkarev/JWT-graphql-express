@@ -1,0 +1,23 @@
+{
+  "_id": "63689267157a0ef5c22aa359",
+  "name": {
+    "ru": "Является ли число целым",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Для проверки является ли число целым используется оператор `%` (остаток от деления).\n\nЕсли остаток от деления на 1 равен нулю, то число является целым.\n\nПример:\n```javascript\nconsole.log(10 % 1); // 0\nconsole.log(10.5 % 1); // 0.5\n```\n\nСоздайте функцию `isInteger`, которая принимает один параметр - число.\n\nФункция должна вернуть `true`, если число является целым, и `false` если нет.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function isInteger(num) {\n  return num % 1 === 0;\n}",
+  "openTest": "it('Created function isInteger', () => {\n  expect(isInteger).to.be.a('function');\n});\n\nit('isInteger(10) should return true', () => {\n  expect(isInteger(10)).to.be.true;\n});\n\nit('isInteger(10.5) should return false', () => {\n  expect(isInteger(10.5)).to.be.false;\n});\n\nit('isInteger(0) should return true', () => {\n  expect(isInteger(0)).to.be.true;\n});\n\nit('isInteger(-10) should return true', () => {\n  expect(isInteger(-10)).to.be.true;\n});\n\nit('isInteger(-10.5) should return false', () => {\n  expect(isInteger(-10.5)).to.be.false;\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "635c05ba659f6d77abf1f518",
+  "name": {
+    "ru": "Исправить ошибки в коде. Следим за кавычками",
+    "en": "Correct errors in the code - 1",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Требуется вывести в консоль фразу: \"Have a good day!\".\n\nУбедитесь, что фраза обрамлена в кавычки.\n\nИсправьте ошибки в приведенном коде.",
+    "en": "You need to output to the console the phrase: \"Have a good day!\"\nThe correct solution:\n```\nconsole.log('Have a good day!');\n```\nCorrect the errors in the above code.",
+    "es": ""
+  },
+  "initialSolution": "console.log(Have a good day!)",
+  "completedSolution": "console.log('Have a good day!');",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8bf",
+  "name": {
+    "ru": "Вычислить периметр прямоугольника",
+    "en": "Calculate the perimeter of a rectangle",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Создайте функцию `perimeter`, параметрами которой будут длины двух сторон прямоугольника\n\nФункция должна возвращать периметра этого прямоугольника.\n\nПримеры:\n\n* функция perimeter(8, 12) должна вернуть 40;\n* функция perimeter(5, 8) должна вернуть 26;\n* функция perimeter(31, 55) должна вернуть 172;",
+    "en": "Создайте функцию `perimeter`, параметрами которой будут длины двух сторон прямоугольника\n\nФункция должна возвращать периметра этого прямоугольника.\n\nПримеры:\n\n* функция perimeter(8, 12) должна вернуть 40;\n* функция perimeter(5, 8) должна вернуть 26;\n* функция perimeter(31, 55) должна вернуть 172;",
+    "es": ""
+  },
+  "initialSolution": "function sum(num1, num2){\n\n}",
+  "completedSolution": "function perimeter(side1, side2) {\n  return (side1 + side2) * 2;\n}",
+  "openTest": "it('Created function perimeter', () => {\n  expect(perimeter).to.be.a('function');\n});\n\nit('Function returns correct result for arguments `8, 12', () => {\n  expect(perimeter(8, 12)).eq(40);\n});\n\nit('Function returns correct result for arguments `5, 8`', () => {\n  expect(perimeter(5, 8)).eq(26);\n});\n\nit('Function returns correct result for arguments `31, 55`', () => {\n  expect(perimeter(31, 55)).eq(172);\n});\n\nit('The function returns the correct result for arguments `20, 13`', () => {\n  expect(perimeter(20, 13)).eq(66);\n});\n\nit('The function returns a valid result for arguments `0, 0`', () => {\n  expect(perimeter(0, 0)).eq(0);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

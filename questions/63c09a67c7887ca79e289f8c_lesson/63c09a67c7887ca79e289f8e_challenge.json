@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f8e",
+  "name": {
+    "ru": "Модифицируйте объект. Вычислите сумму свойств",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `calculateSumObject`, которая принимает объект.\n\nВ объекте есть три свойства:\n* `n1` - число\n* `n2` - число\n* `sum` - число ноль\n\nПример объекта, который будет передан в функцию:\n```javascript\n{\n  n1: 10,\n  n2: 20,\n  sum: 0\n}\n```\n\nФункция должна вернуть объект, в котором свойство `sum` будет равно сумме свойств `n1` и `n2` объекта.\n\nПример запуска функции:\n```javascript\ncalculateSumObject({n1: 10,  n2: 20, sum: 0}) // { n1: 10, n2: 20, sum: 30 }\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function calculateSumObject(obj) {\n  // obj = { n1: 10, n2: 20, sum: 0 }\n  obj.sum = obj.n1 + obj.n2;\n  return obj;\n}",
+  "openTest": "it('Created function calculateSumObject', () => {\n  expect(calculateSumObject).to.be.a('function');\n});\n\nit('calculateSumObject({n1: 10,  n2: 20, sum: 0}) should return { n1: 10, n2: 20, sum: 30 }', () => {\n  expect(calculateSumObject({ n1: 10, n2: 20, sum: 0 })).to.deep.equal({\n    n1: 10,\n    n2: 20,\n    sum: 30,\n  });\n});\n\nit('calculateSumObject({n1: 1,  n2: 2, sum: 0}) should return { n1: 1, n2: 2, sum: 3 }', () => {\n  expect(calculateSumObject({ n1: 1, n2: 2, sum: 0 })).to.deep.equal({\n    n1: 1,\n    n2: 2,\n    sum: 3,\n  });\n});\n\nit('calculateSumObject({n1: 100,  n2: 200, sum: 0}) should return { n1: 100, n2: 200, sum: 300 }', () => {\n  expect(calculateSumObject({ n1: 100, n2: 200, sum: 0 })).to.deep.equal({\n    n1: 100,\n    n2: 200,\n    sum: 300,\n  });\n});\n\nit('calculateSumObject({n1: 1000,  n2: 2000, sum: 0}) should return { n1: 1000, n2: 2000, sum: 3000 }', () => {\n  expect(calculateSumObject({ n1: 1000, n2: 2000, sum: 0 })).to.deep.equal({\n    n1: 1000,\n    n2: 2000,\n    sum: 3000,\n  });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

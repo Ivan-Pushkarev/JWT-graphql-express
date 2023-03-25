@@ -1,10 +1,9 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { Token, TokenDocument } from '../schemas/token.schema';
-import { Response } from 'express';
+import { Token, TokenDocument } from '../schemas/token.entity';
 import { JwtService } from '@nestjs/jwt';
-import { UserDocument } from '../../user/user.schema';
+import { UserDocument } from '../../user/user.entity';
 
 @Injectable()
 export class TokenService {
@@ -12,13 +11,21 @@ export class TokenService {
     @InjectModel(Token.name) private tokenModel: Model<TokenDocument>,
     private jwtService: JwtService,
   ) {}
-  generateTokens({ _id, firstName, lastName, email, avatar }: UserDocument) {
+  generateTokens({
+    _id,
+    firstName,
+    lastName,
+    email,
+    avatar,
+    roles,
+  }: UserDocument) {
     const payload = {
       _id,
       firstName,
       lastName,
       email,
       avatar,
+      roles,
     };
     const accessToken = this.jwtService.sign(payload, {
       secret: process.env.JWT_ACCESS_SECRET,
@@ -57,11 +64,4 @@ export class TokenService {
   async findToken(refreshToken) {
     return this.tokenModel.findOne({ refreshToken });
   }
-  // setTokensInCookies(res: Response, userData) {
-  //   res.cookie('refreshToken', userData.refreshToken, {
-  //     maxAge: 30 * 24 * 60 * 60 * 1000,
-  //     httpOnly: true,
-  //   });
-  //   // res.cookie('accessToken', userData.accessToken, { maxAge: 10 * 60 * 1000, httpOnly: true });
-  // }
 }

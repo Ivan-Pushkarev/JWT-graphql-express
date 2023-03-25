@@ -2,20 +2,23 @@ import { Context, Query, Resolver } from '@nestjs/graphql';
 import { UserService } from './user.service';
 import { UseGuards } from '@nestjs/common';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
-import { UserDocument } from './user.schema';
+import { User } from './user.entity';
+import { Roles, RolesGuard } from '../auth/guards/roles.guard';
 
-@Resolver('User')
+@Resolver()
 export class UserResolver {
   constructor(private readonly userService: UserService) {}
-  @Query('getUsers')
-  @UseGuards(JwtAuthGuard)
-  findAll(): Promise<UserDocument[]> {
+
+  @Query(() => [User])
+  @UseGuards(JwtAuthGuard, RolesGuard)
+  @Roles('admin')
+  findAll() {
     return this.userService.findAll();
   }
 
-  @Query('currentUser')
+  @Query(() => User, { nullable: true })
   @UseGuards(JwtAuthGuard)
-  currentUser(@Context() context): Promise<UserDocument | unknown> {
+  currentUser(@Context() context) {
     return context.req.user;
   }
 }

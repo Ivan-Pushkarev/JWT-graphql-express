@@ -1,0 +1,1 @@
+# Array creation. Length property language: ru

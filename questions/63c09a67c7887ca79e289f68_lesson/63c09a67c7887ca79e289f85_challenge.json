@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f85",
+  "name": {
+    "ru": "Умножение в объекте",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `multiObject`, которая принимает два параметра: `param1`, `param2`. Оба параметра - числа.\n\nФункция должна возвращать объект со свойствами `param1`, `param2`, которые будут равны соответствующим аргументам и `result`.\n\n`result` - это произведение `param1` и `param2`.\n\nПримеры запуска функции:\n```javascript\nmultiObject(2, 3); // { param1: 2, param2: 3, result: 6 }\nmultiObject(10, 10); // { param1: 10, param2: 10, result: 100 }\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function multiObject(param1, param2) {\n  return {\n    param1,\n    param2,\n    result: param1 * param2,\n  };\n}",
+  "openTest": "it('Created function multiObject', () => {\n  expect(multiObject).to.be.a('function');\n});\n\nit('multiObject(2, 3) return { param1: 2, param2: 3, result: 6 }', () => {\n  expect(multiObject(2, 3)).eql({ param1: 2, param2: 3, result: 6 });\n});\n\nit('multiObject(0, 0) return { param1: 0, param2: 0, result: 0 }', () => {\n  expect(multiObject(0, 0)).eql({ param1: 0, param2: 0, result: 0 });\n});\n\nit('multiObject(1, 0) return { param1: 1, param2: 0, result: 0 }', () => {\n  expect(multiObject(1, 0)).eql({ param1: 1, param2: 0, result: 0 });\n});\n\nit('multiObject(10, 10) return { param1: 10, param2: 10, result: 100 }', () => {\n  expect(multiObject(10, 10)).eql({ param1: 10, param2: 10, result: 100 });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

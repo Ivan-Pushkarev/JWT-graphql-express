@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f84",
+  "name": {
+    "ru": "Сумма в объекте",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `sumObject`, которая принимает два параметра: `n1`, `n2`. Оба параметра - числа.\n\nФункция должна возвращать объект со свойствами `n1`, `n2`, которые будут равны соответствующим аргументам и `sum`.\n\nСвойство `sum` должно быть равно сумме `n1` и `n2`.\n\nПримеры запуска функции:\n```javascript\nsumObject(10, 20); // { n1: 10, n2: 20, sum: 30 }\nsumObject(5, 10); // { n1: 5, n2: 10, sum: 15 }\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function sumObject(n1, n2) {\n  return {\n    n1,\n    n2,\n    sum: n1 + n2,\n  };\n}",
+  "openTest": "it('Created function sumObject', () => {\n  expect(sumObject).to.be.a('function');\n});\n\nit('sumObject(10, 20) return { n1: 10, n2: 20, sum: 30 }', () => {\n  expect(sumObject(10, 20)).eql({ n1: 10, n2: 20, sum: 30 });\n} );\n\nit('sumObject(5, 10) return { n1: 5, n2: 10, sum: 15 }', () => {\n  expect(sumObject(5, 10)).eql({ n1: 5, n2: 10, sum: 15 });\n} );\n\nit('sumObject(1, 2) return { n1: 1, n2: 2, sum: 3 }', () => {\n  expect(sumObject(1, 2)).eql({ n1: 1, n2: 2, sum: 3 });\n} );\n\nit('sumObject(0, 0) return { n1: 0, n2: 0, sum: 0 }', () => {\n  expect(sumObject(0, 0)).eql({ n1: 0, n2: 0, sum: 0 });\n} );",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

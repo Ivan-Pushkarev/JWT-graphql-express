@@ -1,0 +1,460 @@
+{
+  "_id": "63683072577d41fa4da0e9f0",
+  "name": {
+    "ru": "Область видимости переменных",
+    "en": "Variable scope",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63683072577d41fa4da0eac1",
+      "name": {
+        "ru": "Внутри программы может быть несколько блоков, в каждом из которых можно объявить переменную с одинаковым именем",
+        "en": "Inside a program there can be several blocks, in each of which you can declare a variable with the same name",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0eac2",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eac3",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0eac6",
+      "name": {
+        "ru": "Функция может использовать переменные, объявленные вне ее тела до вызова функции",
+        "en": "A function can use variables declared outside its body before the function is called",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0eac7",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eac8",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0eacb",
+      "name": {
+        "ru": "Функция создает свою собственную область видимости переменных",
+        "en": "The function creates its own scope of variables",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0eacc",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eacd",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ead0",
+      "name": {
+        "ru": "Выберите код, который не вызовет ошибку",
+        "en": "Choose a code that will not cause an error",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ead1",
+          "name": {
+            "ru": "{ const a = 1; { const a = 2; } }",
+            "en": "{ const a = 1; { const a = 2; } }",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ead2",
+          "name": {
+            "ru": "{ const a = 1;  const a = 2; }",
+            "en": "{ const a = 1; const a = 2; }",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ead3",
+          "name": {
+            "ru": "const a = 1; { const a = 2; }",
+            "en": "const a = 1; { const a = 2; }",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ead4",
+          "name": {
+            "ru": "const a = 1; { a = 2; }",
+            "en": "const a = 1; { a = 2; }",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ead5",
+      "name": {
+        "ru": "Выберите код, который не вызовет ошибку",
+        "en": "Choose a code that will not cause an error",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ead6",
+          "name": {
+            "ru": "let a = 1; { a = 2; }",
+            "en": "let a = 1; { a = 2; }",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ead7",
+          "name": {
+            "ru": "{ let a = 1; { a = 2; } } a = 3",
+            "en": "{ let a = 1; { a = 2; } } a = 3",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ead8",
+          "name": {
+            "ru": "function f() { let a = 1; { a = 2; } } f(); a = 3",
+            "en": "function f() { let a = 1; { a = 2; } } f(); a = 3",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ead9",
+          "name": {
+            "ru": "const a = 1; { console.log(a); }",
+            "en": "const a = 1; { console.log(a); }",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0eada",
+      "name": {
+        "ru": "Какой результат выполнения кода? Выберите варианты с правильным комментарием",
+        "en": "What is the result of executing the code? Select the options with the correct comment",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0eadb",
+          "name": {
+            "ru": "{ let a = 1; { let a = 2; } } console.log(a); // ReferenceError: a is not defined",
+            "en": "{ let a = 1; { let a = 2; } } console.log(a); // ReferenceError: a is not defined",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eadc",
+          "name": {
+            "ru": "{ let a = 1; { a = 2; } console.log(a); // SyntaxError",
+            "en": "{ let a = 1; { a = 2; } console.log(a); // SyntaxError",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eadd",
+          "name": {
+            "ru": "console.log(a); { let a  = 1 } // ReferenceError: a is not defined",
+            "en": "console.log(a); { let a = 1 } // ReferenceError: a is not defined",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eade",
+          "name": {
+            "ru": "{ console.log(a); let a  = undefined } // выведет undefined",
+            "en": "{ console.log(a); let a = undefined } // output undefined",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0eadf",
+      "name": {
+        "ru": "Почему в коде { let a = 1; {console.log(a);}} не будет ошибки?",
+        "en": "Why is there no error in the code { let a = 1; {console.log(a);}}?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0eae1",
+          "name": {
+            "ru": "Код написан в одну строку",
+            "en": "The code is written in one line",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0eae0",
+          "name": {
+            "ru": "Вложенный блок имеет доступ к переменной из внешнего блока",
+            "en": "The nested block has access to the variable from the external block",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eae2",
+          "name": {
+            "ru": "Переменная `a` объявлена во внешнем блоке",
+            "en": "The variable `a` is declared in the external block",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eae3",
+          "name": {
+            "ru": "Ошибка будет, если во внешнем блоке переменная `a` будет объявлена через `const`",
+            "en": "There will be an error if in the external block the variable `a` is declared with `const`.",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0eae4",
+      "name": {
+        "ru": "Выберите варианты, которые верны",
+        "en": "Select the options that are correct",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0eae5",
+          "name": {
+            "ru": "Переменные объявленные через `let` не видны во вложенных блоках",
+            "en": "Variables declared with `let` are not visible in nested blocks",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0eae6",
+          "name": {
+            "ru": "Переменные объявленные через `let` и `const` имеют одинаковую область видимости",
+            "en": "Variables declared with `let` and `const` have the same scope",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eae7",
+          "name": {
+            "ru": "Если объявить переменные через `let` или `const` в функции, то они будут доступны только внутри этой функции",
+            "en": "If you declare variables with `let` or `const` in a function, they are only available within that function",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eae8",
+          "name": {
+            "ru": "Если объявить переменные через `let` или `const` в функции, то они будут доступны вне функции после ее вызова",
+            "en": "If you declare variables with `let` or `const` in a function, they will be available outside the function after it is called",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0eae9",
+      "name": {
+        "ru": "Переменные объявленные через `let` и `const` имеют блочную область видимости",
+        "en": "Variables declared with `let` and `const` have a block scope",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0eaea",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eaeb",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0eaee",
+      "name": {
+        "ru": "Ограниченная область видимости позволяет",
+        "en": "The limited visibility allows for",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0eaef",
+          "name": {
+            "ru": "Избежать конфликтов имен переменных",
+            "en": "Avoid variable name conflicts",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eaf0",
+          "name": {
+            "ru": "Быстрее анализировать код",
+            "en": "Analyze code faster",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eaf1",
+          "name": {
+            "ru": "Уменьшить количество ошибок",
+            "en": "Reduce errors",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0eaf2",
+          "name": {
+            "ru": "Контролировать изменение переменных",
+            "en": "Control changes in variables",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

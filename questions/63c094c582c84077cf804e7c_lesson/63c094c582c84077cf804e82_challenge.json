@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e82",
+  "name": {
+    "ru": "Повторить первую и последнюю букву строки",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `repeatString`, которая принимает 2 параметра:\n\n1. `string` - строка\n2. `count` - число\n\nПусть функция возьмет первый символ строки и последний символ строки и повторит их `count` раз.\n\nПример запуска функции:\n```javascript\nrepeatString('abc', 3); // 'acacac'\nrepeatString('abcde', 2); // 'aeae'\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function repeatString(string, count) {\n  const firstLetter = string[0];\n  const lastLetter = string[string.length - 1];\n  return (firstLetter + lastLetter).repeat(count);\n}",
+  "openTest": "it('Created function repeatString', () => {\n  expect(repeatString).to.be.a('function');\n});\n\nit('repeatString(\"abc\", 3) should return \"acacac\"', () => {\n  expect(repeatString('abc', 3)).to.be.equal('acacac');\n});\n\nit('repeatString(\"abcde\", 2) should return \"aeae\"', () => {\n  expect(repeatString('abcde', 2)).to.be.equal('aeae');\n});\n\nit('repeatString(\"abc\", 1) should return \"ac\"', () => {\n  expect(repeatString('abc', 1)).to.be.equal('ac');\n});\n\nit('repeatString(\"abc\", 0) should return \"\"', () => {\n  expect(repeatString('abc', 0)).to.be.equal('');\n});\n\nit('repeatString(\"aaa\", 3) should return \"aaaaaa\"', () => {\n  expect(repeatString('aaa', 3)).to.be.equal('aaaaaa');\n});\n\nit('repeatString(\"qwe\", 4) should return \"qeqeqeqe\"', () => {\n  expect(repeatString('qwe', 4)).to.be.equal('qeqeqeqe');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

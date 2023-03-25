@@ -1,0 +1,23 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8b3",
+  "name": {
+    "ru": "Исправьте ошибку в функции",
+    "en": "Correct the error in the function",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Найдите ошибку в функции `message` и исправьте её.\n\nФункция должна возвращать строку `'I love JS'`.",
+    "en": "Find an error in the `message` function and correct it.\n\nThe function should return the string `'I love JS'`.",
+    "es": ""
+  },
+  "initialSolution": "function message() {\n  return\n  'I love JS'\n}",
+  "completedSolution": "function message() {\n  return 'I love JS'\n}",
+  "openTest": "it('Created function message', () => {\n  expect(message).to.be.a('function');\n});\n\nit('Function returns correct result', () => {\n  expect(message()).eq('I love JS');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

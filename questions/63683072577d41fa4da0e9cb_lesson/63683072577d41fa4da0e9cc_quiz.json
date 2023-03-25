@@ -1,0 +1,397 @@
+{
+  "_id": "63683072577d41fa4da0e9cc",
+  "name": {
+    "ru": "Присваивание и изменение переменных",
+    "en": "Assigning and changing variables",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63683072577d41fa4da0ea44",
+      "name": {
+        "ru": "В ходе выполнения программы переменные используются для",
+        "en": "During the execution of a program, variables are used to",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea45",
+          "name": {
+            "ru": "проверки корректности программы",
+            "en": "program correctness checks",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea46",
+          "name": {
+            "ru": "вывода значения в консоль",
+            "en": "output the value to the console",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea47",
+          "name": {
+            "ru": "хранения данных",
+            "en": "data storage",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea48",
+          "name": {
+            "ru": "наглядности",
+            "en": "for clarity",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea2b",
+      "name": {
+        "ru": "Какое ключевое слово в современном JavaScript используется для создания переменной",
+        "en": "Which keyword in modern JavaScript is used to create a variable",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea2c",
+          "name": {
+            "ru": "const",
+            "en": "const",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea2d",
+          "name": {
+            "ru": "var",
+            "en": "var",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea2e",
+          "name": {
+            "ru": "let",
+            "en": "let",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea30",
+      "name": {
+        "ru": "При использовании какого ключевого слова значение переменной не может быть изменено",
+        "en": "With which keyword the value of a variable cannot be changed",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea31",
+          "name": {
+            "ru": "let",
+            "en": "let",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea32",
+          "name": {
+            "ru": "const",
+            "en": "const",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea35",
+      "name": {
+        "ru": "Что будет при попытке изменить значение переменной, созданной с ключевым словом const",
+        "en": "What happens when you try to change the value of a variable created with the const keyword",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea36",
+          "name": {
+            "ru": "Значение переменной изменится",
+            "en": "The value of the variable will change",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea37",
+          "name": {
+            "ru": "Значение переменной не изменится",
+            "en": "The value of the variable will not change",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea38",
+          "name": {
+            "ru": "Сообщение об ошибке: Uncaught TypeError: Assignment to constant variable",
+            "en": "Error message: Uncaught TypeError: Assignment to constant variable",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea3a",
+      "name": {
+        "ru": "Можно ли создать переменную не присваивая ей значение?",
+        "en": "Can I create a variable without assigning a value to it?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea3b",
+          "name": {
+            "ru": "Да, можно",
+            "en": "Yes, you can.",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea3c",
+          "name": {
+            "ru": "Нет, нельзя",
+            "en": "No, you can't.",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea3f",
+      "name": {
+        "ru": "Современный стандарт не использует ключевое слово var.",
+        "en": "The modern standard does not use the var keyword.",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea40",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea41",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea49",
+      "name": {
+        "ru": "Как вывести в консоль значение переменной const year = 2100",
+        "en": "How to output the value of const year = 2100 to the console",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea4a",
+          "name": {
+            "ru": "console.log(year)",
+            "en": "console.log(year)",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea4b",
+          "name": {
+            "ru": "console.log('year')",
+            "en": "console.log('year')",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea4c",
+          "name": {
+            "ru": "console.log(const year)",
+            "en": "console.log(const year)",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea4e",
+      "name": {
+        "ru": "Какой результат выполнения кода: const year = 2100; year = 2200;",
+        "en": "What is the result of the code: const year = 2100; year = 2200;",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea4f",
+          "name": {
+            "ru": "Ошибка. Нельзя переопределять значение переменной const",
+            "en": "Error. You cannot override the value of a const variable",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea50",
+          "name": {
+            "ru": "Код выполнится без ошибок",
+            "en": "The code will run without errors",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea53",
+      "name": {
+        "ru": "Если переменная объявлена с помощью ключевого слова let, то ее значение можно изменить",
+        "en": "If a variable is declared with the let keyword, its value can be changed",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea54",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea55",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea58",
+      "name": {
+        "ru": "Какой результат выполнения кода: let year = 2100; year = 2200;",
+        "en": "What is the result of the code: let year = 2100; year = 2200;",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea59",
+          "name": {
+            "ru": "Ошибка. Нельзя переопределять значение переменной let",
+            "en": "Error. You cannot override the value of the let variable",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea5a",
+          "name": {
+            "ru": "Код выполнится без ошибок",
+            "en": "The code will run without errors",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

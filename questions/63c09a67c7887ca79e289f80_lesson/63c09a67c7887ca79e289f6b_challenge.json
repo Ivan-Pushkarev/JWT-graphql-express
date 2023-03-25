@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f6b",
+  "name": {
+    "ru": "Функция возвращает объект с одним свойством",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию createPerson, которая принимает один параметр: `name` (строку). \nФункция должна возвращать объект с одним свойством, где `userName` — это ключ, и полученная строка `name` — значение.\n\nПримеры запуска функции:\ncreatePerson('Alice'); // {userName: 'Alice'}\ncreatePerson('George'); // {userName: 'George'}\ncreatePerson('Mary Alice'); // {userName: 'Mary Alice'}",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "function createPerson(name){\n\n}",
+  "completedSolution": "function createPerson(name){\n  return { userName: name }\n}",
+  "openTest": "it('Created function createPerson', () => {\n  expect(createPerson).to.be.a('function')\n})\n\nit('Function returns correct result for arguments Alice', () => {\n  expect(createPerson('Alice')).eql({ userName: 'Alice' })\n})\n\nit('Function returns correct result for arguments George Smith', () => {\n  expect(createPerson('George Smith')).eql({ userName: 'George Smith' })\n})\n\nit('Function returns correct result for arguments Mary Ann Brown', () => {\n  expect(createPerson('Mary Ann Brown')).eql({ userName: 'Mary Ann Brown' })\n})\n\nit('The function returns the correct result for arguments Elisabeth', () => {\n  expect(createPerson('Elisabeth')).eql({ userName: 'Elisabeth' })\n})\n\nit('The function returns a valid result for arguments Joe', () => {\n  expect(createPerson('Joe')).eql({ userName: 'Joe' })\n})",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

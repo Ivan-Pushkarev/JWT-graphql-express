@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e84",
+  "name": {
+    "ru": "Повторить в зависимости от четности длины строки",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `repeatString`, которая принимает строку.\n\nПусть функция возьмет первый символ строки, переведет его в верхний регистр и повторит его.\n\nЕсли длина строки четная, то повторить его нужно 3 раза, если нечетная, то 2 раза.\n\nЧетность длины строки можно проверить с помощью оператора `%` (остаток от деления).\n\nЧетное число при делении на `2` дает остаток `0`, нечетное - `1`.\n\nПримеры запуска функции:\n```javascript\nrepeatString('abc'); // 'AA'\nrepeatString('abcd'); // 'AAA'\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function repeatString(string) {\n  const firstLetter = string[0];\n  if (string.length % 2 === 0) {\n    return firstLetter.toUpperCase().repeat(3);\n  }\n  return firstLetter.toUpperCase().repeat(2);\n}",
+  "openTest": "it('Created function repeatString', () => {\n  expect(repeatString).to.be.a('function');\n});\n\nit('repeatString(\"abc\") should return \"AA\"', () => {\n  expect(repeatString('abc')).to.be.equal('AA');\n});\n\nit('repeatString(\"abcd\") should return \"AAA\"', () => {\n  expect(repeatString('abcd')).to.be.equal('AAA');\n});\n\nit('repeatString(\"Fbcde\") should return \"FF\"', () => {\n  expect(repeatString('Fbcde')).to.be.equal('FF');\n});\n\nit('repeatString(\"wbcdef\") should return \"WWW\"', () => {\n  expect(repeatString('wbcdef')).to.be.equal('WWW');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

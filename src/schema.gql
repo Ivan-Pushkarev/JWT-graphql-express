@@ -1,0 +1,84 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type AuthResponse {
+  accessToken: String!
+  refreshToken: String
+  user: User!
+}
+
+input LoginInput {
+  email: String!
+  password: String!
+}
+
+type Mutation {
+  login(input: LoginInput!): AuthResponse!
+  logout: String!
+  refreshTokens: Tokens!
+  register(input: RegisterInput!): AuthResponse!
+}
+
+type Name {
+  en: String!
+  es: String!
+  ru: String!
+}
+
+type Query {
+  createDB: String!
+  currentUser: User
+  findAll: [User!]!
+  getAllQuestionGroups: [QuestionGroup!]!
+  getQuestionGroupById(questionGroupId: String!): QuestionGroup!
+}
+
+type Question {
+  _id: ID
+  answerType: String
+  description: Name
+  name: Name
+  reward: Float
+  variants: [Variant!]!
+}
+
+type QuestionGroup {
+  _id: ID
+  acceptableMistakes: Int!
+  active: Boolean!
+  description: Name
+  name: Name!
+  questions: [Question!]!
+}
+
+input RegisterInput {
+  email: String!
+  firstName: String!
+  lastName: String!
+  password: String!
+}
+
+type Tokens {
+  accessToken: String!
+  refreshToken: String!
+}
+
+type User {
+  _id: ID
+  avatar: String
+  email: String!
+  emailConfirmed: Boolean!
+  facebookId: String
+  firstName: String
+  googleId: String
+  lastName: String
+  password: String
+  roles: [String!]
+}
+
+type Variant {
+  _id: ID
+  correct: Boolean!
+  name: Name!
+}

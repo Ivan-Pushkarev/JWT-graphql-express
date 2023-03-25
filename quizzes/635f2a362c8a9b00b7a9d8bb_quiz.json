@@ -1,0 +1,424 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8bb",
+  "name": {
+    "ru": "Функции. Возвращаемое значение",
+    "en": "Functions. Returned value",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "635f2a362c8a9b00b7a9d95a",
+      "name": {
+        "ru": "Использование return внутри функции прерывает ее выполнение и возвращает значение, которое указано после return. Верно?",
+        "en": "Using return within a function interrupts its execution and returns the value that is specified after return. Right?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d95b",
+          "name": {
+            "ru": "Да",
+            "en": "Yes",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d95c",
+          "name": {
+            "ru": "Нет",
+            "en": "No",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d95f",
+      "name": {
+        "ru": "Если в функции не указано return, то она возвращает значение undefined. Верно?",
+        "en": "If no return is specified in the function, it returns undefined. Right?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d960",
+          "name": {
+            "ru": "Да",
+            "en": "Yes",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d961",
+          "name": {
+            "ru": "Нет",
+            "en": "No",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d964",
+      "name": {
+        "ru": "Функция может возвращать любое значение. Верно?",
+        "en": "The function can return any value. Right?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d965",
+          "name": {
+            "ru": "Да",
+            "en": "Yes",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d966",
+          "name": {
+            "ru": "Нет",
+            "en": "No",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d969",
+      "name": {
+        "ru": "Функцию можно вызывать не более 128 раз. Верно?",
+        "en": "The function can be called a maximum of 128 times. Right?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d96a",
+          "name": {
+            "ru": "Да",
+            "en": "Yes",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d96b",
+          "name": {
+            "ru": "Нет",
+            "en": "No",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d96e",
+      "name": {
+        "ru": "Директива return — это опциональная часть в задании функции. Верно?",
+        "en": "The return directive is an optional part of the function statement. Right?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d96f",
+          "name": {
+            "ru": "Да",
+            "en": "Yes",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d970",
+          "name": {
+            "ru": "Нет",
+            "en": "No",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d973",
+      "name": {
+        "ru": "return может быть использован только внутри функции. Верно?",
+        "en": "return can only be used within a function. Right?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d974",
+          "name": {
+            "ru": "Да",
+            "en": "Yes",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d975",
+          "name": {
+            "ru": "Нет",
+            "en": "No",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d978",
+      "name": {
+        "ru": "Если в функции return 2 + 5, то она возвращает:",
+        "en": "If the function return 2 + 5, it returns:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d979",
+          "name": {
+            "ru": "число 2",
+            "en": "number 2",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d97a",
+          "name": {
+            "ru": "строку 2 + 5",
+            "en": "line 2 + 5",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d97b",
+          "name": {
+            "ru": "число 7",
+            "en": "number 7",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d97c",
+          "name": {
+            "ru": "строку 7",
+            "en": "line 7",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d97d",
+      "name": {
+        "ru": "Если в функции return '2 + 5', то она возвращает:",
+        "en": "If the function return '2 + 5', it returns:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d97e",
+          "name": {
+            "ru": "строку 7",
+            "en": "line 7",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d97f",
+          "name": {
+            "ru": "число 7",
+            "en": "number 7",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d980",
+          "name": {
+            "ru": "строку '2 + 5'",
+            "en": "line '2 + 5'",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d981",
+          "name": {
+            "ru": "Ошибка",
+            "en": "Error",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d982",
+      "name": {
+        "ru": "Если в функции return; то она возвращает:",
+        "en": "If in the function return; it returns:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d983",
+          "name": {
+            "ru": "Ошибка",
+            "en": "Error",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d984",
+          "name": {
+            "ru": "undefined",
+            "en": "undefined",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d985",
+          "name": {
+            "ru": "0",
+            "en": "0",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d986",
+          "name": {
+            "ru": "Пустую строку",
+            "en": "Blank line",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d987",
+      "name": {
+        "ru": "Если в функции return null; то она возвращает:",
+        "en": "If the function return null; then it returns:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d988",
+          "name": {
+            "ru": "0",
+            "en": "0",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d989",
+          "name": {
+            "ru": "null",
+            "en": "null",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d98a",
+          "name": {
+            "ru": "undefined",
+            "en": "undefined",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d98b",
+          "name": {
+            "ru": "Пустую строку",
+            "en": "Blank line",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

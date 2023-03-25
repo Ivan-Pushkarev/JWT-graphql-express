@@ -1,0 +1,23 @@
+{
+  "_id": "63689267157a0ef5c22aa326",
+  "name": {
+    "ru": "Все числа true кроме нуля",
+    "en": "All true numbers except zero",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `numberToBoolean`, которая принимает число и возвращает `true`, если число не равно нулю, и `false` если равно нулю.",
+    "en": "Write a function `numberToBoolean` that takes a number and returns `true` if the number is not zero, and `false` if it is zero.",
+    "es": ""
+  },
+  "initialSolution": "function sum(num1, num2){\n\n}",
+  "completedSolution": "function numberToBoolean(num) {\n  return !!num;\n}",
+  "openTest": "it('Created function numberToBoolean', () => {\n  expect(numberToBoolean).to.be.a('function');\n});\n\nit('numberToBoolean(1) should return true', () => {\n  expect(numberToBoolean(1)).to.equal(true);\n});\n\nit('numberToBoolean(0) should return false', () => {\n  expect(numberToBoolean(0)).to.equal(false);\n});\n\nit('numberToBoolean(-1) should return true', () => {\n  expect(numberToBoolean(-1)).to.equal(true);\n});\n\nit('numberToBoolean(2) should return true', () => {\n  expect(numberToBoolean(2)).to.equal(true);\n});\n\nit('numberToBoolean(3) should return true', () => {\n  expect(numberToBoolean(3)).to.equal(true);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

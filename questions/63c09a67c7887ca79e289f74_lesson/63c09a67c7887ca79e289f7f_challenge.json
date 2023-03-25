@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f7f",
+  "name": {
+    "ru": "Расстояние между двумя точками на координатной плоскости",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `distanceBetweenPoints`, которая принимает параметры:\n* `point1` - объект с координатами первой точки\n* `point2` - объект с координатами второй точки\n\nКаждый объект точки имеет следующую структуру:\n```js\n{\n  x: 5,\n  y: 10\n}\n```\n\nФункция должна найти расстояние между двумя точками и вернуть его.\n\nОтвет должен быть числом.\n\nПример вызова функции:\n```javascript\ndistanceBetweenPoints(\n  { x: 5, y: 10 },\n  { x: 10, y: 10 }\n); // 5\n\ndistanceBetweenPoints(\n  { x: 5, y: 10 },\n  { x: 10, y: 20 }\n); // 11.180339887498949\n```\n\nДля решения задачи используйте формулу расстояния между двумя точками на плоскости:\n\n`d = √((x2 - x1)² + (y2 - y1)²)`\n\nПояснение к формуле:\n* Возведите в квадрат разность координат по оси `x` и возьмите квадратный корень из этого числа\n* Возведите в квадрат разность координат по оси `y` и возьмите квадратный корень из этого числа\n* Сложите два полученных числа\n* Из полученной суммы возьмите квадратный корень",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function distanceBetweenPoints(point1, point2) {\n  return ((point1.x - point2.x) ** 2 + (point1.y - point2.y) ** 2) ** 0.5;\n}",
+  "openTest": "it('Created function distanceBetweenPoints', () => {\n  expect(distanceBetweenPoints).to.be.a('function');\n});\n\nit('distanceBetweenPoints({ x: 5, y: 10 }, { x: 10, y: 10 }) returns 5', () => {\n  expect(distanceBetweenPoints({ x: 5, y: 10 }, { x: 10, y: 10 })).eq(5);\n});\n\nit('distanceBetweenPoints({ x: 5, y: 10 }, { x: 10, y: 20 }) returns 11.180339887498949', () => {\n  expect(distanceBetweenPoints({ x: 5, y: 10 }, { x: 10, y: 20 })).eq(11.180339887498949);\n});\n\nit('distanceBetweenPoints({ x: -5, y: 10 }, { x: 10, y: -20 }) returns 33.54101966249684', () => {\n  expect(distanceBetweenPoints({ x: -5, y: 10 }, { x: 10, y: -20 })).eq(\n    33.54101966249684,\n  );\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

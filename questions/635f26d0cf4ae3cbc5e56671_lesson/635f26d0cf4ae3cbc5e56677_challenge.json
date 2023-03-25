@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e56677",
+  "name": {
+    "ru": "Вычислите и выведите в консоль результат выражения 2 ** 5",
+    "en": "Calculate the result of the expression 2 ** 5 and print it to the console",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Только одна строка. Соблюдайте пробелы и знаки пунктуации. В конце точка с запятой.\n```javascript\nconsole.log(2 ** 5);\n```",
+    "en": "Only one line. Observe spaces and punctuation marks. A semicolon at the end.\n``javascript\nconsole.log(2 ** 5);\n```",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log(2 ** 5);",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

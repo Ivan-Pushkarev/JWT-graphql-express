@@ -1,0 +1,23 @@
+{
+  "_id": "63689267157a0ef5c22aa35a",
+  "name": {
+    "ru": "Является ли число дробным",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Для проверки является ли число целым используется оператор `%` (остаток от деления).\n\nЕсли остаток от деления на 1 равен нулю, то число является целым. Если остаток от деления на 1 не равен нулю, то число является дробным.\n\nПример:\n```javascript\nconsole.log(10 % 1); // 0\nconsole.log(10.5 % 1); // 0.5\n```\n\nСоздайте функцию `isFloat`, которая принимает один параметр - число.\n\nФункция должна вернуть `true`, если число является дробным, и `false` если нет.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function isFloat(num) {\n  return num % 1 !== 0;\n}",
+  "openTest": "it('Created function isFloat', () => {\n  expect(isFloat).to.be.a('function');\n});\n\nit('isFloat(10) should return false', () => {\n  expect(isFloat(10)).to.be.false;\n});\n\nit('isFloat(10.5) should return true', () => {\n  expect(isFloat(10.5)).to.be.true;\n});\n\nit('isFloat(0) should return false', () => {\n  expect(isFloat(0)).to.be.false;\n});\n\nit('isFloat(-10) should return false', () => {\n  expect(isFloat(-10)).to.be.false;\n});\n\nit('isFloat(-11.5) should return true', () => {\n  expect(isFloat(-11.5)).to.be.true;\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

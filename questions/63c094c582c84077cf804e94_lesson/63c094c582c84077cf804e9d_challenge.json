@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e9d",
+  "name": {
+    "ru": "Подстрока повторяется в строке 2 раза",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `isContainsTwice`, которая принимает строку и подстроку и возвращает `true`, если подстрока встречается в строке 2 раза.\n\nНе чувствительна к регистру.\n\nПримеры:\n```javascript\nisContainsTwice('a', 'a'); // false\nisContainsTwice('aa', 'A'); // true\nisContainsTwice('aAa', 'a'); // true\nisContainsTwice('aAa', 'A'); // true\n\nisContainsTwice('aAa', 'aa'); // true\nisContainsTwice('aAaA', 'aa'); // true\n```\nДля решения задачи используйте метод `indexOf`.\n\nПодсказка:\n\n* Найдите подстроку в строке, начиная с позиции `0`, и запишите ее в переменную `firstIndex`.\n* Если `firstIndex` равен `-1`, то подстрока не найдена, возвращаем `false`.\n* Потом найдите подстроку в строке, начиная с позиции `firstIndex + 1`, и запишите ее в переменную `secondIndex`.\n* Если `secondIndex` равен `-1`, то подстрока не найдена, возвращаем `false`, иначе возвращаем `true`.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function isContainsTwice(text, subtext) {\n  const str = text.toLowerCase();\n  const sub = subtext.toLowerCase();\n\n  const firstIndex = str.indexOf(sub);\n  if (firstIndex === -1) return false;\n\n  const secondIndex = str.indexOf(sub, firstIndex + 1);\n  return secondIndex !== -1;\n}",
+  "openTest": "it('Created function isContainsTwice', () => {\n  expect(isContainsTwice).to.be.a('function');\n});\n\nit('isContainsTwice(\"a\", \"a\") should return false', () => {\n  expect(isContainsTwice('a', 'a')).to.be.false;\n});\n\nit('isContainsTwice(\"aa\", \"A\") should return true', () => {\n  expect(isContainsTwice('aa', 'A')).to.be.true;\n});\n\nit('isContainsTwice(\"aAa\", \"A\") should return true', () => {\n  expect(isContainsTwice('aAa', 'A')).to.be.true;\n});\n\nit('isContainsTwice(\"aAa\", \"aa\") should return true', () => {\n  expect(isContainsTwice('aAa', 'aa')).to.be.true;\n});\n\nit('isContainsTwice(\"aAaA\", \"aa\") should return true', () => {\n  expect(isContainsTwice('aAaA', 'aa')).to.be.true;\n});\n\nit('isContainsTwice(\"aAaA\", \"aa\") should return true', () => {\n  expect(isContainsTwice('aAaA', 'aa')).to.be.true;\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

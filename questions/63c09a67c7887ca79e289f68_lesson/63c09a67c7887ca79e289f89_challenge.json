@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f89",
+  "name": {
+    "ru": "Создание объекта пользователя",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `createUser`, которая принимает 6 параметров:\n\n* `firstName` – имя пользователя, строка, может содержать пробелы в начале и в конце строки,\n* `lastName` – фамилия пользователя, строка, может содержать пробелы в начале и в конце строки,\n* `age` – возраст пользователя, число,\n* `city` – город пользователя, строка, может содержать пробелы в начале и в конце строки,\n* `email` – email пользователя, строка, может содержать пробелы в начале и в конце строки, может быть записан в разных регистрах,\n* `phone` – телефон пользователя, строка, может содержать пробелы в начале и в конце строки.\n\nФункция должна возвращать объект со свойствами:\n\n* `name` – имя и фамилия пользователя, строка, записанная в формате `firstName lastName`, пробелы в начале и в конце строки должны быть удалены,\n* `age` – возраст пользователя, число,\n* `city` – город пользователя, строка, пробелы в начале и в конце строки должны быть удалены,\n* `email` – email пользователя, строка, пробелы в начале и в конце строки должны быть удалены, все буквы должны быть в нижнем регистре,\n* `phone` – телефон пользователя, строка, пробелы в начале и в конце строки должны быть удалены, должен начинаться с `+` если его нет в начале исходной строки.\n\nПримеры запуска функции:\n ```javascript\ncreateUser('  Alex', '  Smith', 20, '  New York', ' Alex@Sample.nY ', '  12345678900 ');\n// { name: 'Alex Smith', age: 20, city: 'New York', email: 'alex@sample.ny', phone: '+12345678900' }\n\ncreateUser('  Alice', '  Saw', 21, '  Miami  ', ' ALICE@MIAMI.SM ', '  +12345678900 ');\n// { name: 'Alice Saw', age: 21, city: 'Miami', email: 'alice@miami.sm', phone: '+12345678900' }\n```\n\nОбратите внимание, что в примерах выше, в свойстве `phone` в некоторых примерах есть символ `+` в начале строки, а в некоторых его нет. Если его нет, то его нужно добавить.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function createUser(firstName, lastName, age, city, email, phone) {\n  let p = phone.trim();\n  if (p[0] !== '+') p = '+' + p;\n\n  return {\n    name: `${firstName.trim()} ${lastName.trim()}`,\n    age,\n    city: city.trim(),\n    email: email.trim().toLowerCase(),\n    phone: p,\n  };\n}",
+  "openTest": "it('Created function createUser', () => {\n  expect(createUser).to.be.a('function');\n});\n\nit(\"createUser('  Alex', '  Smith', 20, '  New York', ' Alex@Sample.nY ', '  12345678900 ') return { name: 'Alex Smith', age: 20, city: 'New York', email: 'alex@sample.ny', phone: '+12345678900' }\", () => {\n  expect(\n    createUser(\n      '  Alex',\n      '  Smith',\n      20,\n      '  New York',\n      ' Alex@Sample.nY ',\n      '  12345678900 ',\n    ),\n  ).eql({\n    name: 'Alex Smith',\n    age: 20,\n    city: 'New York',\n    email: 'alex@sample.ny',\n    phone: '+12345678900',\n  });\n});\n\nit(\"createUser('  Alice', '  Saw', 21, '  Miami  ', ' ALICE@MIAMI.SM ', '  +12345678900 '); return  { name: 'Alice Saw', age: 21, city: 'Miami', email: 'alice@miami.sm', phone: '+12345678900' }\", () => {\n  expect(\n    createUser(\n      '  Alice',\n      '  Saw',\n      21,\n      '  Miami  ',\n      ' ALICE@MIAMI.SM ',\n      '  +12345678900 ',\n    ),\n  ).eql({\n    name: 'Alice Saw',\n    age: 21,\n    city: 'Miami',\n    email: 'alice@miami.sm',\n    phone: '+12345678900',\n  });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

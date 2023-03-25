@@ -1,0 +1,23 @@
+{
+  "_id": "63683072577d41fa4da0e9cd",
+  "name": {
+    "ru": "Создаем первые переменные",
+    "en": "Creating the first variables",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Создайте первую переменную `name` с помощью ключевого слова const и присвойте ей значение 'PASV'.\n\nСоздайте вторую переменную `age` с помощью ключевого слова const и присвойте ей значение 11.",
+    "en": "Create the first variable `name` with the keyword const and assign it the value 'PASV'.\n\nCreate the second variable `age` with the keyword const and give it the value 11.",
+    "es": ""
+  },
+  "initialSolution": "// YOUR CODE HERE",
+  "completedSolution": "const name = 'PASV';\nconst age = 11;",
+  "openTest": "it('Created variable name', () => {\n  expect(name).to.be.a('string');\n} );\n\nit('Created variable age', () => {\n  expect(age).to.be.a('number');\n} );\n\nit('Variable name has value PASV', () => {\n  expect(name).to.be.equal('PASV');\n} );\n\nit('Variable age has value 11', () => {\n  expect(age).to.be.equal(11);\n} );",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

@@ -1,0 +1,4 @@
+{
+  "name": "Determine an odd-even number",
+  "instruction": "Write a function `oddEven` that takes 1 parameter `num` .\n\nIt returns 1 if the number is odd and 0 if it is even.\n\nUse the `%` operator to determine whether a number is even.\n\nExamples:\n```javascript\noddEven(1) // 1\noddEven(2) // 0\noddEven(3) // 1\noddEven(4) // 0\noddEven(5) // 1\noddEven(6) // 0\noddEven(7) // 1\n```"
+}

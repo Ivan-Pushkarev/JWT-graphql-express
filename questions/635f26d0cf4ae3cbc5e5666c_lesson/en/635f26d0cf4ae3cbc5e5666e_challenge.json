@@ -1,0 +1,4 @@
+{
+  "name": "Output to the console 5 + 7",
+  "instruction": "Write the command `console.log(5 + 7);`"
+}

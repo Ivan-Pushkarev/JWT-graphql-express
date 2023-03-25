@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e56673",
+  "name": {
+    "ru": "Выведите в консоль строку '100 + 100 + 100'",
+    "en": "Output the string '100 + 100 + 100' to the console",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Только одна строка. Напишите команду `console.log('100 + 100 + 100');` Соблюдайте пробелы и знаки пунктуации. Тут одинарные кавычки, а не двойные. В конце точка с запятой.",
+    "en": "Only one line. Write the command `console.log('100 + 100 + 100');` Observe spaces and punctuation marks. There are single quotes, not double quotes. There is a semicolon at the end.",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log('100 + 100 + 100');",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

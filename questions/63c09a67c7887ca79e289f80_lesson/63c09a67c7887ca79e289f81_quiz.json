@@ -1,0 +1,532 @@
+{
+  "_id": "63c09a67c7887ca79e289f81",
+  "name": {
+    "ru": "",
+    "en": "",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63c09a67c7887ca79e28a02c",
+      "name": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a02d",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a02e",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a02f",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a030",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a031",
+      "name": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a032",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a033",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a034",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a035",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a036",
+      "name": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a037",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a038",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a039",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a03a",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a03b",
+      "name": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a03c",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a03d",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a03e",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a03f",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a040",
+      "name": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a041",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a042",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a043",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a044",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a045",
+      "name": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a046",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a047",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a048",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a049",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a04a",
+      "name": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a04b",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a04c",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a04d",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a04e",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a04f",
+      "name": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a050",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a051",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a052",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a053",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a054",
+      "name": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a055",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a056",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a057",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a058",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a059",
+      "name": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a05a",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a05b",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a05c",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a05d",
+          "name": {
+            "ru": "",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

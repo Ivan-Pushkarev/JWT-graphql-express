@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f78",
+  "name": {
+    "ru": "Сумма из двух объектов",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `sum`, которая принимает два объекта с двумя свойствами `a` и `b`.\n\nВ каждом объекте свойства `a` и `b` – числа.\n\nФункция должна вернуть сумму свойств `a` и `b` обоих объектов.\n\nПример запуска функции:\n```javascript\nsum({a: 10,  b: 20}, {a: 5,  b: 8}) // 43\nsum({a: -10,  b: 10}, {a: 5,  b: 8}) // 7\n```\n\nПохожий пример:\n```javascript\nfunction multi(obj1, obj2) {\n  return obj1.a * obj1.b * obj2.a * obj2.b;\n}\n\nconsole.log(multi({a: 10,  b: 20}, {a: 5,  b: 8})); // 8000\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function sum(obj1, obj2) {\n  return obj1.a + obj1.b + obj2.a + obj2.b;\n}",
+  "openTest": "it('Created function sum', () => {\n  expect(sum).to.be.a('function');\n});\n\nit('sum({a: 10,  b: 20}, {a: 5,  b: 8}) should return 43', () => {\n  expect(sum({ a: 10, b: 20 }, { a: 5, b: 8 })).to.equal(43);\n});\n\nit('sum({a: -10,  b: 10}, {a: 5,  b: 8}) should return 13', () => {\n  expect(sum({ a: -10, b: 10 }, { a: 5, b: 8 })).to.equal(13);\n});\n\nit('sum({a: 10,  b: 20}, {a: -5,  b: -8}) should return 17', () => {\n  expect(sum({ a: 10, b: 20 }, { a: -5, b: -8 })).to.equal(17);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

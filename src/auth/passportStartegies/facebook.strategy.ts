@@ -2,7 +2,7 @@ import { Profile, Strategy } from 'passport-facebook';
 import { PassportStrategy } from '@nestjs/passport';
 import { Injectable } from '@nestjs/common';
 import { UserService } from '../../user/user.service';
-import { UserDocument } from '../../user/user.schema';
+import { UserDocument } from '../../user/user.entity';
 
 @Injectable()
 export class FacebookStrategy extends PassportStrategy(Strategy) {
@@ -19,7 +19,6 @@ export class FacebookStrategy extends PassportStrategy(Strategy) {
     accessToken: string,
     refreshToken: string,
     profile: Profile,
-    // done: (err: any, user: any, info?: any) => void,
   ): Promise<UserDocument | unknown> {
     const facebookId = profile._json.id as string;
     let user = await this.userService.findById(facebookId, 'facebookId');

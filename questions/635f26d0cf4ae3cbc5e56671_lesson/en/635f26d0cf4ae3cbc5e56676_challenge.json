@@ -1,0 +1,4 @@
+{
+  "name": "Print in the console the line with the slant quotation marks `Hello JavaScript`",
+  "instruction": "Only one line. Observe spaces and punctuation marks. A semicolon at the end. Inclined quotes.\n``javascript\nconsole.log(`Hello JavaScript`);\n```"
+}

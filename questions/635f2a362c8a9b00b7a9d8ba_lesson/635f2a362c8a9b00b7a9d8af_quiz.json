@@ -1,0 +1,478 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8af",
+  "name": {
+    "ru": "Параметры и аргументы функции",
+    "en": "Function parameters and arguments",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "635f2a362c8a9b00b7a9d928",
+      "name": {
+        "ru": "При декларации функции function sum(n1, n2) в скобках n1 и n2 называются:",
+        "en": "When declaring the function sum(n1, n2) in parentheses, n1 and n2 are called:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d929",
+          "name": {
+            "ru": "Параметрами функции",
+            "en": "The parameters of the function",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d92a",
+          "name": {
+            "ru": "Аргументами функции",
+            "en": "The arguments of the function",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d92b",
+          "name": {
+            "ru": "Никак не называются",
+            "en": "There are no names.",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d92d",
+      "name": {
+        "ru": "При вызове функции sum(2, 5) в скобках числа 2 и 5 называются:",
+        "en": "When the function sum(2, 5) is called, the numbers 2 and 5 in brackets are called:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d92e",
+          "name": {
+            "ru": "Параметрами функции",
+            "en": "The parameters of the function",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d92f",
+          "name": {
+            "ru": "Аргументами функции",
+            "en": "The arguments of the function",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d930",
+          "name": {
+            "ru": "Никак не называются",
+            "en": "There are no names.",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d932",
+      "name": {
+        "ru": "Аргумент функции — это значение, которое присваивается параметру при вызове функции",
+        "en": "The function argument is the value that is assigned to the parameter when the function is called",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d933",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d934",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d937",
+      "name": {
+        "ru": "Аргументы присваиваются параметрам функции в том порядке, в котором они указаны при вызове функции.",
+        "en": "Arguments are assigned to function parameters in the order in which they are specified when the function is called.",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d938",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d939",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d93c",
+      "name": {
+        "ru": "Выберите истинные утверждения о функциях:",
+        "en": "Choose true statements about functions:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d93d",
+          "name": {
+            "ru": "Параметры функции должны быть уникальными в пределах одной функции.",
+            "en": "Function parameters must be unique within a function.",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d93e",
+          "name": {
+            "ru": "Параметры при декларации функции могут иметь одинаковые имена.",
+            "en": "Parameters in a function declaration can have the same name.",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d93f",
+          "name": {
+            "ru": "Допустимо function f(x, x) { return x + x}",
+            "en": "Acceptable function f(x, x) { return x + x}",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d940",
+          "name": {
+            "ru": "Допустимо function f1(n1, n2) { return 1 } и function f2(n1, n2) { return 2 }",
+            "en": "Acceptable function f1(n1, n2) { return 1 } and function f2(n1, n2) { return 2 }",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d941",
+      "name": {
+        "ru": "Выберите допустимый синтаксис в функциях:",
+        "en": "Choose an acceptable syntax in functions:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d942",
+          "name": {
+            "ru": "function f(x, y) { return x + y; }",
+            "en": "function f(x, y) { return x + y; }",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d943",
+          "name": {
+            "ru": "function f(2, y) { return 2 + y; }",
+            "en": "function f(2, y) { return 2 + y; }",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d944",
+          "name": {
+            "ru": "function 1f(x, y) { return x + y; }",
+            "en": "function 1f(x, y) { return x + y; }",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d945",
+          "name": {
+            "ru": "function f() { return ''; }",
+            "en": "function f() { return ''; }",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d946",
+      "name": {
+        "ru": "Выберите допустимый синтаксис в функциях:",
+        "en": "Select an acceptable syntax in functions:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d947",
+          "name": {
+            "ru": "function function() { return 'fun'; }",
+            "en": "function() { return 'fun'; }",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d948",
+          "name": {
+            "ru": "function functin() {return 'fun';}",
+            "en": "function functin() {return 'fun';}",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d949",
+          "name": {
+            "ru": "function fun() {return 'function';}",
+            "en": "function fun() {return 'function';}",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d94a",
+          "name": {
+            "ru": "function fun() {return fun;}",
+            "en": "function fun() {return fun;}",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d94b",
+      "name": {
+        "ru": "Выберите допустимый синтаксис в функциях:",
+        "en": "Select an acceptable syntax in functions:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d94c",
+          "name": {
+            "ru": "function f(x, y) {console.log(x, y);}",
+            "en": "function f(x, y) {console.log(x, y);}",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d94d",
+          "name": {
+            "ru": "function f(x, y) {console.log(x, x, x);}",
+            "en": "function f(x, y) {console.log(x, x, x);}",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d94e",
+          "name": {
+            "ru": "function f(f1, f2) {console.log(f1, f2); return f1 + f2;}",
+            "en": "function f(f1, f2) {console.log(f1, f2); return f1 + f2;}",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d94f",
+          "name": {
+            "ru": "function f(f1, f2) {console.log(f1, f2), return f1 + f2;}",
+            "en": "function f(f1, f2) {console.log(f1, f2), return f1 + f2;}",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d950",
+      "name": {
+        "ru": "Выберите допустимый синтаксис в функциях:",
+        "en": "Select an acceptable syntax in functions:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d951",
+          "name": {
+            "ru": "function sum(n1, n2) {return f1 * f2;}",
+            "en": "function sum(n1, n2) {return f1 * f2;}",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d952",
+          "name": {
+            "ru": "function multi(n1, n2) {return n1 + n2;}",
+            "en": "function multi(n1, n2) {return n1 + n2;}",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d953",
+          "name": {
+            "ru": "function n1(n, n) {return n * n;}",
+            "en": "function n1(n, n) {return n * n;}",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d954",
+          "name": {
+            "ru": "function return(n) {console.log(n);}",
+            "en": "function return(n) {console.log(n);}",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d955",
+      "name": {
+        "ru": "Выберите допустимый синтаксис в функциях:",
+        "en": "Select an acceptable syntax in functions:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d956",
+          "name": {
+            "ru": "function retunr(n) { return n; }",
+            "en": "function retunr(n) { return n; }",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d957",
+          "name": {
+            "ru": "function Console(log) { return log; }",
+            "en": "function Console(log) { return log; }",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d958",
+          "name": {
+            "ru": "console.log(function() { return 1; });",
+            "en": "console.log(function() { return 1; });",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d959",
+          "name": {
+            "ru": "console.log(return 1);",
+            "en": "console.log(return 1);",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_id": "635c05ba659f6d77abf1f4e9",
+  "video": {
+    "ru": "",
+    "en": "https://youtu.be/gSrU2k0nOHQ",
+    "es": ""
+  },
+  "content": {
+    "ru": "Это новый курс изучения Java Script.\n\nВ конце каждой лекции есть Quiz – это блок с вопросами. Выберите один или несколько ответов.\nМожно проходить повторно.\n\nТест находится под видео, ниже заголовка \"Quiz\". \n\nВ случае затруднения, вы можете еще раз пересмотреть лекцию.\n\n![welcome](https://course-js-syntax.s3-us-west-1.amazonaws.com/js-sandbox.jpg#half)\n\n### Если нашли ошибку\n\nМы ведем учет ошибок в нашей Trello доске https://trello.com/b/XoPuCsTz\n\nТут пару слов о том как надо создавать баг-репорт https://www.loom.com/share/864ed5d7ad324dca8e5a3a9c862cdf29\n\n### Научитесь программировать на JavaScript\n\nМы очень надеемся, что во время прохождения курса вы научитесь хорошо писать код и решать задачи, начнете думать и внимательно следить за мелочами.\n\nВнимательно читайте условия задач, их надо выполнять точно так, как описано в условии.\n\n\n\n\n",
+    "en": "This is a new course for learning Java Script.\n\nAt the end of each lecture there is a Quiz, a block of questions. Choose one or more answers.\nYou can go through it again.\n\nThe test is below the video, below the title \"Quiz\". \n\nIn case of difficulty, you can review the lecture again.\n\n![welcome](https://course-js-syntax.s3-us-west-1.amazonaws.com/js-sandbox.jpg#half)\n\n### If you found a mistake\n\nWe keep a record of errors in our Trello board https://trello.com/b/XoPuCsTz\n\nHere's a few words on how to create a bug report https://www.loom.com/share/864ed5d7ad324dca8e5a3a9c862cdf29\n\n### Learn to program in JavaScript\n\nWe really hope that during the course you will learn how to write code and solve problems well, start thinking and pay attention to details.\n\nCarefully read the conditions of the problems, they must be performed exactly as described in the condition.\n\n\n\n\n",
+    "es": ""
+  }
+}

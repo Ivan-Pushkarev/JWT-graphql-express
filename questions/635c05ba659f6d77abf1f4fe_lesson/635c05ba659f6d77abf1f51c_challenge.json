@@ -1,0 +1,23 @@
+{
+  "_id": "635c05ba659f6d77abf1f51c",
+  "name": {
+    "ru": "Исправьте ошибки в коде. Число в консоль",
+    "en": "Correct errors in the code - 3",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Требуется написать команду, которая выводит в консоль число 125.\n\nИсправьте ошибки в приведенном коде.",
+    "en": "You need to write a command that outputs the number 125 to the console.\nThe correct solution is:\n```\nconsole.log(125);\n```\nCorrect the errors in the above code.\n\nAfter that, click the `Validate solution` button.\nIf the solution is correct, click the `Submit solution` button.",
+    "es": ""
+  },
+  "initialSolution": "console.log(\"125\");",
+  "completedSolution": "console.log(125);",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

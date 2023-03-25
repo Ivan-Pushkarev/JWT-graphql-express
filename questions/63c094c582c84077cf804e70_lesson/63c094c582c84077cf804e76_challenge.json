@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e76",
+  "name": {
+    "ru": "Это большая или маленькая буква?",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `letterDefiner`, которая принимает одну строку.\n\nСтрока содержит всегда только одну букву.\n\nФункция должна возвращать строку `lower`, если переданная буква написана в нижнем регистре, и `upper`, если переданная буква в верхнем регистре.\n\nПримеры запуска функции:\n```javascript\nletterDefiner('a') // 'lower'\nletterDefiner('A') // 'upper'\nletterDefiner('z') // 'lower'\nletterDefiner('Z') // 'upper'\n```\n\nДля определения регистра буквы используйте методы `toLowerCase` и `toUpperCase`.\n\nПохожий пример:\n```javascript\nfunction isUpperCase(letter) {\n  return letter === letter.toUpperCase();\n}\n```\n\nПереводите в верхний и нижний регистр и сравнивайте с исходной строкой.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function letterDefiner(letter) {\n  if (letter === letter.toLowerCase()) {\n    return 'lower';\n  } else if (letter === letter.toUpperCase()) {\n    return 'upper';\n  }\n}",
+  "openTest": "it('Created function letterDefiner', () => {\n  expect(letterDefiner).to.be.a('function');\n});\n\nit('letterDefiner(\"a\") should return \"lower\"', () => {\n  expect(letterDefiner('a')).to.equal('lower');\n});\n\nit('letterDefiner(\"A\") should return \"upper\"', () => {\n  expect(letterDefiner('A')).to.equal('upper');\n});\n\nit('letterDefiner(\"z\") should return \"lower\"', () => {\n  expect(letterDefiner('z')).to.equal('lower');\n});\n\nit('letterDefiner(\"Z\") should return \"upper\"', () => {\n  expect(letterDefiner('Z')).to.equal('upper');\n});\n\nit('letterDefiner(\"B\") should return \"upper\"', () => {\n  expect(letterDefiner('B')).to.equal('upper');\n});\n\nit('letterDefiner(\"b\") should return \"lower\"', () => {\n  expect(letterDefiner('b')).to.equal('lower');\n});\n\nit('letterDefiner(\"C\") should return \"upper\"', () => {\n  expect(letterDefiner('C')).to.equal('upper');\n});\n\nit('letterDefiner(\"c\") should return \"lower\"', () => {\n  expect(letterDefiner('c')).to.equal('lower');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

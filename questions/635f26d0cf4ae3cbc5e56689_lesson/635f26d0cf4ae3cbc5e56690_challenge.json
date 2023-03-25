@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e56690",
+  "name": {
+    "ru": "Вычислите и выведите в консоль. Остаток от деления",
+    "en": "Calculate and output to the console. The remainder of the division",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Только одна строка.\n\nНапишите команду `console.log(11 % 4);`\n\nСоблюдайте пробелы и знаки пунктуации.",
+    "en": "Only one line.\n\nWrite the command `console.log(11 % 4);`\n\nObserve spaces and punctuation marks.",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log(11 % 4);",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

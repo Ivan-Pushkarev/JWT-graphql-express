@@ -1,0 +1,4 @@
+{
+  "name": "Commentary in the program",
+  "instruction": "Write a command to output to the console the word \"Testing\" and comment out this line.\n\nA similar example solution:\n```\n//console.log('Hello JS');\n```"
+}

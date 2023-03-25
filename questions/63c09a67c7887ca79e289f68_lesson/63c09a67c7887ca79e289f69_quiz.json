@@ -1,0 +1,505 @@
+{
+  "_id": "63c09a67c7887ca79e289f69",
+  "name": {
+    "ru": "Объекты в JavaScript",
+    "en": "",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63c09a67c7887ca79e289fc8",
+      "name": {
+        "ru": "Что такое объект?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289fc9",
+          "name": {
+            "ru": "Это место хранения строк и чисел без возможности доступа к конкретному элементу.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fca",
+          "name": {
+            "ru": "Это коллекция свойств, где свойство — это пара `ключ: значение`.",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fcb",
+          "name": {
+            "ru": "Это функция, которая возвращает различные значения в зависимости от ключа.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fcc",
+          "name": {
+            "ru": "Это с структура данных, хранящая информацию в виде списка.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e289fcd",
+      "name": {
+        "ru": "Какие скобки используются чтобы создать объект?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289fce",
+          "name": {
+            "ru": "let obj = [key: value, key1: value1]",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fcf",
+          "name": {
+            "ru": "let obj = {key: value, key1: value1}",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fd0",
+          "name": {
+            "ru": "let obj = (key: value, key1: value1)",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fd1",
+          "name": {
+            "ru": "let obj = <key: value, key1: value1>",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e289fd2",
+      "name": {
+        "ru": "Что такое свойство объекта?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289fd3",
+          "name": {
+            "ru": "это функция, объявленная внутри объекта",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fd4",
+          "name": {
+            "ru": "это уникальный идентификатор объекта",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fd5",
+          "name": {
+            "ru": "это пара ключ-значение",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fd6",
+          "name": {
+            "ru": "это строка, которая содержит имя объекта",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e289fd7",
+      "name": {
+        "ru": "Можно ли использовать одинаковые ключи в объекте?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289fd8",
+          "name": {
+            "ru": "Да, можно",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fd9",
+          "name": {
+            "ru": "Нет, нельзя",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e289fdc",
+      "name": {
+        "ru": "Какой тип данных может быть значением свойства объекта?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289fdd",
+          "name": {
+            "ru": "Значением могут быть только примитивные данные.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fde",
+          "name": {
+            "ru": "Значением может быть любой тип данных в JavaScript, включая другой объект.",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fdf",
+          "name": {
+            "ru": "Значением могут быть только другие объекты.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fe0",
+          "name": {
+            "ru": "Значением могут быть что-то уникальное — то, что не повторяется в данном объекте.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e289fe1",
+      "name": {
+        "ru": "Какой объект содержит ошибку?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289fe2",
+          "name": {
+            "ru": "const obj = { name: 'Lilu', age: 34 }",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fe3",
+          "name": {
+            "ru": "const obj = { name: 34, age: 'Lilu' }",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fe4",
+          "name": {
+            "ru": "const obj = { age: 34, age: 'Lilu' }",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fe5",
+          "name": {
+            "ru": "const obj = { age: 34, age1: 34 }",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e289fe6",
+      "name": {
+        "ru": "Могут ли повторяться значения в объекте?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289fe7",
+          "name": {
+            "ru": "Нет, не могут.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fe8",
+          "name": {
+            "ru": "Да, могут.",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fe9",
+          "name": {
+            "ru": "Зависит от ситуации.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e289feb",
+      "name": {
+        "ru": "Какого типа данных могут быть ключи в объекте?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289fec",
+          "name": {
+            "ru": "только строки",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fed",
+          "name": {
+            "ru": "только числа",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fee",
+          "name": {
+            "ru": "только булевы значения",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289fef",
+          "name": {
+            "ru": "любые типы данных, включая другие объекты",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e289ff0",
+      "name": {
+        "ru": "Какой из следующих вариантов является корректным синтаксисом создания объекта?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289ff1",
+          "name": {
+            "ru": "let object = {key: value,}",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289ff2",
+          "name": {
+            "ru": "let object = {key = value}",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289ff3",
+          "name": {
+            "ru": "let object = [key: value]",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289ff4",
+          "name": {
+            "ru": "let object = {key: value}",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e289ff5",
+      "name": {
+        "ru": "Напишите функцию, которая принимает имя и возраст и возвращает объект с этими свойствами.",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289ff6",
+          "name": {
+            "ru": "function createPerson(name) { return { name, age: 54 } }",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289ff7",
+          "name": {
+            "ru": "function makePerson(name, age) { return ' name, age ' }",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289ff8",
+          "name": {
+            "ru": "function createPersonObject(name, age) { return { name: name, age: age } }",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e289ff9",
+          "name": {
+            "ru": "function makePersonObject(name, age) { return { name: age } }",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

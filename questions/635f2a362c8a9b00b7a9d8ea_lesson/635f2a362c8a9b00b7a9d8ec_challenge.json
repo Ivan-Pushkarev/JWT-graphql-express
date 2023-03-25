@@ -1,0 +1,23 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8ec",
+  "name": {
+    "ru": "Функция возвращает 'Hello World!'",
+    "en": "The function returns 'Hello World!",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `hello`, которая возвращает строку `'Hello World!'`.",
+    "en": "Write a function `hello` that returns the string `'Hello World!'`.",
+    "es": ""
+  },
+  "initialSolution": "fun fun",
+  "completedSolution": "function hello() {\n  return 'Hello World!';\n}",
+  "openTest": "it('Created function hello', () => {\n  expect(hello).to.be.a('function');\n});\n\nit('Function returns Hello World!', () => {\n  expect(hello()).to.equal('Hello World!');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

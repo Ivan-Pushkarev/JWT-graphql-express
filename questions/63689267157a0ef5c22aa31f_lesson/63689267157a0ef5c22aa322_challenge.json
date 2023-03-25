@@ -1,0 +1,23 @@
+{
+  "_id": "63689267157a0ef5c22aa322",
+  "name": {
+    "ru": "Переменная isOpen со значением false",
+    "en": "Variable isOpen with value false",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите переменную `isOpen`, которая равна `false`.",
+    "en": "Write a variable `isOpen` that is equal to `false`.",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "const isOpen = false;",
+  "openTest": "it('Created variable isOpen', () => {\n  expect(isOpen).to.equal(false);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f6c",
+  "name": {
+    "ru": "",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "function sum(num1, num2){\n\n}",
+  "completedSolution": "// функция для расчета среднего арифметического из семи значений\n\nfunction average(num1, num2, num3, num4, num5, num6, num7) {\n  return (num1 + num2 + num3 + num4 + num5 + num6 + num7) / 7;\n}",
+  "openTest": "it('Created function average', () => {\n  expect(average).to.be.a('function');\n});\n\nit('average(1, 2, 3, 4, 5, 6, 7) should return 4', () => {\n  expect(average(1, 2, 3, 4, 5, 6, 7)).to.equal(4);\n});\n\nit('average(10, 15, 20, 25, 30, 35, 40) should return 25', () => {\n  expect(average(10, 15, 20, 25, 30, 35, 40)).to.equal(25);\n});\n\nit('average(100, 200, 300, 400, 500, 600, 700) should return 400', () => {\n  expect(average(100, 200, 300, 400, 500, 600, 700)).to.equal(400);\n});\n\n// negetive values\nit('average(-1, -2, -3, -4, -5, -6, -7) should return -4', () => {\n  expect(average(-1, -2, -3, -4, -5, -6, -7)).to.equal(-4);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

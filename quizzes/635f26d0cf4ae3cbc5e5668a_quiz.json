@@ -1,0 +1,469 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e5668a",
+  "name": {
+    "ru": "Математические операторы. NaN",
+    "en": "Mathematical operators. NaN",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "635f26d0cf4ae3cbc5e5672b",
+      "name": {
+        "ru": "Для сложения чисел используется оператор",
+        "en": "The operator is used to add numbers",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e5672c",
+          "name": {
+            "ru": "+",
+            "en": "+",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5672d",
+          "name": {
+            "ru": "x",
+            "en": "x",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5672e",
+          "name": {
+            "ru": "plus",
+            "en": "plus",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5672f",
+          "name": {
+            "ru": "add",
+            "en": "add",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56730",
+      "name": {
+        "ru": "Для умножения чисел используется оператор",
+        "en": "The operator is used to multiply numbers",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56731",
+          "name": {
+            "ru": "x",
+            "en": "x",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56732",
+          "name": {
+            "ru": "**",
+            "en": "**",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56733",
+          "name": {
+            "ru": "*",
+            "en": "*",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56734",
+          "name": {
+            "ru": "multiply",
+            "en": "multiply",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56735",
+      "name": {
+        "ru": "Оператор % используется для",
+        "en": "The % operator is used to",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56736",
+          "name": {
+            "ru": "вычисления остатка от деления",
+            "en": "calculating the remainder of a division",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56737",
+          "name": {
+            "ru": "вычисления процента от числа",
+            "en": "calculating the percentage of a number",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56738",
+          "name": {
+            "ru": "деления чисел",
+            "en": "dividing numbers",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e5673a",
+      "name": {
+        "ru": "Вычислить квадратный корень числа 9",
+        "en": "Calculate the square root of 9",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e5673b",
+          "name": {
+            "ru": "9 * 0.5",
+            "en": "9 * 0.5",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5673c",
+          "name": {
+            "ru": "9 ** 0.5",
+            "en": "9 ** 0.5",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5673d",
+          "name": {
+            "ru": "0.5 * 9",
+            "en": "0.5 * 9",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5673e",
+          "name": {
+            "ru": "(9)2",
+            "en": "(9)2",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e5673f",
+      "name": {
+        "ru": "Выберите истинные варианты про NaN",
+        "en": "Select the true options about NaN",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56740",
+          "name": {
+            "ru": "NaN – Not a Number",
+            "en": "NaN - Not a Number",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56741",
+          "name": {
+            "ru": "console.log(typeof NaN) выведет number",
+            "en": "console.log(typeof NaN) will print the number",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56742",
+          "name": {
+            "ru": "NaN – это ошибка",
+            "en": "NaN is a mistake",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56743",
+          "name": {
+            "ru": "console.log(2 * 'hello') выведет NaN",
+            "en": "console.log(2 * 'hello') will print NaN",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56744",
+      "name": {
+        "ru": "Верно ли что NaN можно получить как результат операции деления на 0. Например 5 / 0.",
+        "en": "Is it true that NaN can be obtained as the result of a division operation by 0. For example 5 / 0.",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56745",
+          "name": {
+            "ru": "Получится NaN",
+            "en": "You get NaN",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56746",
+          "name": {
+            "ru": "Получится Infinity",
+            "en": "You get Infinity",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56747",
+          "name": {
+            "ru": "Получится 0",
+            "en": "You get 0",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56748",
+          "name": {
+            "ru": "Ошибка",
+            "en": "Error",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56749",
+      "name": {
+        "ru": "Что выведет console.log(typeof typeof 1)?",
+        "en": "What will console.log(typeof typeof 1) print?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e5674a",
+          "name": {
+            "ru": "string",
+            "en": "string",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5674b",
+          "name": {
+            "ru": "number",
+            "en": "number",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e5674e",
+      "name": {
+        "ru": "Infinity представляет собой бесконечность.",
+        "en": "Infinity represents infinity.",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e5674f",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56750",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is incorrect",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56753",
+      "name": {
+        "ru": "Что выведет console.log(typeof 'NaN')?",
+        "en": "What will console.log(typeof 'NaN') print?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56754",
+          "name": {
+            "ru": "number",
+            "en": "number",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56755",
+          "name": {
+            "ru": "string",
+            "en": "string",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56756",
+          "name": {
+            "ru": "NaN",
+            "en": "NaN",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56757",
+          "name": {
+            "ru": "boolean",
+            "en": "boolean",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56758",
+      "name": {
+        "ru": "Приоритет операторов умножения и деления выше, чем у операторов сложения и вычитания.",
+        "en": "The priority of the multiplication and division operators is higher than that of the addition and subtraction operators.",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56759",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5675a",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is incorrect",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

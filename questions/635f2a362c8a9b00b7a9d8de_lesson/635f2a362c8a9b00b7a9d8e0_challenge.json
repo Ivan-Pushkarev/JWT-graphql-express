@@ -1,0 +1,23 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8e0",
+  "name": {
+    "ru": "Функция определяет тип аргумента",
+    "en": "The function defines the type of the argument",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `defineType`, которая принимает 1 параметр и возвращает строку, в которой будет указан тип аргумента.\n\n\nПримеры:\n  * функция `defineType(1)` должна вернуть `'number'`;\n  * функция `defineType('1')` должна вернуть `'string'`;\n\nИспользуйте оператор `typeof` для определения типа аргумента.",
+    "en": "Write a function `defineType` that takes 1 parameter and returns a string specifying the type of the argument.\n\n\nExamples:\n  * the `defineType(1)` function should return `'number'`;\n  * The `defineType('1')` function should return `'string'`;\n\nUse the `typeof` operator to define the type of the argument.",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function defineType(arg) {\n  return typeof arg;\n}",
+  "openTest": "it('Created function defineType', () => {\n  expect(defineType).to.be.a('function');\n});\n\nit('Function returns correct result for argument `1`', () => {\n  expect(defineType(1)).to.equal('number');\n});\n\nit('Function returns correct result for argument `\\'1\\'`', () => {\n  expect(defineType('1')).to.equal('string');\n});\n\nit('Function returns correct result for argument `true`', () => {\n  expect(defineType(true)).to.equal('boolean');\n});\n\nit('Function returns correct result for argument `null`', () => {\n  expect(defineType(null)).to.equal('object');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

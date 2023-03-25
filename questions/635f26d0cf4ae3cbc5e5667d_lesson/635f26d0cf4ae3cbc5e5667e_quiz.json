@@ -1,0 +1,523 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e5667e",
+  "name": {
+    "ru": "Определение типа данных",
+    "en": "Data type definition",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "635f26d0cf4ae3cbc5e566f9",
+      "name": {
+        "ru": "Для определения типа данных переменной используется оператор",
+        "en": "To determine the data type of a variable, the operator",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e566fa",
+          "name": {
+            "ru": "type",
+            "en": "type",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e566fb",
+          "name": {
+            "ru": "TypeOf",
+            "en": "TypeOf",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e566fc",
+          "name": {
+            "ru": "typeof",
+            "en": "typeof",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e566fd",
+          "name": {
+            "ru": "typeOf",
+            "en": "typeOf",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e566fe",
+      "name": {
+        "ru": "Оператор typeof возвращает ответ в виде",
+        "en": "The typeof operator returns the answer as",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e566ff",
+          "name": {
+            "ru": "строки",
+            "en": "lines",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56700",
+          "name": {
+            "ru": "не строки",
+            "en": "not strings",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56701",
+          "name": {
+            "ru": "числа",
+            "en": "numbers",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56703",
+      "name": {
+        "ru": "Выражение console.log(typeof '1') выведет в консоль",
+        "en": "The console.log(typeof '1') expression will output to the console",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56704",
+          "name": {
+            "ru": "1",
+            "en": "1",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56705",
+          "name": {
+            "ru": "string",
+            "en": "string",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56706",
+          "name": {
+            "ru": "number",
+            "en": "number",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56707",
+          "name": {
+            "ru": "typeof 1",
+            "en": "typeof 1",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56708",
+      "name": {
+        "ru": "Выражение console.log(typeof 1) выведет в консоль",
+        "en": "The console.log(typeof 1) expression will output to the console",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56709",
+          "name": {
+            "ru": "typeof 1",
+            "en": "typeof 1",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5670a",
+          "name": {
+            "ru": "1",
+            "en": "1",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5670b",
+          "name": {
+            "ru": "number",
+            "en": "number",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5670c",
+          "name": {
+            "ru": "string",
+            "en": "string",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e5670d",
+      "name": {
+        "ru": "Выполните console.log(typeof true); Что выведет в консоль?",
+        "en": "Run console.log(typeof true); What will console.log show?",
+        "es": ""
+      },
+      "description": {
+        "ru": "Этого не было в лекции. Просто выполните и посмотрите что выведет в консоль",
+        "en": "This was not in the lecture. Just run it and see what it outputs to the console",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e5670e",
+          "name": {
+            "ru": "string",
+            "en": "string",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5670f",
+          "name": {
+            "ru": "boolean",
+            "en": "boolean",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56710",
+          "name": {
+            "ru": "number",
+            "en": "number",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56711",
+          "name": {
+            "ru": "true",
+            "en": "true",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56712",
+      "name": {
+        "ru": "Выражение console.log(typeof 'true') выведет в консоль",
+        "en": "The console.log(typeof 'true') expression will output to the console",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56713",
+          "name": {
+            "ru": "boolean",
+            "en": "boolean",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56714",
+          "name": {
+            "ru": "number",
+            "en": "number",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56715",
+          "name": {
+            "ru": "string",
+            "en": "string",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56716",
+          "name": {
+            "ru": "object",
+            "en": "object",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56717",
+      "name": {
+        "ru": "Выполните console.log(typeof null); Что выведет в консоль?",
+        "en": "Execute console.log(typeof null); What will it print to the console?",
+        "es": ""
+      },
+      "description": {
+        "ru": "Этого не было в лекции. Просто выполните и посмотрите что выведет в консоль",
+        "en": "This was not in the lecture. Just run it and see what it outputs to the console",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56718",
+          "name": {
+            "ru": "string",
+            "en": "string",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56719",
+          "name": {
+            "ru": "number",
+            "en": "number",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5671a",
+          "name": {
+            "ru": "object",
+            "en": "object",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5671b",
+          "name": {
+            "ru": "boolean",
+            "en": "boolean",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e5671c",
+      "name": {
+        "ru": "Выполните console.log(typeof undefined); Что выведет в консоль?",
+        "en": "Run console.log(typeof undefined); What will console.log show?",
+        "es": ""
+      },
+      "description": {
+        "ru": "Этого не было в лекции. Просто выполните и посмотрите что выведет в консоль",
+        "en": "This was not in the lecture. Just run it and see what it outputs to the console",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e5671d",
+          "name": {
+            "ru": "string",
+            "en": "string",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5671e",
+          "name": {
+            "ru": "number",
+            "en": "number",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5671f",
+          "name": {
+            "ru": "boolean",
+            "en": "boolean",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56720",
+          "name": {
+            "ru": "undefined",
+            "en": "undefined",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56721",
+      "name": {
+        "ru": "Выполните console.log(typeof NaN); Что выведет в консоль?",
+        "en": "Run console.log(typeof NaN); What will it output to the console?",
+        "es": ""
+      },
+      "description": {
+        "ru": "Этого не было в лекции. Просто выполните и посмотрите что выведет в консоль",
+        "en": "This was not in the lecture. Just run it and see what it outputs to the console",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56722",
+          "name": {
+            "ru": "string",
+            "en": "string",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56723",
+          "name": {
+            "ru": "number",
+            "en": "number",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56724",
+          "name": {
+            "ru": "boolean",
+            "en": "boolean",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56725",
+          "name": {
+            "ru": "object",
+            "en": "object",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f26d0cf4ae3cbc5e56726",
+      "name": {
+        "ru": "Выполните console.log(typeof Symbol()); Что выведет в консоль?",
+        "en": "Execute console.log(typeof Symbol()); What will it print to the console?",
+        "es": ""
+      },
+      "description": {
+        "ru": "Этого не было в лекции. Просто выполните и посмотрите что выведет в консоль",
+        "en": "This was not in the lecture. Just run it and see what it outputs to the console",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f26d0cf4ae3cbc5e56727",
+          "name": {
+            "ru": "string",
+            "en": "string",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56728",
+          "name": {
+            "ru": "number",
+            "en": "number",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e56729",
+          "name": {
+            "ru": "symbol",
+            "en": "symbol",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f26d0cf4ae3cbc5e5672a",
+          "name": {
+            "ru": "boolean",
+            "en": "boolean",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

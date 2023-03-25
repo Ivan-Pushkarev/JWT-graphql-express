@@ -1,0 +1,23 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8f5",
+  "name": {
+    "ru": "Функция, которая возвращает 2 строки. Символ переноса строки.",
+    "en": "A function that returns 2 strings. A line break character.",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Если в строке добавить символ переноса строки `\\n`, то можно написать несколько строк с переносом.\n\nПопробуйте:\n```javascript\nconst str = 'Hello\\nWorld';\nconsole.log(str);\n```\n\nНапишите функцию `twoLines`, которая принимает два параметра `str1` и `str2` и возвращает их склеенные в одну строку, где между ними будет символ переноса строки.\n\nОчень похожий пример:\n```javascript\nfunction lines(line1, line2) {\n  return line1 + '\\n' + line2;\n}\n```",
+    "en": "If you add a line break character `\\n` to a line, you can write several lines with a line break.\n\nTry:\n```javascript\nconst str = 'Hello\\nWorld';\nconsole.log(str);\n```\n\nWrite a function `twoLines` that takes two parameters `str1` and `str2` and returns them concatenated into one line with a line break between them.\n\nA very similar example:\n```javascript\nfunction lines(line1, line2) {\n  return line1 + '\\n' + line2;\n}\n```",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function twoLines(str1, str2) {\n  return str1 + '\\n' + str2;\n}",
+  "openTest": "it('Created function twoLines', () => {\n  expect(twoLines).to.be.a('function');\n});\n\nit('Function get `Hello` and `World` and return `Hello\\nWorld`', () => {\n  expect(twoLines('Hello', 'World')).to.equal('Hello\\nWorld');\n})\n\nit('Function get `Learn` and `JS` and return `Learn\\nJS`', () => {\n  expect(twoLines('Learn', 'JS')).to.equal('Learn\\nJS');\n})",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

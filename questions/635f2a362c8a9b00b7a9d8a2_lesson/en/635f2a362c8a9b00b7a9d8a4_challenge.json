@@ -1,0 +1,4 @@
+{
+  "name": "Write an empty function `hello`.",
+  "instruction": "Write an empty function `hello`.\n\nAn example of an empty `time` function:\n```javascript\nfunction time() {}\n```"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e69",
+  "name": {
+    "ru": "True если первый символ строки равен последнему",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `firstAndLastEqual`, которая принимает строку и возвращает `true`, если первый символ строки равен последнему, и `false` в противном случае.\n\nПримеры запуска функции:\n```javascript\nfirstAndLastEqual('abc'); // false\nfirstAndLastEqual('a'); // true\nfirstAndLastEqual('aa'); // true\nfirstAndLastEqual('JS'); // false\nfirstAndLastEqual('J-SJ'); // true\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function firstAndLastEqual(str) {\n  return str[0] === str[str.length - 1];\n}",
+  "openTest": "it('Created function firstAndLastEqual', () => {\n  expect(firstAndLastEqual).to.be.a('function');\n});\n\nit('firstAndLastEqual(\"abc\") should return false', () => {\n  expect(firstAndLastEqual('abc')).to.equal(false);\n});\n\nit('firstAndLastEqual(\"a\") should return true', () => {\n  expect(firstAndLastEqual('a')).to.equal(true);\n});\n\nit('firstAndLastEqual(\"aa\") should return true', () => {\n  expect(firstAndLastEqual('aa')).to.equal(true);\n});\n\nit('firstAndLastEqual(\"JS\") should return false', () => {\n  expect(firstAndLastEqual('JS')).to.equal(false);\n});\n\nit('firstAndLastEqual(\"J-SJ\") should return true', () => {\n  expect(firstAndLastEqual('J-SJ')).to.equal(true);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

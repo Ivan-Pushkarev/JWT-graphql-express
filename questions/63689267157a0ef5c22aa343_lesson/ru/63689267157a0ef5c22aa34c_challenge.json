@@ -1,0 +1,4 @@
+{
+  "name": "Определяем что это строка",
+  "instruction": "Напиши функцию `isString`, которая принимает строку и возвращает строку:\n* `String` если это строка\n* `Empty string` если это пустая строка\n* `Not a string` если это не строка\n\nПроверка на пустую строку:\n```javascript\nconst str = '';\nif (str === '') {\n  console.log('This is an empty string');\n}\n```"
+}

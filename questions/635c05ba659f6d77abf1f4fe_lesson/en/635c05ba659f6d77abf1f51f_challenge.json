@@ -1,0 +1,4 @@
+{
+  "name": "Comment out the program line",
+  "instruction": "Comment out the program line.\nThe correct solution is:\n```\n//console.log('Everything will be fine!');\n```"
+}

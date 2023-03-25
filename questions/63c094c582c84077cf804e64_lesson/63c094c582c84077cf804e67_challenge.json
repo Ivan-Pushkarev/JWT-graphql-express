@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e67",
+  "name": {
+    "ru": "Функция возвращает последний символ строки",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `lastSymbol`, которая принимает строку и возвращает последний символ этой строки.\n\nПримеры запуска функции:\n```javascript\nlastSymbol('abc'); // 'c'\nlastSymbol('JS'); // 'S'\nlastSymbol('Hello world'); // 'd'\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function lastSymbol(str) {\n  return str[str.length - 1];\n}",
+  "openTest": "it('Created function lastSymbol', () => {\n  expect(lastSymbol).to.be.a('function');\n});\n\nit('lastSymbol(\"abc\") should return \"c\"', () => {\n  expect(lastSymbol('abc')).to.equal('c');\n});\n\nit('lastSymbol(\"JS\") should return \"S\"', () => {\n  expect(lastSymbol('JS')).to.equal('S');\n});\n\nit('lastSymbol(\"Hello world\") should return \"d\"', () => {\n  expect(lastSymbol('Hello world')).to.equal('d');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

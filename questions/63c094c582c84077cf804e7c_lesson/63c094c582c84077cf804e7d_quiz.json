@@ -1,0 +1,505 @@
+{
+  "_id": "63c094c582c84077cf804e7d",
+  "name": {
+    "ru": "Метод repeat",
+    "en": "",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63c094c582c84077cf804f74",
+      "name": {
+        "ru": "Для чего используется метод repeat?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f75",
+          "name": {
+            "ru": "Для повторения строки 2 раза.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f76",
+          "name": {
+            "ru": "Для повторения строки 5 раз.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f77",
+          "name": {
+            "ru": "Для повторения строки заданное количество раз.",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f8d",
+      "name": {
+        "ru": "Метод repeat не изменяет исходную строку, а возвращает новую строку.",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f8e",
+          "name": {
+            "ru": "Утверждение верно.",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f8f",
+          "name": {
+            "ru": "Утверждение неверно.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fa1",
+      "name": {
+        "ru": "Метод repeat прибавляет к первоначальной строке эту же строку N раз.",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fa2",
+          "name": {
+            "ru": "Утверждение верно.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fa3",
+          "name": {
+            "ru": "Утверждение верно при определенных условиях.",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fa4",
+          "name": {
+            "ru": "Утверждение неверно.",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f83",
+      "name": {
+        "ru": "Какой вариант выбрать, чтобы получить строку 'JsJsJsJsJs' из строки str = 'Js'?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f84",
+          "name": {
+            "ru": "5.repeat(str)",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f85",
+          "name": {
+            "ru": "str.repet(5)",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f86",
+          "name": {
+            "ru": "str.repeat(3)",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f87",
+          "name": {
+            "ru": "str.repeat(5)",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f88",
+          "name": {
+            "ru": "str.repeat(4) + str",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f79",
+      "name": {
+        "ru": "Как добавить пробел между повторяемыми частями 'str'.repeat(3) чтобы получилось 'str str str '?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f7a",
+          "name": {
+            "ru": "Нужно добавить пробел в конец строки. 'str '.repeat(3)",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f7b",
+          "name": {
+            "ru": "Нужно передать пустую строку в метод. 'str'.repeat(3, ' ')",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f7c",
+          "name": {
+            "ru": "'str'.repeat(3) + ' '",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f7e",
+      "name": {
+        "ru": "Если вам нужно повторить строку (str) 4 раза, разделив эти части пробелами, но не допуская пробел в конце результирующей строки, какой код даст нужный результат?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f7f",
+          "name": {
+            "ru": "(str + ' ').repeat(4) + str",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f80",
+          "name": {
+            "ru": "str + ' '.repeat(3) + str",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f81",
+          "name": {
+            "ru": "str.repeat(3, ' ')",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f82",
+          "name": {
+            "ru": "(str + ' ').repeat(3) + str",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f83",
+          "name": {
+            "ru": "(str + ' ').repeat(4) - ' '",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f88",
+      "name": {
+        "ru": "Как сделать строку из 20-ти звездочек? Выберите нужный вариант кода.",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f89",
+          "name": {
+            "ru": "*.repeat(20)",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f8a",
+          "name": {
+            "ru": "'*'.repeat(20)",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f8b",
+          "name": {
+            "ru": "'*'.repeat(19)",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f8c",
+          "name": {
+            "ru": "20.repeat('*')",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f92",
+      "name": {
+        "ru": "Какой результат вернет этот код: `console.log('Hello'.reqeat(3))`?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f93",
+          "name": {
+            "ru": "HelloHelloHelloHello",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f94",
+          "name": {
+            "ru": "Hello Hello Hello",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f95",
+          "name": {
+            "ru": "HelloHelloHello",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f96",
+          "name": {
+            "ru": "Ошибка",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f97",
+      "name": {
+        "ru": "Какой результат вернет этот код: `console.log('Hello World'.repeat(3))`?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f98",
+          "name": {
+            "ru": "Hello World Hello World Hello World",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f99",
+          "name": {
+            "ru": "Hello WorldHello WorldHello World",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f9a",
+          "name": {
+            "ru": "HelloWorldHelloWorldHelloWorld",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f9b",
+          "name": {
+            "ru": "Ошибка",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f9c",
+      "name": {
+        "ru": "Какой результат вернет этот код: `console.log('I am ' + 'so'.repeat(3) + ' excited!')`?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f9d",
+          "name": {
+            "ru": "I am so so so excited!",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f9e",
+          "name": {
+            "ru": "I am so so so so excited!",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f9f",
+          "name": {
+            "ru": "I am sososo excited!",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fa0",
+          "name": {
+            "ru": "Ошибка",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

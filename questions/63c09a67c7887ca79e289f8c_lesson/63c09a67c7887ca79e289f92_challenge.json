@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f92",
+  "name": {
+    "ru": "Исправь адреса",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `fixAddress`, которая принимает один параметр:\n* объект `address` с информацией об адресе, в котором нужно исправить ошибки.\n\nВ объекте `address` хранится информация об адресе:\n* `state` - штат, написан в нижнем регистре, например `ma`, строка\n* `zip` - почтовый индекс, написан с пробелами в начале и/или в конце строки, например `  03456  `.\n\nФункция должна вернуть объект `address`, в котором:\n* `state` - штат, написан в верхнем регистре, например `MA`\n* `zip` - почтовый индекс, написан без пробелов в начале и/или в конце строки, например `03456`.\n\nПример запуска функции:\n```javascript\nfixAddress({ state: 'ma', zip: '  03456  ' })\n// { state: 'MA', zip: '03456' }\n```\nПохожий пример:\n```javascript\nfixPerson({ name: 'john', age: ' 20  ' })\n// { name: 'JOHN', age: '20' }\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function fixAddress(address) {\n  address.state = address.state.toUpperCase();\n  address.zip = address.zip.trim();\n  return address;\n}",
+  "openTest": "it('Created function fixAddress', () => {\n    expect(fixAddress).to.be.a('function');\n  });\n\n  it('fixAddress should return object', () => {\n    expect(fixAddress({ state: 'ma', zip: '  03456  ' })).to.be.an('object');\n  });\n\n  it('fixAddress should return object with correct state and zip', () => {\n    expect(fixAddress({ state: 'ma', zip: '  01245' })).to.eql({ state: 'MA', zip: '01245' });\n  });\n\n  it('fixAddress should return object with correct state and zip', () => {\n    expect(fixAddress({ state: 'ca', zip: '98787  ' })).to.eql({ state: 'CA', zip: '98787' });\n  });\n\n  it('fixAddress should return object with correct state and zip', () => {\n    expect(fixAddress({ state: 'ny', zip: ' 23654  ' })).to.eql({ state: 'NY', zip: '23654' });\n  });",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

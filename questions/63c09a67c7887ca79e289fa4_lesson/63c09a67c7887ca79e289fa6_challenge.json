@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289fa6",
+  "name": {
+    "ru": "Редактирование водительских прав. Удаление свойств объекта.",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "В водительские права нечаянно попала информация о текущем годе,\nно при этом отсутвует информация о цвете глаз.\n\nНеобходимо написать функцию `driverLicense` которая принимает 2 параметра:\n\n* `profile` – объект с информацией о водителе\n* `color` - цвет глаз, строка\n\nОбъект `profile` имеет следующие свойства:\n* `name` - имя пользователя, строка;\n* `lastName` - фамилия пользователя, строка;\n* `currentYear` - текущий год, число;\n* `yearOfBirth` - год рождения пользователя, число;\n* `height` - рост пользователя, число.\nНеобходимо удалить свойство `currentYear` из объекта `profile` и добавить свойство `eyeColor` со значением `color`;\n\nФункция должна возвращать объект с измененными свойствами.\n\nПример запуска функции:\n```javascript\n\ndriverLicense({name: 'John', lastName: 'Lee', currentYear: 2023, yearOfBirth: 1989, height: 189}, 'blue') // {name: 'John', lastName: 'Lee', yearOfBirth: 1989, height: 189, eyeColor: 'blue' }\ncarProfile({model: 'BMW', currentYear: 2023, productionYear:2023}, 'silver') // { model: 'BMW', productionYear:2023, color: 'silver' }\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "function\n\n}",
+  "completedSolution": "function driverLicense(profile, color){\n    delete profile.currentYear;\n    profile.eyeColor = color\n    return  profile\n}",
+  "openTest": "it(`Created function driverLicense`, () => {\n    expect(driverLicense).to.be.a('function');\n});\n\nit(`driverLicense({name: 'John', lastName: 'Lee', currentYear: 2022, yearOfBirth: 1989, height: 189}, 'brown') return { name: 'John', lastName: 'Lee', yearOfBirth: 1989, height: 189, eyeColor: 'brown' }`, () => {\n    expect(driverLicense({name: 'John', lastName: 'Lee', currentYear: 2022, yearOfBirth: 1989, height: 189}, 'brown')).eql({ name: 'John', lastName: 'Lee', yearOfBirth: 1989, height: 189, eyeColor: 'brown' });\n});\n\nit(`driverLicense({name: 'Leo', lastName: 'DiCaprio', currentYear: 2023, yearOfBirth: 1974, height: 183}, 'blue') return { name: 'Leo', lastName: 'DiCaprio', yearOfBirth: 1974, height: 183, eyeColor: 'blue' }`, () => {\n    expect(driverLicense({name: 'Leo', lastName: 'DiCaprio', currentYear: 2023, yearOfBirth: 1974, height: 183}, 'blue')).eql({ name: 'Leo', lastName: 'DiCaprio', yearOfBirth: 1974, height: 183, eyeColor: 'blue' });\n});\n\nit(`driverLicense({name: 'Tom', lastName: 'Cruise', currentYear: 2023, yearOfBirth: 1962, height: 175}, 'green') return { name: 'Tom', lastName: 'Cruise', yearOfBirth: 1962, height: 175, eyeColor: 'green' }`, () => {\n    expect(driverLicense({name: 'Tom', lastName: 'Cruise', currentYear: 2023, yearOfBirth: 1962, height: 175}, 'green')).eql({ name: 'Tom', lastName: 'Cruise', yearOfBirth: 1962, height: 175, eyeColor: 'green' });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

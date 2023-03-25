@@ -1,11 +1,13 @@
 import { Args, Context, Mutation, Resolver } from '@nestjs/graphql';
 import { AuthService } from './services/auth.service';
-import { RegisterInput } from './types/types';
-import { AuthResponse, LoginInput, Tokens } from '../graphql';
-@Resolver('Auth')
+import { RegisterInput } from './types/types.model';
+import { AuthResponse, LoginInput, Tokens } from './types/types.model';
+
+@Resolver()
 export class AuthResolver {
   constructor(private readonly authService: AuthService) {}
-  @Mutation('register')
+
+  @Mutation(() => AuthResponse)
   async register(
     @Args('input') input: RegisterInput,
     @Context() ctx,
@@ -15,7 +17,7 @@ export class AuthResolver {
     return userData;
   }
 
-  @Mutation('login')
+  @Mutation(() => AuthResponse)
   async login(
     @Args('input') input: LoginInput,
     @Context() ctx,
@@ -25,7 +27,7 @@ export class AuthResolver {
     return userData;
   }
 
-  @Mutation('logout')
+  @Mutation(() => String)
   async logout(@Context() ctx): Promise<string> {
     const { refreshToken } = ctx.req.cookies;
     await this.authService.logout(refreshToken);
@@ -34,7 +36,7 @@ export class AuthResolver {
     return 'User logout';
   }
 
-  @Mutation('refreshTokens')
+  @Mutation(() => Tokens)
   async refreshTokens(@Context() ctx): Promise<Tokens> {
     const { refreshToken } = ctx.req.cookies;
     const newTokens = await this.authService.getNewTokens(refreshToken);

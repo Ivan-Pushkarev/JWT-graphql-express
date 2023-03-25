@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f87",
+  "name": {
+    "ru": "Калькулятор в объекте",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `objectCalculator`, которая принимает три параметра: `number1`, `number2`, `operation`. Первые два параметра - числа, третий - строка.\n\n`operation` может быть равен одной из четырех операций: `+`, `-`, `*`, `/`.\n\nВ зависимости от значения `operation` функция должна возвращать разные объекты:\n\n- Если `operation` равен `+`, то функция должна возвращать объект со свойствами `number1`, `number2`, `sum`. `sum` - это сумма `number1` и `number2`.\n- Если `operation` равен `-`, то функция должна возвращать объект со свойствами `number1`, `number2`, `sub`. `sub` - это разность `number1` и `number2`.\n- Если `operation` равен `*`, то функция должна возвращать объект со свойствами `number1`, `number2`, `multi`. `multi` - это произведение `number1` и `number2`.\n- Если `operation` равен `/`, то функция должна возвращать объект со свойствами `number1`, `number2`, `div`. `div` - это частное `number1` и `number2`.\n\nПримеры запуска функции:\n```javascript\nobjectCalculator(10, 20, '+'); // { number1: 10, number2: 20, sum: 30 }\nobjectCalculator(5, 10, '-'); // { number1: 5, number2: 10, sub: -5 }\nobjectCalculator(5, 10, '*'); // { number1: 5, number2: 10, multi: 50 }\nobjectCalculator(10, 2, '/'); // { number1: 10, number2: 2, div: 5 }\n```\n\nДля решения задачи используйте конструкцию `if` и сравнение строк с помощью оператора `===`.\n\nПохожий пример:\n```javascript\nfunction sum(a, b, c) {\n  if (c === '+') {\n    return {\n      a,\n      b,\n      sum: a + b,\n    };\n  }\n}\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function objectCalculator(number1, number2, operation) {\n  if (operation === '+') {\n    return {\n      number1,\n      number2,\n      sum: number1 + number2,\n    };\n  }\n\n  if (operation === '-') {\n    return {\n      number1,\n      number2,\n      sub: number1 - number2,\n    };\n  }\n\n  if (operation === '*') {\n    return {\n      number1,\n      number2,\n      multi: number1 * number2,\n    };\n  }\n\n  if (operation === '/') {\n    return {\n      number1,\n      number2,\n      div: number1 / number2,\n    };\n  }\n}",
+  "openTest": "it('Created function objectCalculator', () => {\n  expect(objectCalculator).to.be.a('function');\n});\n\n// sum\nit('objectCalculator(10, 20, \"+\") return { number1: 10, number2: 20, sum: 30 }', () => {\n  expect(objectCalculator(10, 20, '+')).eql({ number1: 10, number2: 20, sum: 30 });\n});\n\nit('objectCalculator(5, 10, \"+\") return { number1: 5, number2: 10, sum: 15 }', () => {\n  expect(objectCalculator(5, 10, '+')).eql({ number1: 5, number2: 10, sum: 15 });\n});\n\n// sub\nit('objectCalculator(10, 20, \"-\") return { number1: 10, number2: 20, sub: -10 }', () => {\n  expect(objectCalculator(10, 20, '-')).eql({ number1: 10, number2: 20, sub: -10 });\n});\n\nit('objectCalculator(5, 10, \"-\") return { number1: 5, number2: 10, sub: -5 }', () => {\n  expect(objectCalculator(5, 10, '-')).eql({ number1: 5, number2: 10, sub: -5 });\n});\n\n// multi\nit('objectCalculator(10, 20, \"*\") return { number1: 10, number2: 20, multi: 200 }', () => {\n  expect(objectCalculator(10, 20, '*')).eql({ number1: 10, number2: 20, multi: 200 });\n});\n\nit('objectCalculator(5, 10, \"*\") return { number1: 5, number2: 10, multi: 50 }', () => {\n  expect(objectCalculator(5, 10, '*')).eql({ number1: 5, number2: 10, multi: 50 });\n});\n\n// div\nit('objectCalculator(10, 2, \"/\") return { number1: 10, number2: 2, div: 5 }', () => {\n  expect(objectCalculator(10, 2, '/')).eql({ number1: 10, number2: 2, div: 5 });\n});\n\nit('objectCalculator(5, 10, \"/\") return { number1: 5, number2: 10, div: 0.5 }', () => {\n  expect(objectCalculator(5, 10, '/')).eql({ number1: 5, number2: 10, div: 0.5 });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

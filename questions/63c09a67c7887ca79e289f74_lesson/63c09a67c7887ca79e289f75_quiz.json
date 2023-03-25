@@ -1,0 +1,478 @@
+{
+  "_id": "63c09a67c7887ca79e289f75",
+  "name": {
+    "ru": "Доступ к свойствам объекта\n",
+    "en": "",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63c09a67c7887ca79e289ffa",
+      "name": {
+        "ru": "const person = { name: 'John', age: 30 }. Как получить доступ к свойству name?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e289ffb",
+          "name": {
+            "ru": "person.name",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e289ffc",
+          "name": {
+            "ru": "person[0]",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e289ffd",
+          "name": {
+            "ru": "person['name']",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e289ffe",
+          "name": {
+            "ru": "name",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e289fff",
+      "name": {
+        "ru": "const person = { name: 'John', age: 30 }. Как получить доступ к свойству age?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a000",
+          "name": {
+            "ru": "person,age",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a001",
+          "name": {
+            "ru": "person[1]",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a002",
+          "name": {
+            "ru": "person['age']",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a003",
+          "name": {
+            "ru": "person.age",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a004",
+      "name": {
+        "ru": "const person = { person: 'person' }. Допустимо ли такое объявление?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a005",
+          "name": {
+            "ru": "Да. Переменная person будет содержать объект с одним свойством person, равное строке 'person'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a006",
+          "name": {
+            "ru": "Нет. Такое объявление недопустимо",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a009",
+      "name": {
+        "ru": "const room = { width: 10, height: 20 }. Как вычислить площадь комнаты?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a00a",
+          "name": {
+            "ru": "room.width * room.height",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a00b",
+          "name": {
+            "ru": "room.width + room.height",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a00c",
+          "name": {
+            "ru": "room[width] * room[height]",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a00d",
+          "name": {
+            "ru": "room['width'] * room['height']",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a00e",
+      "name": {
+        "ru": "const person = { name: 'John', address: { city: 'New York', country: 'USA' } }. Как получить доступ к свойству country?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a00f",
+          "name": {
+            "ru": "person.country",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a010",
+          "name": {
+            "ru": "person.address.country",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a011",
+          "name": {
+            "ru": "person['address']['country']",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a012",
+          "name": {
+            "ru": "person.address['country']",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a013",
+      "name": {
+        "ru": "const person = { 130 }. Допустимо ли такое объявление?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a014",
+          "name": {
+            "ru": "Да. Переменная person будет содержать объект с одним свойством 130",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a015",
+          "name": {
+            "ru": "Нет. Такое объявление недопустимо",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a018",
+      "name": {
+        "ru": "const person = { 130: 130 }. Допустимо ли такое объявление?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a019",
+          "name": {
+            "ru": "Да. Переменная person будет содержать объект с ключом 130 и значением 130",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a01a",
+          "name": {
+            "ru": "Нет. Такое объявление недопустимо",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a01d",
+      "name": {
+        "ru": "const person = { 130: 'a130b' }. Для доступа к значению свойства 130 используется:",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a01e",
+          "name": {
+            "ru": "person.130",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a01f",
+          "name": {
+            "ru": "person['130']",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a020",
+          "name": {
+            "ru": "person[130]",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a021",
+          "name": {
+            "ru": "person[0]",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a022",
+      "name": {
+        "ru": "const person = { 'person-name': 'John' }. Для доступа к значению свойства 'person-name' используется:",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a023",
+          "name": {
+            "ru": "person.person-name",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a024",
+          "name": {
+            "ru": "person['person-name']",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a025",
+          "name": {
+            "ru": "person[person-name]",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a026",
+          "name": {
+            "ru": "person.'person-name'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c09a67c7887ca79e28a027",
+      "name": {
+        "ru": "const person = { personName: 'John' }. Для доступа к значению свойства 'personName' используется:",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c09a67c7887ca79e28a028",
+          "name": {
+            "ru": "person.personName",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a029",
+          "name": {
+            "ru": "person['personName']",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a02a",
+          "name": {
+            "ru": "person[personName]",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c09a67c7887ca79e28a02b",
+          "name": {
+            "ru": "person.'personName'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

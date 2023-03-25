@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e8a",
+  "name": {
+    "ru": "Функция удаляет пробелы в начале и в конце строки",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `clearString`, которая принимает строку и возвращает ее без пробелов в начале и в конце.\n\nПример запуска функции:\n```javascript\nclearString('  abc'); // 'abc'\nclearString('abc  '); // 'abc'\nclearString('  abc  '); // 'abc'\nclearString('  a b c  '); // 'a b c'\nclearString(' a b c '); // 'a b c'\nclearString(' a b c'); // 'a b c'\n```\n\nИспользуйте метод `trim` для удаления пробелов в начале и в конце строки.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function clearString(string) {\n  return string.trim();\n}",
+  "openTest": "it('Created function clearString', () => {\n  expect(clearString).to.be.a('function');\n});\n\nit('clearString(\"  abc\") should return \"abc\"', () => {\n  expect(clearString('  abc')).to.be.equal('abc');\n});\n\nit('clearString(\"abc  \") should return \"abc\"', () => {\n  expect(clearString('abc  ')).to.be.equal('abc');\n});\n\nit('clearString(\"  abc  \") should return \"abc\"', () => {\n  expect(clearString('  abc  ')).to.be.equal('abc');\n});\n\nit('clearString(\"  a b c  \") should return \"a b c\"', () => {\n  expect(clearString('  a b c  ')).to.be.equal('a b c');\n});\n\nit('clearString(\" a b c \") should return \"a b c\"', () => {\n  expect(clearString(' a b c ')).to.be.equal('a b c');\n});\n\nit('clearString(\" a b c\") should return \"a b c\"', () => {\n  expect(clearString(' a b c')).to.be.equal('a b c');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

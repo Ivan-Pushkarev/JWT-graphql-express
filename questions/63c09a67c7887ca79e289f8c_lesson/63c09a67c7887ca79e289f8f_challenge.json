@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f8f",
+  "name": {
+    "ru": "Поменяй цвет животного",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию 'changeAnimalColor', которая принимает параметры:\n* `animalObj` - объект, описывающий животное\n* `color` - строка, описывающая цвет животного\n\nОбъект животного имеет следующие свойства:\n* `animal`- тип животного, строка\n* `name`- имя животного, строка\n* `color`- цвет животного, строка\n\nПоменяй цвет животного на новый цвет, который передан в функцию вторым параметром.\n\nФункция должна вернуть строку вида: `Tom's new color is green`\n\n```javascript\nchangeAnimalColor(\n  { animal: 'cat', name: 'Tom', color: 'red' },\n  'green',\n)\n// \"Tom's new color is green\"\n\nchangeAnimalColor(\n  { animal: 'dog', name: 'Boo', color: 'black' },\n  'brown',\n)\n// \"Boo's new color is brown\"\n```\n\nПохожий пример:\n```javascript\nfunction carChangeColor(car, color) {\n  car.color = color;\n  return 'Your new car color is ' + car.color;\n}\n\nconsole.log(\n  carChangeColor(\n    { brand: 'BMW', model: 'X5', color: 'black' },\n    'red',\n  ),\n);\n// \"Your new car color is red\"\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function changeAnimalColor(animalObj, color) {\n  animalObj.color = color;\n  return animalObj.name + \"'s new color is \" + animalObj.color;\n}",
+  "openTest": "it('Created function changeAnimalColor', () => {\n  expect(changeAnimalColor).to.be.a('function');\n});\n\nit('changeAnimalColor({ animal: \"cat\", name: \"Tom\", color: \"red\" }, \"grey\") should return Tom\\'s new color is grey', () => {\n  expect(\n    changeAnimalColor(\n      { animal: 'cat', name: 'Tom', color: 'red' },\n      'grey',\n    ),\n  ).to.equal(\"Tom's new color is grey\");\n});\n\nit('changeAnimalColor({ animal: \"parrot\", name: \"Koko\", color: \"white\" }, \"black\") should return Koko\\'s new color is black', () => {\n  expect(\n    changeAnimalColor(\n      { animal: 'parrot', name: 'Koko', color: 'white' },\n      'black',\n    ),\n  ).to.equal(\"Koko's new color is black\");\n});\n\nit('changeAnimalColor({ animal: \"dog\", name: \"Masha\", color: \"black\" }, \"brown\") should return Masha\\'s new color is brown', () => {\n  expect(\n    changeAnimalColor(\n      { animal: 'cat', name: 'Masha', color: 'black' },\n      'brown',\n    ),\n  ).to.equal(\"Masha's new color is brown\");\n});\n\nit('changeAnimalColor({ animal: \"cat\", name: \"Vasya\", color: \"white\" }, \"blue\") should return Vasya\\'s new color is blue', () => {\n  expect(\n    changeAnimalColor(\n      { animal: 'cat', name: 'Vasya', color: 'white' },\n      'blue',\n    ),\n  ).to.equal(\"Vasya's new color is blue\");\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

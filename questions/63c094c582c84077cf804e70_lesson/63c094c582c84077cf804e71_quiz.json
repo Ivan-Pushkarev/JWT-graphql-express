@@ -1,0 +1,451 @@
+{
+  "_id": "63c094c582c84077cf804e71",
+  "name": {
+    "ru": "Изменение регистра. Методы toUpperCase, toLowerCase",
+    "en": "",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63c094c582c84077cf804f42",
+      "name": {
+        "ru": "Для чего используется метод toUpperCase?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f43",
+          "name": {
+            "ru": "Для преобразования строки в верхний регистр",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f44",
+          "name": {
+            "ru": "Для преобразования строки в нижний регистр",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f47",
+      "name": {
+        "ru": "Для чего используется метод toLowerCase?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f48",
+          "name": {
+            "ru": "Для преобразования строки в верхний регистр",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f49",
+          "name": {
+            "ru": "Для преобразования строки в нижний регистр",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f4c",
+      "name": {
+        "ru": "Методы toUpperCase и toLowerCase не изменяют исходную строку, а возвращают новую строку в нужном регистре.",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f4d",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f4e",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f51",
+      "name": {
+        "ru": "Для определения регистра символа используется способ:",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f52",
+          "name": {
+            "ru": "Преобразование строки в верхний регистр и сравнение с исходной строкой",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f53",
+          "name": {
+            "ru": "Преобразование строки в нижний регистр и сравнение с исходной строкой",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f54",
+          "name": {
+            "ru": "Сравнение без преобразования с исходной строкой",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f56",
+      "name": {
+        "ru": "Возможно ли сделать так: `const s = 'hello'; s[0] = 'H'; console.log(s);` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f57",
+          "name": {
+            "ru": "Можно менять символы строки обращаясь к ним по индексу",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f58",
+          "name": {
+            "ru": "Нельзя менять символы строки обращаясь к ним по индексу",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f59",
+          "name": {
+            "ru": "Можно если строка объявлена через `let`",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f5b",
+      "name": {
+        "ru": "Что выведет код: `console.log('hello').toUpperCase();` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f5c",
+          "name": {
+            "ru": "HELLO",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f5d",
+          "name": {
+            "ru": "hello",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f5e",
+          "name": {
+            "ru": "Hello",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f5f",
+          "name": {
+            "ru": "Ошибка",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f60",
+      "name": {
+        "ru": "Что выведет код: `console.log('hello'.toUpperCase());` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f61",
+          "name": {
+            "ru": "HELLO",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f62",
+          "name": {
+            "ru": "hello",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f63",
+          "name": {
+            "ru": "Hello",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f64",
+          "name": {
+            "ru": "Ошибка",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f65",
+      "name": {
+        "ru": "Что выведет код: `const s = 'const'; console.log('str[0]'.toUpperCase());` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f66",
+          "name": {
+            "ru": "С",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f67",
+          "name": {
+            "ru": "с",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f68",
+          "name": {
+            "ru": "STR[0]",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f69",
+          "name": {
+            "ru": "str[0]",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f6a",
+      "name": {
+        "ru": "Что выведет код: `const s = 'const'; console.log(s.toUpperCase().toLowerCase());` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f6b",
+          "name": {
+            "ru": "CONST",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f6c",
+          "name": {
+            "ru": "const",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f6d",
+          "name": {
+            "ru": "Ошибка",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f6f",
+      "name": {
+        "ru": "Что выведет код: `const s = 'c'; console.log(s === s.toLowerCase());` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f70",
+          "name": {
+            "ru": "lowercase",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f71",
+          "name": {
+            "ru": "uppercase",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f72",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f73",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

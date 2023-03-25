@@ -1,0 +1,23 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8ed",
+  "name": {
+    "ru": "Исправьте ошибку в функции hello world",
+    "en": "Fix an error in the hello world function",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Требования к функции:\n1. Функция должна называться `helloWorld`;\n2. Функция должна возвращать строку `'Hello'`;",
+    "en": "Function requirements:\n1. The function must be named `helloWorld`;\n2. The function must return the string `'Hello'`;",
+    "es": ""
+  },
+  "initialSolution": "function Hello('World') {\n  return 'helloWorld';\n}",
+  "completedSolution": "function helloWorld() {\n  return 'Hello';\n}",
+  "openTest": "it('Created function helloWorld', () => {\n  expect(helloWorld).to.be.a('function');\n});\n\nit('Function returns Hello', () => {\n  expect(helloWorld()).to.equal('Hello');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

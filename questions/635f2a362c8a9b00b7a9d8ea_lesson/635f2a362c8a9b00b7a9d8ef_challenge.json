@@ -1,0 +1,23 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8ef",
+  "name": {
+    "ru": "Напишите функцию, которая возвращает то же самое, что и переданное ей значение",
+    "en": "Write a function that returns the same as the value passed to it",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "На вход функция `nonsense` принимает один параметр и возвращает его без изменений.\n\nПример:\n```javascript\nnonsense('Hello') // 'Hello'\nnonsense(42) // 42\n```",
+    "en": "The `nonsense` function takes one parameter as input and returns it unchanged.\n\nExample:\n```javascript\nnonsense('Hello') // 'Hello'\nnonsense(42) // 42\n```",
+    "es": ""
+  },
+  "initialSolution": "nonsense here",
+  "completedSolution": "function nonsense(p) {\n  return p;\n}",
+  "openTest": "it('Created function nonsense', () => {\n  expect(nonsense).to.be.a('function');\n});\n\nit('Function returns the same value', () => {\n  expect(nonsense('Hello')).to.equal('Hello');\n});\n\nit('Function returns the same value', () => {\n  expect(nonsense(42)).to.equal(42);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

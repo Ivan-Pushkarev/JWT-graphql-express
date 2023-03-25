@@ -1,0 +1,487 @@
+{
+  "_id": "63689267157a0ef5c22aa344",
+  "name": {
+    "ru": "Оператор НЕ. Оператор !",
+    "en": "Operator NOT. Operator !",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63689267157a0ef5c22aa415",
+      "name": {
+        "ru": "Оператор ! используется для инвертирования значения переменной. Например, если переменная a равна 1, то выражение !a будет равно 0. Если переменная a равна 0, то выражение !a будет равно 1. Верно?",
+        "en": "The ! operator is used to invert the value of a variable. For example, if the variable a is 1, then the expression !a will be equal to 0. If the variable a is 0, then the expression !a equals 1. Right?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa416",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa417",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa41a",
+      "name": {
+        "ru": "Оператор ! используется для преобразования значения переменной в boolean и инвертирования его. Например, если переменная a равна 1, то выражение !a будет равно false. Если переменная a равна 0, то выражение !a будет равно true. Верно?",
+        "en": "The ! operator is used to convert a variable into a boolean and invert it. For example, if the variable a is 1, then the expression !a equals false. If the a variable is 0, then the !a expression will be true. Is it true?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa41b",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa41c",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa41f",
+      "name": {
+        "ru": "Что выведется в консоль? console.log(!true);",
+        "en": "What will console.log(!true) print?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa420",
+          "name": {
+            "ru": "true",
+            "en": "true",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa421",
+          "name": {
+            "ru": "false",
+            "en": "false",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa422",
+          "name": {
+            "ru": "1",
+            "en": "1",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa423",
+          "name": {
+            "ru": "0",
+            "en": "0",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa424",
+      "name": {
+        "ru": "Что выведется в консоль? console.log(!0);",
+        "en": "What will be output to the console? console.log(!0);",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa425",
+          "name": {
+            "ru": "true",
+            "en": "true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa426",
+          "name": {
+            "ru": "false",
+            "en": "false",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa427",
+          "name": {
+            "ru": "1",
+            "en": "1",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa428",
+          "name": {
+            "ru": "0",
+            "en": "0",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa429",
+      "name": {
+        "ru": "Что выведется в консоль? console.log(!'');",
+        "en": "What will be output to the console? console.log(!'');",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa42a",
+          "name": {
+            "ru": "true",
+            "en": "true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa42b",
+          "name": {
+            "ru": "false",
+            "en": "false",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa42c",
+          "name": {
+            "ru": "пустая строка",
+            "en": "blank line",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa42d",
+          "name": {
+            "ru": "непустая строка",
+            "en": "not blank line",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa42e",
+      "name": {
+        "ru": "Что выведется в консоль? console.log(!'hello');",
+        "en": "What will be output to the console? console.log(!'hello');",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa42f",
+          "name": {
+            "ru": "true",
+            "en": "true",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa430",
+          "name": {
+            "ru": "false",
+            "en": "false",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa431",
+          "name": {
+            "ru": "hello",
+            "en": "hello",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa432",
+          "name": {
+            "ru": "!hello",
+            "en": "!hello",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa433",
+      "name": {
+        "ru": "Двойное отрицание приводит к приведению к boolean. Что выведется в консоль? console.log(!!'hello');",
+        "en": "Double negation leads to a boolean conversion. What will console.log(!!'hello') print?",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa434",
+          "name": {
+            "ru": "true",
+            "en": "true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa435",
+          "name": {
+            "ru": "false",
+            "en": "false",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa436",
+          "name": {
+            "ru": "hello",
+            "en": "hello",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa437",
+          "name": {
+            "ru": "!!hello",
+            "en": "!!hello",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa438",
+      "name": {
+        "ru": "Каждый оператор отрицания приводит к boolean и инвертирует. Что выведется в консоль? console.log(!!!'hello');",
+        "en": "Each negation operator leads to a boolean and inverts. What is output to the console? console.log(!!!'hello');",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa439",
+          "name": {
+            "ru": "true",
+            "en": "true",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa43a",
+          "name": {
+            "ru": "false",
+            "en": "false",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa43b",
+          "name": {
+            "ru": "hello",
+            "en": "hello",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa43c",
+          "name": {
+            "ru": "!!!hello",
+            "en": "!!!hello",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa43d",
+      "name": {
+        "ru": "Выберите варианты корректного использования оператора `!`",
+        "en": "Select the options for the correct use of the operator `!`",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa43e",
+          "name": {
+            "ru": "if (!!boxCount) { ... }",
+            "en": "if (!!boxCount) { ... }",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa43f",
+          "name": {
+            "ru": "if (!isOpen) { ... }",
+            "en": "if (!isOpen) { ... }",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa440",
+          "name": {
+            "ru": "const isClosed = !isOpen",
+            "en": "const isClosed = !isOpen",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa441",
+          "name": {
+            "ru": "const !isClosed = isOpen",
+            "en": "const !isClosed = isOpen",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa442",
+      "name": {
+        "ru": "Можно ли инвертировать результат сравнения? !(1 > 2)",
+        "en": "Is it possible to invert the result of the comparison? !(1 > 2)",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa443",
+          "name": {
+            "ru": "Можно. В этом случае получится `false`",
+            "en": "You can. In this case you get `false`.",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa444",
+          "name": {
+            "ru": "Можно. В этом случае получится `true`",
+            "en": "You can. In this case it is `true`.",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa445",
+          "name": {
+            "ru": "Нельзя. Это невозможно сделать",
+            "en": "You can't. It can't be done.",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

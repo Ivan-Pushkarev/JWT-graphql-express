@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e56674",
+  "name": {
+    "ru": "Выведите в консоли 100 + 100 + 1000",
+    "en": "Print 100 + 100 + 1000 in the console",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Только одна строка. Соблюдайте пробелы и знаки пунктуации. В конце точка с запятой. Напишите команду `console.log(100 + 100 + 1000);`",
+    "en": "Only one line. Observe spaces and punctuation marks. A semicolon at the end. Write the command `console.log(100 + 100 + 1000);`",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log(100 + 100 + 1000);",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

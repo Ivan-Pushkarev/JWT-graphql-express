@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f9b",
+  "name": {
+    "ru": "Заполнить объект свойствами",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `fillObj`, которая принимает объект и три значения:\n* `obj` - объект\n* `value1` - значение,\n* `value2` - значение,\n* `value3` - значение\n\nДобавьте в объект следующие ключи:\n* `width` со значением `value1`,\n* `height` со значением `value2`,\n* `length` со значением `value3`\n\nЕсли в объекте уже есть один из таких ключей, то оставьте его без изменений.\n\nФункция должна вернуть объект.\n\nПример запуска функции:\n```javascript\nfillObj({}, 10, 20, 30);      // { width: 10, height: 20, length: 30 }\nfillObj({ width: 10 }, 20, 30, 40);      // { width: 10, height: 30, length: 40 }\nfillObj({ width: 10, height: 20 }, 20, 30, 40);      // { width: 10, height: 20, length: 40 }\n```\nПохожий пример:\n```javascript\nfunction fillCarObj(car, \"red\", \"Camry\", 2020) {\n    if (!car.color) car.color = \"red\";\n    if (!car.model) car.model = \"Camry\";\n    if (!car.year) car.year = 2020;\n    return car;\n}\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function fillObj(obj, value1, value2, value3) {\n  if (!obj.width) obj.width = value1;\n  if (!obj.height) obj.height = value2;\n  if (!obj.length) obj.length = value3;\n  return obj;\n}",
+  "openTest": "it('Created function fillObj', () => {\n  expect(fillObj).to.be.a('function');\n});\n\nit('fillObj({ }, 5, 15, 30) return { width: 5, height: 15, length: 30 }', () => {\n  expect(fillObj({}, 5, 15, 30)).to.eql({ width: 5, height: 15, length: 30 });\n});\n\nit('fillObj({ width: 10 }, 20, 30, 40) return { width: 10, height: 30, length: 40 }', () => {\n  expect(fillObj({ width: 10 }, 20, 30, 40)).to.eql({\n    width: 10,\n    height: 30,\n    length: 40,\n  });\n});\n\nit('fillObj({ width: 10, height: 20 }, 20, 30, 40) return { width: 10, height: 20, length: 40 }', () => {\n  expect(fillObj({ width: 10, height: 20 }, 20, 30, 40)).to.eql({\n    width: 10,\n    height: 20,\n    length: 40,\n  });\n});\n\nit('fillObj({ width: 10, height: 20, length: 30 }, 20, 30, 40) return { width: 10, height: 20, length: 30 }', () => {\n  expect(fillObj({ width: 10, height: 20, length: 30 }, 20, 30, 40)).to.eql({\n    width: 10,\n    height: 20,\n    length: 30,\n  });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

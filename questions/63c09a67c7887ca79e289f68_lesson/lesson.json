@@ -1,0 +1,13 @@
+{
+  "_id": "63c09a67c7887ca79e289f68",
+  "content": {
+    "ru": "Объекты в JavaScript - это одна из основных структур данных, которые могут хранить и организовывать информацию в коде.\n\nОбъекты представляют собой коллекцию свойств, где свойство — это пара `ключ: значение`. Ключ — это уникальная строка, а значением может быть любой тип данных в JavaScript, включая другой объект.\n\nСинтаксис создания объекта:\n\n```javascript\nlet person = {\n  key: value,\n  key1: value1,\n  key2: value,\n  key3: value1,\n};\n```\n\nКаждый ключ в объекте должен быть уникальным и не может повторяться, тогда как значения могут повторяться.\n\nОбъекты в JavaScript — это как коробки, которые могут хранить разные вещи. Например, в одной коробке может быть информация о тебе, а в другой — информация о друге. Кроме того, коробки могут содержать другие коробки внутри себя, что позволяет организовать информацию в сложные структуры.\n\nРассмотрим пример объекта, который представляет информацию о человеке:\n\n```javascript\nlet person = {\n  name: 'Eve',\n  age: 10,\n  favoriteColor: 'Blue',\n};\n```\n\nЭтот объект содержит три свойства:\n\n- name (имя)\n- age (возраст)\n- favoriteColor (любимый цвет)\n\nНапишем функцию `makePersonObject` которая будет принимать `name, age, favoriteColor` и возвращать объект:\n\n```javascript\nfunction makePersonObject(name, age, favoriteColor) {\n  return {\n    name: name,\n    age: age,\n    favoriteColor: favoriteColor,\n  };\n}\n\nconst stivePerson = makePersonObject('Stive', 5, 'Yellow');\nconst evePerson = makePersonObject('Eve', 10, 'Blue');\n\nconsole.log(stivePerson); // { name: \"Stive\", age: 5 , favoriteColor: \"Yellow\" }\nconsole.log(evePerson); // { name: \"Eve\", age: 10 , favoriteColor: \"Blue\" }\n```\n",
+    "en": "# Создание объекта language: en",
+    "es": "# Создание объекта language: es"
+  },
+  "video": {
+    "ru": "https://youtu.be/fEmnFbNU-_I",
+    "en": "",
+    "es": ""
+  }
+}

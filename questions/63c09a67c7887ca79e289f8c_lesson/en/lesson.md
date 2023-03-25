@@ -1,0 +1,1 @@
+# Changing the object properties language: ru

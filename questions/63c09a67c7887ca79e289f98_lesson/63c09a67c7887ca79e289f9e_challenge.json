@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f9e",
+  "name": {
+    "ru": "Проверка типов данных и добавление свойств в объект",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `addItems`, которая принимает четыре параметра:\n* `firstName` - тип данных должен быть `string`,\n* `lastName` - тип данных должен быть `string`,\n* `age` - тип данных должен быть `number`,\n* `isStudent` - тип данных должен быть `boolean`.\n\n\nФункция должна вернуть новый объект, в который должны будут добавлены свойства, если они соответствуют типам данных,\nуказанным выше.\nЕсли какое-либо из свойств не соответствует типу данных, то оно не должно быть добавлено в объект.\nЕсли все свойства не соответствуют типу данных, то функция должна вернуть пустой объект.\n\n\nПример запуска функции:\n```javascript\naddItems('John', 'Doe', 25, true); // { firstName: \"John\", lastName: \"Doe\", age: 25, isStudent: true }\naddItems(undefined, undefined, null, null); // {}\naddItems('Angel', 'Fisk', null, null); // { firstName: \"Angel\", lastName: \"Fisk\" }\n```\n\nАналогичный пример:\n```javascript\nfunction addItems(name, year, isOnSale) {\n  const obj = {};\n  if (typeof name === 'string') obj.name = name;\n  if (typeof year === 'number') obj.year = year;\n  if (typeof isOnSale === 'boolean') obj.isOnSale = isOnSale;\n  return obj;\n}\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function addItems(firstName, lastName, age, isStudent) {\n  const obj = {};\n  if (typeof firstName === 'string') obj.firstName = firstName;\n  if (typeof lastName === 'string') obj.lastName = lastName;\n  if (typeof age === 'number') obj.age = age;\n  if (typeof isStudent === 'boolean') obj.isStudent = isStudent;\n  return obj;\n}",
+  "openTest": "it('Created function addItems', () => {\n  expect(addItems).to.be.a('function');\n});\n\nit('Function addItems returns object', () => {\n  expect(addItems('John', 'Doe', 25, true)).to.be.a('object');\n});\n\nit('addItems(\"John\", \"Doe\", 25, true) returns { firstName: \"John\", lastName: \"Doe\", age: 25, isStudent: true }', () => {\n  expect(addItems('John', 'Doe', 25, true)).to.eql({\n    firstName: 'John',\n    lastName: 'Doe',\n    age: 25,\n    isStudent: true,\n  });\n});\n\nit('addItems(undefined, undefined, null, null) returns {}', () => {\n  expect(addItems(undefined, undefined, null, null)).to.eql({});\n});\n\nit('addItems(\"Jack\", \"Smith\", 55, false) returns { firstName: \"Jack\", lastName: \"Smith\", age: 55, isStudent: false }', () => {\n  expect(addItems(undefined, 'Smith', true, false)).to.eql({\n    lastName: 'Smith',\n    isStudent: false,\n  });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

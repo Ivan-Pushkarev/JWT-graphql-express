@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e97",
+  "name": {
+    "ru": "Убрать пробелы и перевести в нижний регистр",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `cleanAndLower`, которая принимает строку и возвращает ее без пробелов в начале и конце и в нижнем регистре.\n\nПример:\n```javascript\ncleanAndLower('  Hello World  ') // 'hello world'\ncleanAndLower('  tESt  ') // 'test'\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function cleanAndLower(text) {\n  return text.trim().toLowerCase();\n}",
+  "openTest": "it('Created function cleanAndLower', () => {\n  expect(cleanAndLower).to.be.a('function');\n});\n\nit('cleanAndLower(\"  Hello World  \") should return \"hello world\"', () => {\n  expect(cleanAndLower('  Hello World  ')).to.equal('hello world');\n});\n\nit('cleanAndLower(\"  tESt  \") should return \"test\"', () => {\n  expect(cleanAndLower('  tESt  ')).to.equal('test');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

@@ -1,0 +1,4 @@
+{
+  "name": "Remove any extra spaces",
+  "instruction": "You need to write a command that outputs the word \"Coding\" to the console.\nThe correct solution is:\n```\nconsole.log('Coding');\n```\nRemove any extra spaces in the above code."
+}

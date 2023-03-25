@@ -1,0 +1,532 @@
+{
+  "_id": "63c094c582c84077cf804e4d",
+  "name": {
+    "ru": "Конкатенация строк",
+    "en": "",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63c094c582c84077cf804eac",
+      "name": {
+        "ru": "Выберите варианты, где происходит конкатенация",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ead",
+          "name": {
+            "ru": "'Hello' + 'World'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804eae",
+          "name": {
+            "ru": "'123' + '456'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804eaf",
+          "name": {
+            "ru": "123 + 456",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804eb0",
+          "name": {
+            "ru": "123 + '456'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804eb1",
+      "name": {
+        "ru": "Выберите варианты с корректной работой",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804eb2",
+          "name": {
+            "ru": "console.log('Hello' + 'World'); // 'Hello World'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804eb3",
+          "name": {
+            "ru": "console.log('Hello' + '' + 'World'); // 'Hello World'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804eb4",
+          "name": {
+            "ru": "console.log('Hello' + ' ' + 'World'); // 'Hello World'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804eb5",
+          "name": {
+            "ru": "console.log(Hello + World); // 'HelloWorld'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804eb6",
+      "name": {
+        "ru": "Выберите варианты с корректной работой",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804eb7",
+          "name": {
+            "ru": "const a = 'Hello'; const b = 'World'; console.log(a + b); // 'Hello World'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804eb8",
+          "name": {
+            "ru": "const a = 'Hello '; const b = 'World'; console.log(a + '' + b); // 'Hello World'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804eb9",
+          "name": {
+            "ru": "const a = 'Hello '; const b = 'World'; console.log(a + a); // 'Hello Hello '",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804eba",
+          "name": {
+            "ru": "const a = 'Hello ; const b = ' World'; console.log(a + b); // 'Hello World'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ebb",
+      "name": {
+        "ru": "Выберите варианты с корректной работой",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ebc",
+          "name": {
+            "ru": "const name = 'John'; console.log('Hello ' + name); // 'Hello John'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ebd",
+          "name": {
+            "ru": "const name = 'John'; console.log('Hello ' + name + ' !'); // 'Hello John!'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ebe",
+          "name": {
+            "ru": "const age = 30; console.log(Age: + age); // 'Age: 30'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ebf",
+          "name": {
+            "ru": "const code = 123; console.log('Code: ' + code + 1); // 'Code: 124'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ec0",
+      "name": {
+        "ru": "Выберите варианты с корректной работой",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ec1",
+          "name": {
+            "ru": "const PI = 3.14; console.log(PI = PI); // 'PI = 3.14'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ec2",
+          "name": {
+            "ru": "const 'PI' = 3.14; console.log('PI' = 3.15); // 'PI = 3.14'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ec3",
+          "name": {
+            "ru": "const result = 3 + 4 * 2; console.log('Result: ' + result); // 'Result: 11'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ec4",
+          "name": {
+            "ru": "const result = (3 + 4) * 2; console.log(('Result: ') + (result)); // 'Result: 14'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ec5",
+      "name": {
+        "ru": "Выберите варианты, которые не вызовут ошибку",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ec6",
+          "name": {
+            "ru": "let a = 1; a = a + 1; console.log(a + ' - a');",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ec7",
+          "name": {
+            "ru": "let const = 2; console.log('Result: ' + const);",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ec8",
+          "name": {
+            "ru": "let 1name = 'John'; console.log('Hello ' + 1name);",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ec9",
+          "name": {
+            "ru": "let name = 'John'; console.log('+' + 'Hello ' + name + '+');",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804eca",
+      "name": {
+        "ru": "Выберите варианты, которые не вызовут ошибку",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ecb",
+          "name": {
+            "ru": "const name1 = 'John' + ' ' + 'Doe'; console.log('++' + name1 + '++');",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ecc",
+          "name": {
+            "ru": "const name2 = 'John' + ' + 'Doe'; console.log('++' + name2 + '++');",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ecd",
+          "name": {
+            "ru": "const name1 = 'John'; const name2 = 'Alice'; console.log(name1 + ' + ' + name2);",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ece",
+          "name": {
+            "ru": "const name1 = 'John', name2 = 'Alice'; console.log(name1 '+' name2);",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ecf",
+      "name": {
+        "ru": "Выберите варианты с корректным комментарием",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ed0",
+          "name": {
+            "ru": "console.log(123 * '10'); // 1230",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ed1",
+          "name": {
+            "ru": "console.log(123 * 'ten'); // NaN",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ed2",
+          "name": {
+            "ru": "console.log(123 * '10' + '0'); // '12300'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ed3",
+          "name": {
+            "ru": "console.log(123 - '10' + 1); // 114",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ed4",
+      "name": {
+        "ru": "Выберите варианты с корректным комментарием",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ed5",
+          "name": {
+            "ru": "console.log('Result:' + '123' * '10'); // 'Result:1230'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ed6",
+          "name": {
+            "ru": "console.log('Result:' + '123' * 'ten'); // 'Result:NaN'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ed7",
+          "name": {
+            "ru": "console.log('Result:' + '123' / '10' + '.'); // 'Result:12.3.'",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ed8",
+          "name": {
+            "ru": "console.log('Result:' + '12,3' * '10' + 1); // 'Result:1231'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ed9",
+      "name": {
+        "ru": "Выберите варианты, которые не вызовут ошибку",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804eda",
+          "name": {
+            "ru": "console.l0g('Result:' + '123' * '10'); // 'Result:1230'",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804edb",
+          "name": {
+            "ru": "const log = 'Line 1:' + 'console.log(OK)';",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804edc",
+          "name": {
+            "ru": "console.log('const a = 2 * const')",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804edd",
+          "name": {
+            "ru": "console.log('(function f() {) (1 return; }');",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

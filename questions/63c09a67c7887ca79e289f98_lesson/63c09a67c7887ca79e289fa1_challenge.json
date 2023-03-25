@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289fa1",
+  "name": {
+    "ru": "Какой ресторан лучше?",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `bestRestaurant`, которая принимает два объекта с оценками ресторанов.\n\nКаждый объект имеет следующие свойства:\n* `name` - название ресторана (string)\n* `food` - оценка качества еды (number)\n* `service` - оценка качества обслуживания (number)\n* `waitingTime` - оценка времени ожидания (number)\n\nФункция должна возвращать новый объект с рестораном, который имеет наибольшую общую оценку.\nДля вычисления общей оценки ресторана необходимо сложить оценки качества еды, обслуживания и времени ожидания.\n\nВ новом объекте должны быть свойства:\n* `bestRestaurant` - название ресторана с наибольшей общей оценкой\n* `totalScore` - общая оценка ресторана\n\nЕсли общая оценка ресторанов одинаковая, то возвращаемый объект должен иметь свойства:\n* `bestRestaurant` со значением: `It's a tie!`\n* `totalScore` - общая оценка ресторана одного из ресторанов\n\nПример запуска функции:\n```javascript\nbestRestaurant(\n{ name: 'Chittos', food: 2.1, service: 1, waitingTime: 1.8 },\n{ name: 'Best Burger', food: 2.5, service: 1, waitingTime: 0 }); // { bestRestaurant: 'Chittos', totalScore: 4.9 }\n\nbestRestaurant(\n{ name: \"Chittos\", food: 4.5, service: 4, waitingTime: 4 },\n{ name: \"Best Burger\", food: 4.7, service: 3, waitingTime: 4.8 }); // { bestRestaurant: \"It's a tie!\", totalScore: 12.5 }\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function bestRestaurant(restaurant1, restaurant2) {\n  let restaurant1Score = restaurant1.food + restaurant1.service + restaurant1.waitingTime;\n  let restaurant2Score = restaurant2.food + restaurant2.service + restaurant2.waitingTime;\n  if (restaurant1Score > restaurant2Score) {\n    return { bestRestaurant: restaurant1.name, totalScore: restaurant1Score };\n  } else if (restaurant1Score < restaurant2Score) {\n    return { bestRestaurant: restaurant2.name, totalScore: restaurant2Score };\n  } else {\n    return { bestRestaurant: \"It's a tie!\", totalScore: restaurant1Score };\n  }\n}",
+  "openTest": "it('Created function bestRestaurant', () => {\n  expect(bestRestaurant).to.be.a('function');\n});\n\nit('bestRestaurant returns an object', () => {\n  expect(\n    bestRestaurant(\n      { name: 'Chittos', food: 4.5, service: 4, waitingTime: 4 },\n      { name: 'Best Burger', food: 4.7, service: 3, waitingTime: 4.8 },\n    ),\n  ).to.be.a('object');\n});\n\nit('bestRestaurant({ name: \"Chittos\", food: 4.5, service: 4, waitingTime: 4 }, { name: \"Best Burger\", food: 4.7, service: 3, waitingTime: 4.8 }) returns { bestRestaurant: \"It\\'s a tie!\", totalScore: 12.5 }', () => {\n  expect(\n    bestRestaurant(\n      { name: 'Chittos', food: 4.5, service: 4, waitingTime: 4 },\n      { name: 'Best Burger', food: 4.7, service: 3, waitingTime: 4.8 },\n    ),\n  ).to.eql({ bestRestaurant: \"It's a tie!\", totalScore: 12.5 });\n});\n\nit('bestRestaurant({ name: \"Chittos\", food: 2.1, service: 1, waitingTime: 1.8 }, { name: \"Best Burger\", food: 2.5, service: 1, waitingTime: 0 }) returns { bestRestaurant: \"Chittos\", totalScore: 4.9 }', () => {\n  expect(\n    bestRestaurant(\n      { name: 'Chittos', food: 2.1, service: 1, waitingTime: 1.8 },\n      { name: 'Best Burger', food: 2.5, service: 1, waitingTime: 0 },\n    ),\n  ).to.eql({ bestRestaurant: 'Chittos', totalScore: 4.9 });\n});\n\nit('bestRestaurant({ name: \"Chittos\", food: 4.5, service: 3, waitingTime: 4 }, { name: \"Best Burger\", food: 4.7, service: 3, waitingTime: 4.8 }) returns { bestRestaurant: \"Best Burger\", totalScore: 12.5 }', () => {\n  expect(\n    bestRestaurant(\n      { name: 'Chittos', food: 4.5, service: 3, waitingTime: 4 },\n      { name: 'Best Burger', food: 4.7, service: 3, waitingTime: 4.8 },\n    ),\n  ).to.eql({ bestRestaurant: 'Best Burger', totalScore: 12.5 });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

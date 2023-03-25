@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e9a",
+  "name": {
+    "ru": "Найти последнее вхождение подстроки в строку",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `lastIndexOf`, которая принимает два параметра: строку и подстроку.\n\nФункция должна возвращать индекс последнего вхождения подстроки в строку.\n\nЕсли подстрока не найдена, функция должна возвращать `-1`.\n\nПоиск должен быть нечувствителен к регистру.\n\nПримеры:\n```javascript\nlastIndexOf('HeLlo', 'll'); // 2\nlastIndexOf('HeLlo new heLLo', 'lL'); // 12\nlastIndexOf('HeLlo heLLo', 'll'); // 8\nlastIndexOf('HeLlo heLLo', 'LL'); // 8\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function lastIndexOf(str, subStr) {\n  return str.toLowerCase().lastIndexOf(subStr.toLowerCase());\n}",
+  "openTest": "it('Created function lastIndexOf', () => {\n  expect(lastIndexOf).to.be.a('function');\n});\n\nit('lastIndexOf(\"HeLlo\", \"ll\") should return 2', () => {\n  expect(lastIndexOf('HeLlo', 'll')).to.equal(2);\n});\n\nit('lastIndexOf(\"HeLlo new heLLo\", \"lL\") should return 12', () => {\n  expect(lastIndexOf('HeLlo new heLLo', 'lL')).to.equal(12);\n});\n\nit('lastIndexOf(\"HeLlo heLLo\", \"ll\") should return 8', () => {\n  expect(lastIndexOf('HeLlo heLLo', 'll')).to.equal(8);\n});\n\nit('lastIndexOf(\"HeLlo heLLo\", \"LL\") should return 8', () => {\n  expect(lastIndexOf('HeLlo heLLo', 'LL')).to.equal(8);\n});\n\nit('lastIndexOf(\"HeLlo heLLo\", \"LL\") should return 9', () => {\n  expect(lastIndexOf('HeLlo heLLo', 'LL')).to.equal(8);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

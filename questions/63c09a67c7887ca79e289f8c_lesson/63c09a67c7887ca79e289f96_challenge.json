@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f96",
+  "name": {
+    "ru": "Подсчет стоимости товаров с учетом налога",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `calculateTotalPrice`, которая принимает три аргумента:\n* `product1` - объект,\n* `product2` - объект,\n* `n` - налог на товары, число, выраженное в процентах.\n\nОбъекты `product1` и `product2` имеют два свойства:\n* `price` - цена товара за единицу, число,\n* `quantity` - количество товаров, число.\n\nФункция должна посчитать итоговую сумму с учетом налогов.\nОкруглить итоговую сумму до ближайшего целого числа, используя метод Math.round().\nВернуть строку вида: `Total price is $123 dollars`,где 123 – это итоговая сумма покупок с учетом налога.\n\nПример запуска функции:\n```javascript\ncalculateTotalPrice(\n  { price: 99.99, quantity: 2 }, // Subtotal $199.98\n  { price: 2.78, quantity: 12 }, // Subtotal $33.36\n  6.25 // Massachusetts state tax rate\n); // Total price is 248 dollars\n```\nПохожий пример:\n```javascript\nfunction calculateArea(room1, room2, k) {\n  let area = room1.height * room1.width + room2.height * room2.width;\n  let redundancy = area * k / 100; // k is a redundancy coefficient in percent\n  let totalArea = Math.round(area + redundancy);\n  return \"Total total area is \" + totalArea + \" square meters\"; // return total area rounded\n}\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function calculateTotalPrice(product1, product2, n) {\n  //n = 0.0625; n is a Massachusetts state tax rate\n  let subtotal = product1.price * product1.quantity + product2.price * product2.quantity;\n  let tax = (subtotal * n) / 100;\n  let total = Math.round(subtotal + tax);\n  return 'Total price is ' + total + ' dollars'; // return total price rounded to the n\n}",
+  "openTest": "it('Created function calculateTotalPrice', () => {\n  expect(calculateTotalPrice).to.be.a('function');\n});\n\nit('calculateTotalPrice should return string', () => {\n  expect(\n    calculateTotalPrice(\n      { price: 99.99, quantity: 2 },\n      { price: 2.78, quantity: 12 },\n      6.25,\n    ),\n  ).to.be.a('string');\n});\n\nit('calculateTotalPrice({ price: 99.99, quantity: 2 }, { price: 2.78, quantity: 12 }, 6.25) return Total price is 248 dollars', () => {\n  expect(\n    calculateTotalPrice(\n      { price: 99.99, quantity: 2 },\n      { price: 2.78, quantity: 12 },\n      6.25,\n    ),\n  ).to.equal('Total price is 248 dollars');\n});\n\nit('calculateTotalPrice({ price: 19.88, quantity: 6 }, { price: 1.99, quantity: 34 }, 4.75) return Total price is 196 dollars', () => {\n  expect(\n    calculateTotalPrice(\n      { price: 19.88, quantity: 6 },\n      { price: 1.99, quantity: 34 },\n      4.75,\n    ),\n  ).to.equal('Total price is 196 dollars');\n});\n\nit('calculateTotalPrice({ price: 2.33, quantity: 16 }, { price: 19.12, quantity: 4 }, 7.5) return Total price is 122 dollars', () => {\n  expect(\n    calculateTotalPrice(\n      { price: 2.33, quantity: 16 },\n      { price: 19.12, quantity: 4 },\n      7.5,\n    ),\n  ).to.equal('Total price is 122 dollars');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

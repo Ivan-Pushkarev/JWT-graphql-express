@@ -10,7 +10,6 @@ export class SocialAuthController {
     private readonly authService: AuthService,
     private readonly tokenService: TokenService,
   ) {}
-
   @Get('facebook')
   @UseGuards(AuthGuard('facebook'))
   async facebookLogin(): Promise<any> {
@@ -22,6 +21,7 @@ export class SocialAuthController {
   async googleLogin(): Promise<any> {
     return { msg: 'Google Authentication' };
   }
+
   @Get('facebook/redirect')
   @UseGuards(AuthGuard('facebook'))
   async facebookLoginRedirect(
@@ -37,6 +37,7 @@ export class SocialAuthController {
       `${process.env.CLIENT_URL}/successSocialLogin?accessToken=${accessToken}`,
     );
   }
+
   @Get('google/callback')
   @UseGuards(AuthGuard('google'))
   async googleLoginRedirect(

@@ -1,0 +1,487 @@
+{
+  "_id": "63683072577d41fa4da0e9d8",
+  "name": {
+    "ru": "Правила именования переменных",
+    "en": "Naming rules for variables",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63683072577d41fa4da0ea5d",
+      "name": {
+        "ru": "Переменные в JavaScript должны начинаться с буквы, знака подчеркивания (_) или знака доллара ($).",
+        "en": "Variables in JavaScript must begin with a letter, an underscore (_), or a dollar sign ($).",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea5e",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea5f",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea62",
+      "name": {
+        "ru": "Переменные в JavaScript могут начинаться с:",
+        "en": "Variables in JavaScript can begin with:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea63",
+          "name": {
+            "ru": "Буквы",
+            "en": "Letters",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea64",
+          "name": {
+            "ru": "Цифры",
+            "en": "Figures",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea65",
+          "name": {
+            "ru": "Знак подчеркивания",
+            "en": "Underscore",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea66",
+          "name": {
+            "ru": "Знак доллара",
+            "en": "Dollar sign",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea67",
+      "name": {
+        "ru": "Переменные в JavaScript могут начинаться с заглавной буквы.",
+        "en": "Variables in JavaScript can start with a capital letter.",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea68",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea69",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea6c",
+      "name": {
+        "ru": "Переменные в JavaScript могут полностью состоять из заглавных букв.",
+        "en": "Variables in JavaScript can consist entirely of uppercase letters.",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea6d",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea6e",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea71",
+      "name": {
+        "ru": "Выберите допустимые имена переменных:",
+        "en": "Choose valid variable names:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea72",
+          "name": {
+            "ru": "first_name",
+            "en": "first_name",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea73",
+          "name": {
+            "ru": "first-name",
+            "en": "first-name",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea74",
+          "name": {
+            "ru": "first name",
+            "en": "first name",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea75",
+          "name": {
+            "ru": "firstName",
+            "en": "firstName",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea96",
+          "name": {
+            "ru": "FIRSTNAME",
+            "en": "FIRSTNAME",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea97",
+          "name": {
+            "ru": "FIRST_NAME",
+            "en": "FIRST_NAME",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea98",
+          "name": {
+            "ru": "FIRST-NAME",
+            "en": "FIRST-NAME",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea76",
+      "name": {
+        "ru": "Выберите допустимые имена переменных:",
+        "en": "Choose valid variable names:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea77",
+          "name": {
+            "ru": "1name",
+            "en": "1name",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea78",
+          "name": {
+            "ru": "name1",
+            "en": "name1",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea79",
+          "name": {
+            "ru": "name-1",
+            "en": "name-1",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea7a",
+          "name": {
+            "ru": "name_1",
+            "en": "name_1",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea7b",
+      "name": {
+        "ru": "Выберите допустимые имена переменных, которые не вызовут ошибок:",
+        "en": "Choose valid variable names that will not cause errors:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea7c",
+          "name": {
+            "ru": "name_",
+            "en": "name_",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea7d",
+          "name": {
+            "ru": "_name",
+            "en": "_name",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea7e",
+          "name": {
+            "ru": "Name",
+            "en": "Name",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea7f",
+          "name": {
+            "ru": "nAME",
+            "en": "nAME",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea80",
+      "name": {
+        "ru": "Переменная должна быть объявлена до использования",
+        "en": "The variable must be declared before using",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea81",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea82",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea85",
+      "name": {
+        "ru": "Правило именования переменных camelCase:",
+        "en": "CamelCase variable naming rule:",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea86",
+          "name": {
+            "ru": "имя переменной должно начинаться с маленькой буквы",
+            "en": "variable name must begin with a small letter",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea87",
+          "name": {
+            "ru": "каждое следующее слово в имени переменной должно начинаться с большой буквы",
+            "en": "each next word in the variable name must start with a capital letter",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea88",
+          "name": {
+            "ru": "имя переменной не должно содержать пробелов",
+            "en": "the variable name must not contain spaces",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea89",
+          "name": {
+            "ru": "имя переменной не должно содержать специальных символов",
+            "en": "the variable name must not contain special characters",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63683072577d41fa4da0ea8a",
+      "name": {
+        "ru": "Выберите стиль именования переменных, который соответствует правилам именования camelCase",
+        "en": "Choose a variable naming style that matches the camelCase naming rules",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63683072577d41fa4da0ea8b",
+          "name": {
+            "ru": "super_secret_password",
+            "en": "super_secret_password",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea8c",
+          "name": {
+            "ru": "superSecretPassword",
+            "en": "superSecretPassword",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63683072577d41fa4da0ea8d",
+          "name": {
+            "ru": "super-secret-password",
+            "en": "super-secret-password",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63683072577d41fa4da0ea8e",
+          "name": {
+            "ru": "SuperSecretPassword",
+            "en": "SuperSecretPassword",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e9e",
+  "name": {
+    "ru": "Два слова в строке разделены одним пробелом",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Нужно определить что между двумя словами в строке есть только один пробел.\n\nНапишите функцию `isOneSpace`, которая принимает строку и возвращает `true`, если между двумя словами в строке есть только один пробел.\n\nВ функцию всегда передается строка, в которой есть два слова, разделенных пробелом или несколькими пробелами.\n\nПримеры:\n```javascript\nisOneSpace('a b'); // true\nisOneSpace('a  b'); // false\nisOneSpace('a   b'); // false\nisOneSpace('a    b'); // false\n\nisOneSpace('hello world'); // true\nisOneSpace('hello  world'); // false\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function isOneSpace(str) {\n  return str.indexOf(' ') === str.lastIndexOf(' ');\n}",
+  "openTest": "it('Created function isOneSpace', () => {\n  expect(isOneSpace).to.be.a('function');\n});\n\nit('isOneSpace(\"a b\") should return true', () => {\n  expect(isOneSpace('a b')).to.be.true;\n});\n\nit('isOneSpace(\"a  b\") should return false', () => {\n  expect(isOneSpace('a  b')).to.be.false;\n});\n\nit('isOneSpace(\"a   b\") should return false', () => {\n  expect(isOneSpace('a   b')).to.be.false;\n});\n\nit('isOneSpace(\"a    b\") should return false', () => {\n  expect(isOneSpace('a    b')).to.be.false;\n});\n\nit('isOneSpace(\"hello world\") should return true', () => {\n  expect(isOneSpace('hello world')).to.be.true;\n});\n\nit('isOneSpace(\"hello  world\") should return false', () => {\n  expect(isOneSpace('hello  world')).to.be.false;\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

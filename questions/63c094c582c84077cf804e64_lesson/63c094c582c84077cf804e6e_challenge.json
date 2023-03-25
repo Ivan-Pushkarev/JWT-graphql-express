@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e6e",
+  "name": {
+    "ru": "Переформатировать номер телефона",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "В функцию `formatPhoneNumber` передается строка, содержащая номер телефона.\n\nВходящая строка всегда будет вида `+XXXXXXXXXXX`, где `X` - цифра.\nНеобходимо переформатировать номер телефона в формат `+1 (XXX) XXX-XXXX`, где `X` - цифра.\n\nПримеры запуска функции:\n```javascript\nformatPhoneNumber('+17071234567'); // '+1 (707) 123-4567'\nformatPhoneNumber('+24151234567'); // '+2 (415) 123-4567'\nformatPhoneNumber('+36501234567'); // '+3 (650) 123-4567'\n```\n\nИспользуйте конкатенацию строк и обращайтесь к каждому символу строки по индексу.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function formatPhoneNumber(p) {\n  return `+${p[1]} (${p.slice(2, 5)}) ${p.slice(5, 8)}-${p.slice(8)}`;\n}",
+  "openTest": "it('Created function formatPhoneNumber', () => {\n  expect(formatPhoneNumber).to.be.a('function');\n});\n\nit('formatPhoneNumber(\"+17071234567\") should return \"+1 (707) 123-4567\"', () => {\n  expect(formatPhoneNumber('+17071234567')).to.equal('+1 (707) 123-4567');\n});\n\nit('formatPhoneNumber(\"+24151234567\") should return \"+2 (415) 123-4567\"', () => {\n  expect(formatPhoneNumber('+24151234567')).to.equal('+2 (415) 123-4567');\n});\n\nit('formatPhoneNumber(\"+36501234567\") should return \"+3 (650) 123-4567\"', () => {\n  expect(formatPhoneNumber('+36501234567')).to.equal('+3 (650) 123-4567');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

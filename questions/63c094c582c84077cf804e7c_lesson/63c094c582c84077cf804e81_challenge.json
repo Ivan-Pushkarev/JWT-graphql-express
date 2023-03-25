@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e81",
+  "name": {
+    "ru": "Повторение в зависимости от регистра последней буквы",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `repeatString`, которая принимает строку.\n\nПусть функция возьмет последний символ строки и повторит его.\n\nЕсли последний символ написан в верхнем регистре, то повторить его нужно 3 раза, если в нижнем, то 2 раза.\n\nПример запуска функции:\n```javascript\nrepeatString('abc'); // 'cc'\nrepeatString('abС'); // 'CCC'\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function repeatString(string) {\n  const lastLetter = string[string.length - 1];\n  if (lastLetter === lastLetter.toUpperCase()) {\n    return lastLetter.repeat(3);\n  }\n  return lastLetter.repeat(2);\n}",
+  "openTest": "it('Created function repeatString', () => {\n  expect(repeatString).to.be.a('function');\n});\n\nit('Should return \"cc\" for \"abc\"', () => {\n  expect(repeatString('abc')).to.be.equal('cc');\n});\n\nit('Should return \"EEE\" for \"abCcE\"', () => {\n  expect(repeatString('abCcE')).to.be.equal('EEE');\n});\n\nit('Should return \"bb\" for \"bb\"', () => {\n  expect(repeatString('bb')).to.be.equal('bb');\n});\n\nit('Should return \"aa\" for \"a\"', () => {\n  expect(repeatString('a')).to.be.equal('aa');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

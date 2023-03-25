@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f93",
+  "name": {
+    "ru": "Посчитай оплату за товары с учетом скидки",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `calculateTotalPriceWithDiscount`, которая принимает три параметра:\n* объект `product1` с информацией о первом товаре\n* объект `product2` с информацией о втором товаре\n* число `discount` - скидка в долларах, положительное число.\n\nВ объекте `product1` хранится информация о товаре:\n* `price` - цена товара, число.\n* `quantity` - количество товара, целое число.\n\nВ объекте `product2` хранится информация о товаре:\n* `price` - цена товара, число.\n* `quantity` - количество товара, целое число.\n\nЕсли скидка больше или равна сумме стоимости товаров, то функция должна вернуть строку `Total price with discount is 0 dollars`.\n\nФункция должна вернуть строку `Total price with discount is <totalPrice> dollars`, где `<totalPrice>` - сумма стоимости товаров с учетом скидки.\n\nПример запуска функции:\n```javascript\ncalculateTotalPriceWithDiscount({ price: 100, quantity: 2 }, { price: 200, quantity: 5 }, 10)\n// 'Total price with discount is 1190 dollars\n```\nПохожий пример:\n```javascript\ncalculatePriceWithDiscount({ price: 45, quantity: 2 }, 12)\n// 'Total price with discount is 78 dollars'\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function calculateTotalPriceWithDiscount(product1, product2, discount) {\n  const totalPrice =\n    product1.price * product1.quantity + product2.price * product2.quantity;\n  if (discount >= totalPrice) {\n    return 'Total price with discount is 0 dollars';\n  }\n  const discountedPrice = totalPrice - discount;\n  return 'Total price with discount is ' + discountedPrice + ' dollars';\n}",
+  "openTest": "it('Created function calculateTotalPriceWithDiscount', () => {\n  expect(calculateTotalPriceWithDiscount).to.be.a('function');\n});\n\nit('calculateTotalPriceWithDiscount should return string', () => {\n  expect(\n    calculateTotalPriceWithDiscount(\n      { price: 100, quantity: 2 },\n      { price: 200, quantity: 5 },\n      10,\n    ),\n  ).to.be.a('string');\n});\n\nit('calculateTotalPriceWithDiscount should return correct value', () => {\n  expect(\n    calculateTotalPriceWithDiscount(\n      { price: 3, quantity: 12 },\n      { price: 8, quantity: 5 },\n      8,\n    ),\n  ).to.equal('Total price with discount is 68 dollars');\n});\n\nit('calculateTotalPriceWithDiscount should return correct value', () => {\n  expect(\n    calculateTotalPriceWithDiscount(\n      { price: 99, quantity: 3 },\n      { price: 12, quantity: 9 },\n      15,\n    ),\n  ).to.equal('Total price with discount is 390 dollars');\n});\n\nit('calculateTotalPriceWithDiscount should return correct value', () => {\n  expect(\n    calculateTotalPriceWithDiscount(\n      { price: 23, quantity: 7 },\n      { price: 5, quantity: 6 },\n      200,\n    ),\n  ).to.equal('Total price with discount is 0 dollars');\n});\n\nit('calculateTotalPriceWithDiscount should return correct value', () => {\n  expect(\n    calculateTotalPriceWithDiscount(\n      { price: 10, quantity: 2 },\n      { price: 3, quantity: 5 },\n      35,\n    ),\n  ).to.equal('Total price with discount is 0 dollars');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

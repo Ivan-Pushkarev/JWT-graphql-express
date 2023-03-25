@@ -1,0 +1,13 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e5667d",
+  "content": {
+    "ru": "Чтобы определить тип данных программно, используют оператор `typeof`.\n\nПишем `typeof` перед данными, тип которых хотим узнать.\n\nВ консоль будет выведен только тип данных в виде строки.\n\n```javascript\nconsole.log(typeof 5) // в консоль будет выведено number\n\nconsole.log(typeof 'Hello') // в консоль будет выведено string\n\nconsole.log(typeof '3 + 3') // в консоль будет выведено string, так как математическое выражение взято в кавычки и это строка\n```\n\nСуществует 8 типов данных, на данный момент мы с вами знаем 2 из них: `string` и `number`. Остальные типы будем изучать позже.\n",
+    "en": "To define a data type programmatically, the `typeof` operator is used.\n\nWrite `typeof` before the data whose type we want to know.\n\nThe console will display only the data type as a string.\n\n```javascript\nconsole.log(typeof 5) // the console will display number\n\nconsole.log(typeof 'Hello') // string will be output\n\nconsole.log(typeof '3 + 3') // string will be printed to the console, since the mathematical expression is enclosed in quotes and is a string\n```\n\nThere are 8 data types, at this point you and I know 2 of them: `string` and `number`. We will study the other types later.\n",
+    "es": "# Определение типа данных language: es"
+  },
+  "video": {
+    "ru": "https://youtu.be/R7EJ3KIk2BU",
+    "en": "",
+    "es": ""
+  }
+}

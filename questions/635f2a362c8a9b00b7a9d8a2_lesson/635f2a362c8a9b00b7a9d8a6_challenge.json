@@ -1,0 +1,23 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8a6",
+  "name": {
+    "ru": "Найдите ошибку в функции `hello`. Вариант 2",
+    "en": "Find an error in the function `hello`. Option 2",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Найдите ошибку и исправьте её.",
+    "en": "Find the error and correct it.",
+    "es": ""
+  },
+  "initialSolution": "function hello {}",
+  "completedSolution": "function hello() {}",
+  "openTest": "it('Created function sum', () => {\n  expect(hello).to.be.a('function');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

@@ -1,0 +1,4 @@
+{
+  "name": "Console PASV",
+  "instruction": "Write a command that outputs the word `'PASV'` to the console."
+}

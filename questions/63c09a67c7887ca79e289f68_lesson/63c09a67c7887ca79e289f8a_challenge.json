@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f8a",
+  "name": {
+    "ru": "Тройная вложенность объектов",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `tripleNestedObject`, которая принимает один параметр: `param`. Параметр - любое значение.\n\nПример поможет понять что нужно сделать:\n\n```javascript\ntripleNestedObject(5); // { first: { second: { third: { param: 5 } } } }\ntripleNestedObject('hello'); // { first: { second: { third: { param: 'hello' } } } }\n```\n\nФункция должна возвращать объект, в котором есть три вложенных свойства `first`, `second`, `third`. Каждое из этих свойств должно быть объектом.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function tripleNestedObject(param) {\n  return {\n    first: {\n      second: {\n        third: {\n          param,\n        },\n      },\n    },\n  };\n}",
+  "openTest": "it('Created function tripleNestedObject', () => {\n  expect(tripleNestedObject).to.be.a('function');\n});\n\nit('tripleNestedObject(5) return { first: { second: { third: { param: 5 } } } }', () => {\n  expect(tripleNestedObject(5)).eql({ first: { second: { third: { param: 5 } } } });\n});\n\nit('tripleNestedObject(\"hello\") return { first: { second: { third: { param: \"hello\" } } } }', () => {\n  expect(tripleNestedObject('hello')).eql({\n    first: { second: { third: { param: 'hello' } } },\n  });\n});\n\nit('tripleNestedObject(true) return { first: { second: { third: { param: true } } } }', () => {\n  expect(tripleNestedObject(true)).eql({ first: { second: { third: { param: true } } } });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

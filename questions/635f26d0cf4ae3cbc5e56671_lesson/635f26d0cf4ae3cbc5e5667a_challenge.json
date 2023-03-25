@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e5667a",
+  "name": {
+    "ru": "Выведите в консоль выражение 121 ** 0.5",
+    "en": "Output the expression 121 ** 0.5 to the console",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Только одна строка. Соблюдайте пробелы и знаки пунктуации. В конце точка с запятой.\n```javascript\nconsole.log(121 ** 0.5);\n```\n\nИзвлечение квадратного корня из числа.",
+    "en": "Only one line. Observe spaces and punctuation marks. A semicolon at the end.\n``javascript\nconsole.log(121 ** 0.5);\n```\n\nExtract the square root of a number.",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log(121 ** 0.5);",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

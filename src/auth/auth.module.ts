@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { AuthResolver } from './auth.resolver';
 import { MongooseModule } from '@nestjs/mongoose';
-import { User, UserSchema } from '../user/user.schema';
-import { Token, TokenSchema } from './schemas/token.schema';
+import { User, UserSchema } from '../user/user.entity';
+import { Token, TokenSchema } from './schemas/token.entity';
 import { TokenService } from './services/token.service';
 import { JwtStrategy } from './passportStartegies/jwt.strategy';
 import { UserService } from '../user/user.service';

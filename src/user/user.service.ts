@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { User, UserDocument } from './user.schema';
+import { User, UserDocument } from './user.entity';
 import { Model } from 'mongoose';
 
 @Injectable()
@@ -13,9 +13,10 @@ export class UserService {
     id: string,
     fieldName: string,
   ): Promise<UserDocument | unknown> {
-    return this.userModel.find({ [fieldName]: id });
+    return this.userModel.findOne({ [fieldName]: id });
   }
   async create(args: User): Promise<UserDocument> {
+    console.log('args', args);
     return this.userModel.create(args);
   }
 }

@@ -1,0 +1,1 @@
+# Checking for an element in the language: ru array

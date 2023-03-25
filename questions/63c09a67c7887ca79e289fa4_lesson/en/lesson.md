@@ -1,0 +1,1 @@
+# Deleting the properties of the object language: ru

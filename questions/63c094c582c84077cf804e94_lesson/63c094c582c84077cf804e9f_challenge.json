@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e9f",
+  "name": {
+    "ru": "Проверить, что в конце строки есть точка",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `isSentenceClosed`, которая принимает строку и возвращает `true`, если строка заканчивается на точку, восклицательный знак или вопросительный знак.\n\nНе учитывайте пробелы в начале и конце строки.\n\nПримеры:\n```javascript\nisSentenceClosed(' Hello. How are you?   '); // true\nisSentenceClosed('Hello! How are you     '); // false\nisSentenceClosed('  Hello. Ok!   '); // true\nisSentenceClosed('Hello? Ok,   '); // false\nisSentenceClosed(' Hello. Ok  '); // false\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "// use trimn and lastIndexOf\nfunction isSentenceClosed(str) {\n  const s = str.trim();\n  return (\n    s.lastIndexOf('.') === s.length - 1 ||\n    s.lastIndexOf('!') === s.length - 1 ||\n    s.lastIndexOf('?') === s.length - 1\n  );\n}",
+  "openTest": "it('Created function isSentenceClosed', () => {\n  expect(isSentenceClosed).to.be.a('function');\n});\n\nit('isSentenceClosed(\" Hello. How are you?   \") should return true', () => {\n  expect(isSentenceClosed(' Hello. How are you?   ')).to.be.true;\n});\n\nit('isSentenceClosed(\"Hello! How are you     \") should return false', () => {\n  expect(isSentenceClosed('Hello! How are you     ')).to.be.false;\n});\n\nit('isSentenceClosed(\"  Hello. Ok!   \") should return true', () => {\n  expect(isSentenceClosed('  Hello. Ok!   ')).to.be.true;\n});\n\nit('isSentenceClosed(\"Hello? Ok,   \") should return false', () => {\n  expect(isSentenceClosed('Hello? Ok,   ')).to.be.false;\n});\n\nit('isSentenceClosed(\" Hello. Ok  \") should return false', () => {\n  expect(isSentenceClosed(' Hello. Ok  ')).to.be.false;\n});\n\nit('isSentenceClosed(\" Hello. Ok.  \") should return true', () => {\n  expect(isSentenceClosed(' Hello. Ok.  ')).to.be.true;\n});\n\nit('isSentenceClosed(\" Hello. Ok!  \") should return true', () => {\n  expect(isSentenceClosed(' Hello. Ok!  ')).to.be.true;\n});\n\nit('isSentenceClosed(\" Hello. Ok?  \") should return true', () => {\n  expect(isSentenceClosed(' Hello. Ok?  ')).to.be.true;\n});\n\nit('isSentenceClosed(\" Hello. Ok.  \") should return true', () => {\n  expect(isSentenceClosed(' Hello. Ok.  ')).to.be.true;\n});\n\nit('isSentenceClosed(\" Hello. Ok!  \") should return true', () => {\n  expect(isSentenceClosed(' Hello. Ok!  ')).to.be.true;\n});\n\nit('isSentenceClosed(\" Hello. Ok  \") should return false', () => {\n  expect(isSentenceClosed(' Hello. Ok  ')).to.be.false;\n});\n\nit('isSentenceClosed(\" Hello. Ok,  \") should return false', () => {\n  expect(isSentenceClosed(' Hello. Ok,  ')).to.be.false;\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

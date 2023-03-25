@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e56679",
+  "name": {
+    "ru": "Выведите в консоль выражение 3 + 1 * 2 * 5",
+    "en": "Output the expression 3 + 1 * 2 * 5 to the console",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Только одна строка. Соблюдайте пробелы и знаки пунктуации. В конце точка с запятой.\n```javascript\nconsole.log(3 + 1 * 2 * 5);\n```\n\nСначала выполняется умножение, потом сложение.",
+    "en": "Only one line. Observe spaces and punctuation marks. A semicolon at the end.\n```javascript\nconsole.log(3 + 1 * 2 * 5);\n```\n\nFirst the multiplication is done, then the addition.",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log(3 + 1 * 2 * 5);",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

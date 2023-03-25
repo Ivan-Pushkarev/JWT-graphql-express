@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e66",
+  "name": {
+    "ru": "Функция возвращает первый символ строки",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `firstSymbol`, которая принимает строку и возвращает первый символ этой строки.\n\nПримеры запуска функции:\n```javascript\nfirstSymbol('abc'); // 'a'\nfirstSymbol('JS'); // 'J'\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function firstSymbol(str) {\n  return str[0];\n}",
+  "openTest": "it('Created function firstSymbol', () => {\n  expect(firstSymbol).to.be.a('function');\n});\n\nit('firstSymbol(\"abc\") should return \"a\"', () => {\n  expect(firstSymbol('abc')).to.equal('a');\n});\n\nit('firstSymbol(\"JS\") should return \"J\"', () => {\n  expect(firstSymbol('JS')).to.equal('J');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

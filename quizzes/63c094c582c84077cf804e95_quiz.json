@@ -1,0 +1,523 @@
+{
+  "_id": "63c094c582c84077cf804e95",
+  "name": {
+    "ru": "Поиск индекса. Методы indexOf, lastIndexOf",
+    "en": "",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63c094c582c84077cf804fd8",
+      "name": {
+        "ru": "Метод indexOf()",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fd9",
+          "name": {
+            "ru": "Ищет индекс элемента с указанным значением с начала строки",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fda",
+          "name": {
+            "ru": "Ищет элемент с указанным значением с конца строки",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fdc",
+          "name": {
+            "ru": "Всегда возвращает -1",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fdd",
+      "name": {
+        "ru": "Метод lastIndexOf()",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fde",
+          "name": {
+            "ru": "Ищет элемент с указанным значением с начала строки",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fdf",
+          "name": {
+            "ru": "Ищет элемент с указанным значением с конца строки",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fe0",
+          "name": {
+            "ru": "Произвольно ищет элемент",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fe1",
+          "name": {
+            "ru": "Всегда возвращает -1",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fe2",
+      "name": {
+        "ru": "Если элемент не был найден, то методы indexOf() и lastIndexOf():",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fe3",
+          "name": {
+            "ru": "Возвращают ошибку",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fe4",
+          "name": {
+            "ru": "Возвращают -1",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fe5",
+          "name": {
+            "ru": "Возвращают 0",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fe6",
+          "name": {
+            "ru": "Возвращают такую же строку",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fe7",
+      "name": {
+        "ru": "Первый аргумент методов indexOf() и lastIndexOf() это:",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fe8",
+          "name": {
+            "ru": "Индекс массива или строки",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fe9",
+          "name": {
+            "ru": "Количество повторений",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fea",
+          "name": {
+            "ru": "Аргумент, который определяет метод перебора",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804feb",
+          "name": {
+            "ru": "Искомое значение",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fec",
+      "name": {
+        "ru": "Второй аргумент методов indexOf() и lastIndexOf() это:",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fed",
+          "name": {
+            "ru": "Индекс строки с которого начинается поиск",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fee",
+          "name": {
+            "ru": "Искомое значение",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fef",
+          "name": {
+            "ru": "Количество повторений",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ff0",
+          "name": {
+            "ru": "Разделитель элементов",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ff1",
+      "name": {
+        "ru": "Если не указать второй аргумент в методах indexOf() и lastIndexOf(), то:",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ff2",
+          "name": {
+            "ru": "Вернет ошибку",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ff3",
+          "name": {
+            "ru": "Методы некорректно вернут ответ",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ff4",
+          "name": {
+            "ru": "Второй аргумент является необязательным. он определяет индекс массива, с которого следует начинать поиск",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ff5",
+          "name": {
+            "ru": "Методы вернут -1",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ff6",
+      "name": {
+        "ru": "const message = 'Welcome'; console.log(message.indexOf('W')); Какой будет результат?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ff7",
+          "name": {
+            "ru": "0",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ff8",
+          "name": {
+            "ru": "1",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ff9",
+          "name": {
+            "ru": "2",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ffa",
+          "name": {
+            "ru": "7",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ffb",
+      "name": {
+        "ru": "const message = 'Welcome'; console.log(message.indexOf('m')); Какой будет результат?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ffc",
+          "name": {
+            "ru": "7",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ffd",
+          "name": {
+            "ru": "5",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ffe",
+          "name": {
+            "ru": "0",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fff",
+          "name": {
+            "ru": "13",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf805000",
+      "name": {
+        "ru": "const message = 'Welcome'; console.log(message.lastIndexOf(-1)); Какой будет результат?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf805001",
+          "name": {
+            "ru": "e",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf805002",
+          "name": {
+            "ru": "Ошибка",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf805003",
+          "name": {
+            "ru": "l",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf805004",
+          "name": {
+            "ru": "-1",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf805005",
+      "name": {
+        "ru": "Выберите правильное утверждение:",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf805006",
+          "name": {
+            "ru": "Чем длиннее строка, тем дольше метод будет работать",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf805007",
+          "name": {
+            "ru": "Чем короче строка, тем дольше метод будет работать",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf805008",
+          "name": {
+            "ru": "Скорость метода не зависит от размера строки",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf805009",
+          "name": {
+            "ru": "Метод не работает для строк",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8e7",
+  "name": {
+    "ru": "Определить четное-нечетное число",
+    "en": "Determine an odd-even number",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `oddEven`, которая принимает 1 параметр `num` .\n\nВозвращает 1 если число нечетное и 0 если четное.\n\nИспользуйте оператор `%` для определения четности числа.\n\nПримеры:\n```javascript\noddEven(1) // 1\noddEven(2) // 0\noddEven(3) // 1\noddEven(4) // 0\noddEven(5) // 1\noddEven(6) // 0\noddEven(7) // 1\n```",
+    "en": "Write a function `oddEven` that takes 1 parameter `num` .\n\nIt returns 1 if the number is odd and 0 if it is even.\n\nUse the `%` operator to determine whether a number is even.\n\nExamples:\n```javascript\noddEven(1) // 1\noddEven(2) // 0\noddEven(3) // 1\noddEven(4) // 0\noddEven(5) // 1\noddEven(6) // 0\noddEven(7) // 1\n```",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function oddEven(n) {\n  return n % 2;\n}",
+  "openTest": "it('Created function oddEven', () => {\n  expect(oddEven).to.be.a('function');\n});\n\nit('Function returns correct result for argument `1`', () => {\n  expect(oddEven(1)).to.equal(1);\n});\n\nit('Function returns correct result for argument `2`', () => {\n  expect(oddEven(2)).to.equal(0);\n});\n\nit('Function returns correct result for argument `3`', () => {\n  expect(oddEven(3)).to.equal(1);\n});\n\nit('Function returns correct result for argument `4`', () => {\n  expect(oddEven(4)).to.equal(0);\n});\n\nit('Function returns correct result for argument `5`', () => {\n  expect(oddEven(5)).to.equal(1);\n});\n\nit('Function returns correct result for argument `6`', () => {\n  expect(oddEven(6)).to.equal(0);\n});\n\nit('Function returns correct result for argument `7`', () => {\n  expect(oddEven(7)).to.equal(1);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

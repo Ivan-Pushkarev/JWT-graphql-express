@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f8b",
+  "name": {
+    "ru": "Объект автомобиля",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `carCreate`, которая принимает четыре параметра:\n\n* `brand` - строка, название марки автомобиля\n* `model` - строка, название модели автомобиля\n* `year` - число, год выпуска автомобиля\n* `color` - строка, цвет автомобиля\n\nФункция должна возвращать объект со свойствами:\n* `brand` - название марки автомобиля. Удалите пробелы в начале и в конце строки.\n* `model` - название модели автомобиля. Удалите пробелы в начале и в конце строки.\n* `year` - год выпуска автомобиля\n* `color` - цвет автомобиля. Удалите пробелы в начале и в конце строки, а также приведите к нижнему регистру.\n* `code` - строка, состоящая из первых букв марки, модели, года и цвета автомобиля. Буквы должны быть в верхнем регистре.\n\nПримеры запуска функции:\n```javascript\ncarCreate(' Toyota   ', ' Camry  ', 2010, '  BLACK '); // { brand: 'Toyota', model: 'Camry', year: 2010, color: 'black', code: 'TC2010B' }\ncarCreate('   Nissan ', ' Almera ', 2015, ' White   '); // { brand: 'Nissan', model: 'Almera', year: 2015, color: 'white', code: 'NA2015W' }\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function carCreate(brand, model, year, color) {\n  const b = brand.trim();\n  const m = model.trim();\n  const c = color.trim().toLowerCase();\n\n  return {\n    brand: b,\n    model: m,\n    year,\n    color: c,\n    code: (b[0] + m[0] + year + c[0]).toUpperCase(),\n  };\n}",
+  "openTest": "it('Created function carCreate', () => {\n  expect(carCreate).to.be.a('function');\n});\n\nit('carCreate(\" Toyota   \", \" Camry  \", 2010, \"  BLACK \") return { brand: \"Toyota\", model: \"Camry\", year: 2010, color: \"black\", code: \"TC2010B\" }', () => {\n  expect(carCreate(' Toyota   ', ' Camry  ', 2010, '  BLACK ')).eql({\n    brand: 'Toyota',\n    model: 'Camry',\n    year: 2010,\n    color: 'black',\n    code: 'TC2010B',\n  });\n});\n\nit('carCreate(\"   Nissan \", \" Almera \", 2015, \" White   \") return { brand: \"Nissan\", model: \"Almera\", year: 2015, color: \"white\", code: \"NA2015W\" }', () => {\n  expect(carCreate('   Nissan ', ' Almera ', 2015, ' White   ')).eql({\n    brand: 'Nissan',\n    model: 'Almera',\n    year: 2015,\n    color: 'white',\n    code: 'NA2015W',\n  });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e56670",
+  "name": {
+    "ru": "Выведите в консоль (5 + 7) * 2",
+    "en": "Output to the console (5 + 7) * 2",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите команду `console.log((5 + 7) * 2);`",
+    "en": "Write the command `console.log((5 + 7) * 2);`",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log((5 + 7) * 2);",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "635c05ba659f6d77abf1f517",
+  "name": {
+    "ru": "Hello JS",
+    "en": "\"I am studying JS programming\"",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Выведите в консоль фразу `Hello JS`.",
+    "en": "Output to the console the phrase \"I am studying JS programming\".\nTo do this, type the command:\n```\nconsole.log('I am studying JS programming');\n```",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log('Hello JS');",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

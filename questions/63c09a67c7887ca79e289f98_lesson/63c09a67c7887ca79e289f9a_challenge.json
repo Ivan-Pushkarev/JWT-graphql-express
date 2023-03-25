@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f9a",
+  "name": {
+    "ru": "Добавьте свойство в объект",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `addProperty`, которая принимает три параметра:\n* `obj` - объект\n* `key` - ключ\n* `value` - значение\n\nФункция должна добавить в объект новое свойство с ключом `key` и значением `value`.\n\nФункция должна вернуть обновленный объект.\n\nПример запуска функции:\n```javascript\naddProperty({ name: \"Mike\" }, \"age\", 45);      // { name: \"Mike\", age: 45 }\naddProperty({ car: \"BMW\" }, \"year\", 2020);     // { car: \"BMW\", year: 2020 }\n```\n\nАналогичный пример:\n```javascript\nfunction addField(car, fieldKey, fieldValue) {\n  car[fieldKey] = fieldValue;\n  return car;\n}\n\nconsole.log(addField({ car: \"BMW\" }, \"year\", 2020)); // { car: \"BMW\", year: 2020 }\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function addProperty(obj, key, value) {\n  // obj { name: 'Mike' }, key 'age', value 45\n  obj[key] = value;\n  return obj;\n}",
+  "openTest": "it('Created function addProperty', () => {\n  expect(addProperty).to.be.a('function');\n});\n\nit('Check if function addProperty returns object', () => {\n  expect(addProperty({ name: 'Mike' }, 'age', 45)).to.be.a('object');\n});\n\nit('addProperty({ name: \"John\" }, \"age\", 30) return { name: \"John\", age: 30 }', () => {\n    expect(addProperty({ name: 'John' }, 'age', 30)).to.eql({ name: 'John', age: 30 });\n});\n\nit('addProperty({ car: \"Ford\" }, \"color\", \"blue\") return { car: \"Ford\", \"color\": \"blue\" }', () => {\n    expect(addProperty({ car: 'Ford' }, 'color', 'blue')).to.eql({ car: 'Ford', color: 'blue' });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

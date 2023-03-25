@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e6f",
+  "name": {
+    "ru": "Это две гласные?",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "В английском языке есть 5 гласных букв: `a`, `e`, `i`, `o`, `u`.\n\nНапишите функцию `isVowel`, которая принимает строку из двух букв нижнего регистра и возвращает `true`, если строка содержит только гласные буквы, и `false` в противном случае.\n\nПримеры запуска функции:\n```javascript\nisVowel('aa'); // true\nisVowel('ae'); // true\nisVowel('ai'); // true\nisVowel('oa'); // true\nisVowel('uu'); // true\nisVowel('ab'); // false\nisVowel('ba'); // false\nisVowel('ac'); // false\nisVowel('ca'); // false\n```\n\nСравнивайте каждый символ строки с каждой гласной буквой. Вам пригодятся операторы сравнения и логические операторы.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function isVowel(str) {\n  const vowels = ['a', 'e', 'i', 'o', 'u'];\n  return vowels.includes(str[0]) && vowels.includes(str[1]);\n}",
+  "openTest": "it('Created function isVowel', () => {\n  expect(isVowel).to.be.a('function');\n});\n\nit('isVowel(\"aa\") should return true', () => {\n  expect(isVowel('aa')).to.equal(true);\n});\n\nit('isVowel(\"ae\") should return true', () => {\n  expect(isVowel('ae')).to.equal(true);\n});\n\nit('isVowel(\"ai\") should return true', () => {\n  expect(isVowel('ai')).to.equal(true);\n});\n\nit('isVowel(\"oa\") should return true', () => {\n  expect(isVowel('oa')).to.equal(true);\n});\n\nit('isVowel(\"uu\") should return true', () => {\n  expect(isVowel('uu')).to.equal(true);\n});\n\nit('isVowel(\"ab\") should return false', () => {\n  expect(isVowel('ab')).to.equal(false);\n});\n\nit('isVowel(\"ba\") should return false', () => {\n  expect(isVowel('ba')).to.equal(false);\n});\n\nit('isVowel(\"ac\") should return false', () => {\n  expect(isVowel('ac')).to.equal(false);\n});\n\nit('isVowel(\"ca\") should return false', () => {\n  expect(isVowel('ca')).to.equal(false);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

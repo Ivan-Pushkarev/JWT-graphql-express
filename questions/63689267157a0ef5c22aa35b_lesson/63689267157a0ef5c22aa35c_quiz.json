@@ -1,0 +1,496 @@
+{
+  "_id": "63689267157a0ef5c22aa35c",
+  "name": {
+    "ru": "Логическое ИЛИ и И. Операторы ||, &&",
+    "en": "",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63689267157a0ef5c22aa479",
+      "name": {
+        "ru": "Что вернет сравнение 1 > 1 || 2 === 2?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa47a",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa47b",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa47e",
+      "name": {
+        "ru": "Что вернет сравнение 1 === 1 && 2 > 2?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa47f",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa480",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa483",
+      "name": {
+        "ru": "Что вернет сравнение 1 <= 1 && 2 >= 2?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa484",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa485",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa488",
+      "name": {
+        "ru": "Что вернет сравнение `1 > 1 || 2 < 2 || 2` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa489",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa48a",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa48b",
+          "name": {
+            "ru": "2",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa48c",
+          "name": {
+            "ru": "1",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa48d",
+      "name": {
+        "ru": "Что вернет выражение `!(1 && 0 && 3)` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa48e",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa48f",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa490",
+          "name": {
+            "ru": "0",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa491",
+          "name": {
+            "ru": "3",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa492",
+      "name": {
+        "ru": "Что вернет выражение `!!(1 || 0 || 3)` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa493",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa494",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa495",
+          "name": {
+            "ru": "0",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa496",
+          "name": {
+            "ru": "3",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa497",
+      "name": {
+        "ru": "Что вернет выражение `(1 && 0 && 3) > 2` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa498",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa499",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa49a",
+          "name": {
+            "ru": "0",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa49b",
+          "name": {
+            "ru": "2",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa49c",
+      "name": {
+        "ru": "Что вернет выражение `(1 || 0 || 5) > (2 && 4)` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa49d",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa49e",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa49f",
+          "name": {
+            "ru": "5",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa4a0",
+          "name": {
+            "ru": "4",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa4a1",
+      "name": {
+        "ru": "Что вернет выражение `1 && 0 && 3` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa4a2",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa4a3",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa4a4",
+          "name": {
+            "ru": "1",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa4a5",
+          "name": {
+            "ru": "0",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa4a6",
+          "name": {
+            "ru": "3",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63689267157a0ef5c22aa4a6",
+      "name": {
+        "ru": "Что вернет выражение `1 || 0 || 3` ?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63689267157a0ef5c22aa4a7",
+          "name": {
+            "ru": "true",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa4a8",
+          "name": {
+            "ru": "false",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa4a9",
+          "name": {
+            "ru": "1",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63689267157a0ef5c22aa4aa",
+          "name": {
+            "ru": "0",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63689267157a0ef5c22aa5aa",
+          "name": {
+            "ru": "3",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

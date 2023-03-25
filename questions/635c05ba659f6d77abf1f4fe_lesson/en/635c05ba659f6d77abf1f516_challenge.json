@@ -1,0 +1,4 @@
+{
+  "name": "The first \"Hello world\" program",
+  "instruction": "Output the phrase \"Hello world\" to the console.\n\nTo do this, type the command:\n```\nconsole.log('Hello world');\n```\nAfter that press the `Validate solution` button.\n\nIf error messages appear in the window to the right, correct them.\n\nIf the green mark `passed` appears in the window on the right, it means that you have done everything correctly.\n\nThen press the `Submit` button.\n\nThe task is considered completed (a green marking `Completed` will appear next to the task name)."
+}

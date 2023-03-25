@@ -1,0 +1,13 @@
+{
+  "_id": "63c09a67c7887ca79e289f74",
+  "content": {
+    "ru": "Каждое свойство имеет ключ и значение, и можно получить доступ к этим значениям, используя ключ свойства.\n\nДля доступа к свойствам объекта в JavaScript используется синтаксис точки или квадратных скобок. Давайте рассмотрим оба варианта более подробно.\n\n### Синтаксис точки\n\nСинтаксис точки используется для доступа к свойствам объекта, если имя свойства известно заранее. Он выглядит следующим образом:\n\n```javascript\nobjectName.propertyName\n```\n\nГде `objectName` - имя объекта, а `propertyName` - имя свойства.\n\nНапример, у нас есть объект `person`:\n\n```javascript\nlet person = {\n  name: 'John',\n  age: 30,\n  city: 'New York'\n};\n```\n\nМы можем получить доступ к свойствам объекта `person`, используя синтаксис точки:\n\n```javascript\nconsole.log(person.name); // 'John'\nconsole.log(person.age); // 30\nconsole.log(person.city); // 'New York'\n```\n\n### Синтаксис квадратных скобок\n\nСинтаксис квадратных скобок используется для доступа к свойствам объекта, если имя свойства неизвестно заранее или если имя свойства содержит пробелы или другие специальные символы. Он выглядит следующим образом:\n\n```javascript\nobjectName['propertyName']\n```\n\nГде `objectName` - имя объекта, а `propertyName` - имя свойства.\n\nНапример, мы можем получить доступ к свойству `city` объекта `person`, используя синтаксис квадратных скобок:\n\n```javascript\nconsole.log(person['city']); // 'New York'\n```\n\nМы также можем использовать переменную вместо имени свойства:\n\n```javascript\nlet propName = 'age';\n\nconsole.log(person[propName]); // 30\n```\n\nОбратите внимание, что имя свойства в квадратных скобках должно быть заключено в кавычки (двойные или одинарные).\n\nНапишем функцию `compareAges`, которая принимает два объекта `person1` и `person2`, которые имеют свойство `age`, и возвращает сообщение о том, кто старше.\n\n```javascript\nfunction compareAges(person1, person2) {\n  if (person1.age > person2.age) {\n    return person1.name + 'is older than' + person2.name;\n  } else if (person1.age < person2.age) {\n    return person2.name + 'is older than' + person1.name;\n  } else {\n    return 'these people are the same age';\n  }\n}\n\nlet person1 = { name: 'John', age: 30 };\nlet person2 = { name: 'Jane', age: 25 };\n\nlet result = compareAges(person1, person2);\nconsole.log(result); // 'John older than Jane',\n                     // потому что возраст John больше возраста Jane\n```\n",
+    "en": "# Доступ к свойствам объекта language: en",
+    "es": "# Доступ к свойствам объекта language: es"
+  },
+  "video": {
+    "ru": "https://youtu.be/ONIf9dz66tA",
+    "en": "",
+    "es": ""
+  }
+}

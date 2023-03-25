@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f76",
+  "name": {
+    "ru": "Сумма из объекта",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Создайте функцию `sumFromObject`, которая принимает объект с двумя свойствами `a` и `b`.\n\nПример объекта, который будет передан в функцию:\n```javascript\n{\n  a: 10,\n  b: 20\n}\n```\n\nФункция должна вернуть сумму свойств `a` и `b` объекта.\n\nПример запуска функции:\n```javascript\nsumFromObject({a: 10,  b: 20}) // 30\n```\n\n\nПохожий пример:\n```javascript\nfunction multi(obj) {\n  return obj.a * obj.b;\n}\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function sumFromObject(obj) {\n  return obj.a + obj.b;\n}",
+  "openTest": "it('Created function sumFromObject', () => {\n  expect(sumFromObject).to.be.a('function');\n});\n\nit('sumFromObject({a: 10,  b: 20}) should return 30', () => {\n  expect(sumFromObject({ a: 10, b: 20 })).to.equal(30);\n});\n\nit('sumFromObject({a: 1,  b: 2}) should return 3', () => {\n  expect(sumFromObject({ a: 1, b: 2 })).to.equal(3);\n});\n\nit('sumFromObject({a: 0,  b: 0}) should return 0', () => {\n  expect(sumFromObject({ a: 0, b: 0 })).to.equal(0);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

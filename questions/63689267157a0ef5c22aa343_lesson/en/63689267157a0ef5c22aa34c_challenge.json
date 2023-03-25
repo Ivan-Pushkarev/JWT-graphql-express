@@ -1,0 +1,4 @@
+{
+  "name": "Determine that this is a string",
+  "instruction": "Write a function `isString` that takes a string and returns a string:\n* `String` if it's a string\n* `Empty string` if it's an empty string\n* `Not a string` if it's not a string\n\nCheck for an empty string:\n```javascript\nconst str = '';\nif (str === '') {\n  console.log('This is an empty string');\n}\n```"
+}

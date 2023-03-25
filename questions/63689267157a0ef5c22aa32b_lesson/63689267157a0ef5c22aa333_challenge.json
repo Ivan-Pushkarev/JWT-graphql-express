@@ -1,0 +1,23 @@
+{
+  "_id": "63689267157a0ef5c22aa333",
+  "name": {
+    "ru": "Хватит ли бензина чтобы доехать до заправки",
+    "en": "Will there be enough gas to get to the gas station?",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `isEnoughFuel`, которая принимает три параметра:\n\n* `distance` – расстояние до заправки,\n* `fuel` – количество бензина в баке, галоны,\n* `mpg` – (miles per gallon) – сколько миль проедет машина на одном галлоне бензина. Опциональный параметр, по умолчанию равен `25`.\n\nФункция должна вернуть `true`, если машина сможет доехать до заправки, и `false` если нет.\n\nПохожая задача:\n```javascript\nfunction isEnoughMoney(money, price, count) {\n  return money >= price * count;\n}\n```",
+    "en": "Write a function `isEnoughFuel` that takes three parameters:\n\n* `distance` - distance to the filling station,\n* `fuel` - amount of gasoline in the tank, gallons,\n* `mpg` - (miles per gallon) - how many miles the car will travel on one gallon of gasoline. Optional parameter, by default is `25`.\n\nThe function should return `true` if the car can reach the gas station, and `false` if not.\n\nA similar problem:\n```javascript\nfunction isEnoughMoney(money, price, count) {\n  return money >= price * count;\n}\n```",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function isEnoughFuel(distance, fuel, mpg = 25) {\n  return mpg * fuel >= distance;\n}",
+  "openTest": "it('Created function isEnoughFuel', () => {\n  expect(isEnoughFuel).to.be.a('function');\n});\n\nit('isEnoughFuel(100, 10) should return true', () => {\n  expect(isEnoughFuel(100, 10)).to.equal(true);\n});\n\nit('isEnoughFuel(100, 5) should return true', () => {\n  expect(isEnoughFuel(100, 5)).to.equal(true);\n});\n\nit('isEnoughFuel(100, 10, 50) should return true', () => {\n  expect(isEnoughFuel(100, 10, 50)).to.equal(true);\n});\n\nit('isEnoughFuel(100, 5, 50) should return true', () => {\n  expect(isEnoughFuel(100, 5, 50)).to.equal(true);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

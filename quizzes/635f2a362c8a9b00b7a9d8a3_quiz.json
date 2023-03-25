@@ -1,0 +1,379 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8a3",
+  "name": {
+    "ru": "Создание и вызов функции",
+    "en": "Creating and calling a function",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "635f2a362c8a9b00b7a9d8f6",
+      "name": {
+        "ru": "Ключевое слово, которое используется для создания функции",
+        "en": "The keyword that is used to create the function",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d8f7",
+          "name": {
+            "ru": "hello",
+            "en": "hello",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d8f8",
+          "name": {
+            "ru": "function",
+            "en": "function",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d8f9",
+          "name": {
+            "ru": "круглые скобки ()",
+            "en": "parentheses ()",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d8fa",
+          "name": {
+            "ru": "фигурные скобки {}",
+            "en": "curly brackets {}",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d8fb",
+      "name": {
+        "ru": "Имя функции должно быть уникальным в пределах программы",
+        "en": "The function name must be unique within the program",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d8fc",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d8fd",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d900",
+      "name": {
+        "ru": "() — скобки, в которых перечисляются параметры функции",
+        "en": "() - brackets, in which the function parameters are listed",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d901",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d902",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d905",
+      "name": {
+        "ru": "{} — фигурные скобки, обозначают границы тела функции",
+        "en": "{} - curly brackets, denote the boundaries of the function body",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d906",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d907",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d90a",
+      "name": {
+        "ru": "Использование ключевого слова function в объявлении функции называется",
+        "en": "The use of the function keyword in a function declaration is called",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d90b",
+          "name": {
+            "ru": "Декларация функции",
+            "en": "Declaration of Function",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d90c",
+          "name": {
+            "ru": "Функциональное выражение",
+            "en": "Functional expression",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d90d",
+          "name": {
+            "ru": "Никак не называется",
+            "en": "There is no name for it.",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d90f",
+      "name": {
+        "ru": "Функцию можно вызвать, указав ее имя. Регистр не важен",
+        "en": "The function can be called by specifying its name. The case is not important",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d910",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d911",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d914",
+      "name": {
+        "ru": "Имя функции должно отражать ее назначение",
+        "en": "The function name should reflect its purpose",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d915",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d916",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d919",
+      "name": {
+        "ru": "Функцию объявленную с помощью ключевого слова function можно вызвать до ее объявления",
+        "en": "A function declared with the function keyword can be called before it is declared",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d91a",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d91b",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d91e",
+      "name": {
+        "ru": "Имя функции можно начать с цифры",
+        "en": "The function name can start with a number",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d91f",
+          "name": {
+            "ru": "Да",
+            "en": "Yes",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d920",
+          "name": {
+            "ru": "Нет",
+            "en": "No",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "635f2a362c8a9b00b7a9d923",
+      "name": {
+        "ru": "В именах функций можно использовать пробелы",
+        "en": "You can use spaces in function names",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "635f2a362c8a9b00b7a9d924",
+          "name": {
+            "ru": "Да",
+            "en": "Yes",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "635f2a362c8a9b00b7a9d925",
+          "name": {
+            "ru": "Нет",
+            "en": "No",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

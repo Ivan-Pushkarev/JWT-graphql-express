@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289f97",
+  "name": {
+    "ru": "Посчитай сколько плиток нужно для покрытия комнаты.",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `calculateTiles`, которая принимает три параметра:\n* `room` - объект, описывающий комнату,\n* `tile` - объект, описывающий плитку,\n* `k` - коэффициент, который учитывает, что плитки нужно купить на k процентов больше.\n\nОбъект `room` имеет следующие свойства:\n* `width` - ширина комнаты, число в дюймах,\n* `height` - длина комнаты, число в дюймах.\n\nОбъект `tile` имеет следующие свойства:\n* `width` - ширина плитки, число в дюймах\n* `height` - длина плитки, число в дюймах,\n* `quantity` - количество плиток, число 0.\n\nФункция должна посчитать, сколько плиток нужно для покрытия комнаты с учетом коэффициента `k`.\n\nРезультат вычислений должен быть округлен в большую сторону.\n\nДля вычисления количества плиток используй формулу:\n`количество плиток = Math.ceil((площадь комнаты / площадь плитки) * (1 + k / 100))`.\n\nФункция должна вернуть объект `tile` с обновленным свойством `quantity`.\n\nПример запуска функции:\n```javascript\ncalculateTiles({width: 100, height: 200}, {width: 2, height: 3, quantity: 0}, 10)\n// {width: 2, height: 3, quantity: 3667}\n```\n\nПохожий пример:\n```javascript\ncalculatePaint({width: 25, height: 3}, {flowRate: 24, quantity: 0}, 15)\n// {flowRate: 24, quantity: 4}\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function calculateTiles(room, tile, k) {\n  // k = 10% - коэффициент, который учитывает, что плитки нужно купить на 10% больше\n  const roomArea = room.width * room.height;\n  const tileArea = tile.width * tile.height;\n  const tilesNeeded = Math.ceil((roomArea / tileArea) * (1 + k / 100))\n  tile.quantity = tilesNeeded;\n  return tile;\n}",
+  "openTest": "it('Created function calculateTiles', () => {\n  expect(calculateTiles).to.be.a('function');\n});\n\nit('calculateTiles should return object', () => {\n  expect(calculateTiles({width: 120, height: 78}, {width: 8, height: 13, quantity: 0}, 11)).to.be.a('object');\n});\n\nit('calculateTiles({width: 100, height: 200}, {width: 2, height: 3}, 10) should return {width: 2, height: 3, quantity: 3667}', () => {\n  expect(calculateTiles({width: 100, height: 200}, {width: 2, height: 3}, 10)).to.deep.equal({width: 2, height: 3, quantity: 3667});\n});\n\nit('calculateTiles({width: 345, height: 179}, {width: 4, height: 8}, 12) should return {width: 4, height: 8, quantity: 2162}', () => {\n  expect(calculateTiles({width: 345, height: 179}, {width: 4, height: 8}, 12)).to.deep.equal({width: 4, height: 8, quantity: 2162});\n});\n\nit('calculateTiles({width: 120, height: 78}, {width: 8, height: 13}, 11) should return {width: 8, height: 13, quantity: 11}', () => {\n  expect(calculateTiles({width: 120, height: 78}, {width: 8, height: 13}, 11)).to.deep.equal({width: 8, height: 13, quantity: 100});\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

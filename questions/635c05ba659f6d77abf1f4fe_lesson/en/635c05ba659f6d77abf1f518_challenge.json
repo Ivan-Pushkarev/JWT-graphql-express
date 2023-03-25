@@ -1,0 +1,4 @@
+{
+  "name": "Correct errors in the code. Watch for quotation marks",
+  "instruction": "You need to output to the console the phrase: \"Have a good day!\"\n\nMake sure the phrase is enclosed in quotation marks.\n\nCorrect the errors in the above code."
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "63c09b2fcf0eea67a07bcedb",
+  "name": {
+    "ru": "В результате слияния элементов массива, получить строку.",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напиши функцию `newString`, которая принимает один параметр - массив.\n\nМассив состоит из 3-х или больше строк.\n\nФункция должна вернуть сложение первых трёх элементов массива, `разделённых пробелом`.\n\n* Второй элемент массива должен быть повторён `3` раза.\n* Третий элемент массива должен быть повторён `4` раза.\n\nПример запуска функции:\n```javascript\nnewString(['1', '2', '3', '4']); // '1 222 3333'\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "function",
+  "completedSolution": "function newString(words) {\n  return words[0] + ' ' + words[1].repeat(3) + ' ' + words[2].repeat(4);\n}",
+  "openTest": "it('Created function newString', () => {\n  expect(newString).to.be.a('function');\n});\n\nit('Function phrase returns string', () => {\n    expect(newString(['1', '2', '3', '4'])).to.be.a('string');\n} );\n\nit('Function phrase returns correct result', () => {\n    expect(newString(['1', '2', '3', '4'])).to.be.equal('1 222 3333');\n} );\n\nit('Function phrase returns correct result', () => {\n    expect(newString(['a', 'b', 'c', 'd', 'f'])).to.be.equal('a bbb cccc');\n} );\n\nit('Function phrase returns correct result', () => {\n    expect(newString(['ab', 'CD', 'fG', 'H'])).to.be.equal('ab CDCDCD fGfGfGfG');\n} );",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

@@ -1,15 +1,11 @@
-import {
-  BadRequestException,
-  Injectable,
-  UnauthorizedException,
-} from '@nestjs/common';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import { User, UserDocument } from '../../user/user.schema';
+import { User, UserDocument } from '../../user/user.entity';
 import { TokenService } from './token.service';
-import { LoginInput, RegisterInput } from '../../graphql';
+import { AuthResponse, LoginInput, RegisterInput } from '../types/types.model';
 import * as bcrypt from 'bcrypt';
-import { Token, TokenDocument } from '../schemas/token.schema';
+import { Token, TokenDocument } from '../schemas/token.entity';
 
 @Injectable()
 export class AuthService {
@@ -24,26 +20,24 @@ export class AuthService {
     password,
     firstName,
     lastName,
-  }: RegisterInput): Promise<any> {
+  }: RegisterInput): Promise<AuthResponse> {
     const foundedUser = await this.userModel.findOne({ email });
     if (foundedUser) {
       throw new BadRequestException('User with email ${email} already exists');
     }
     const hashPassword = await bcrypt.hash(password, 10);
-    // const activationLink = uuid.v4(); // v34fa-asfasf-142saf-sa-asf
     const user = await this.userModel.create({
       email,
       firstName,
       lastName,
       password: hashPassword,
     });
-    // await mailService.sendActivationMail(email, `${process.env.API_URL}/api/activate/${activationLink}`);
     const tokens = this.tokenService.generateTokens(user);
     await this.tokenService.saveToken(user._id, tokens.refreshToken);
     return { ...tokens, user };
   }
 
-  async login({ email, password }: LoginInput): Promise<any> {
+  async login({ email, password }: LoginInput): Promise<AuthResponse> {
     const user = await this.userModel.findOne({ email });
     if (!user) {
       throw new BadRequestException(`User with email ${email} not found`);

@@ -1,0 +1,379 @@
+{
+  "_id": "63c094c582c84077cf804e89",
+  "name": {
+    "ru": "Ветвление. Операторы if, else, else if",
+    "en": "Branching. Operators if, else, else if",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63c094c582c84077cf804fa6",
+      "name": {
+        "ru": "Операторы if, else, else if позволяют изменять поведение программы в зависимости от условий",
+        "en": "The if, else, else if operators allow you to change the behavior of a program depending on the conditions",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fa7",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fa8",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fab",
+      "name": {
+        "ru": "Оператор if должен быть обязательно в связке с оператором else",
+        "en": "The if statement must always be paired with the else statement",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fac",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fad",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fb0",
+      "name": {
+        "ru": "Оператор else if позволяет проверить несколько условий",
+        "en": "The else if statement allows you to check several conditions",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fb1",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fb2",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fb5",
+      "name": {
+        "ru": "Можно использовать несколько вложенных операторов if",
+        "en": "You can use several nested if statements",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fb6",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fb7",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fba",
+      "name": {
+        "ru": "Если в результате выполнения оператора if какое-либо условие будет истинным, то остальные условия не будут проверяться",
+        "en": "If any condition is true as a result of an if statement, the other conditions will not be checked",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fbb",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fbc",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fbf",
+      "name": {
+        "ru": "Оператор else может быть использован без оператора if",
+        "en": "The else operator can be used without the if operator",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fc0",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fc1",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fc4",
+      "name": {
+        "ru": "Внутри операторы if можно использовать return",
+        "en": "Inside the if statements you can use return",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fc5",
+          "name": {
+            "ru": "Да. Всегда",
+            "en": "Yes. Always",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fc6",
+          "name": {
+            "ru": "Нет. Никогда",
+            "en": "No. Never.",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fc7",
+          "name": {
+            "ru": "Да. Только если код находится внутри функции",
+            "en": "Yes. Only if the code is inside a function",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fc9",
+      "name": {
+        "ru": "С помощью оператора if можно в функции возвращать разные значения в зависимости от условия",
+        "en": "You can use the if statement in a function to return different values depending on the condition",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fca",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fcb",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fce",
+      "name": {
+        "ru": "Если функция дошла до return, то она завершает свою работу, даже если после return есть еще код",
+        "en": "If the function has reached return, it terminates, even if there is more code after return",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fcf",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "The statement is true",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fd0",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "The statement is false",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804fd3",
+      "name": {
+        "ru": "Что выведет код if(true){console.log(false)} else {console.log(true)}",
+        "en": "What the code will print if(true){console.log(false)} else {console.log(true)}",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804fd4",
+          "name": {
+            "ru": "Ошибка выполнения",
+            "en": "Execution error",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fd5",
+          "name": {
+            "ru": "true",
+            "en": "true",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804fd6",
+          "name": {
+            "ru": "false",
+            "en": "false",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804fd7",
+          "name": {
+            "ru": "else",
+            "en": "else",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

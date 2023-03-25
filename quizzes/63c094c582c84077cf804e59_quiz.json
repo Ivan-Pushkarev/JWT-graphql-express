@@ -1,0 +1,451 @@
+{
+  "_id": "63c094c582c84077cf804e59",
+  "name": {
+    "ru": "Длина строки",
+    "en": "",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63c094c582c84077cf804ede",
+      "name": {
+        "ru": "Длина строки это:",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804edf",
+          "name": {
+            "ru": "Функция",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ee0",
+          "name": {
+            "ru": "Свойство",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ee1",
+          "name": {
+            "ru": "целочисленное значение, равное количеству символов в строке",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ee3",
+      "name": {
+        "ru": "Длина строки может быть равна нулю",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ee4",
+          "name": {
+            "ru": "Утверждение верно",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ee5",
+          "name": {
+            "ru": "Утверждение неверно",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ee8",
+      "name": {
+        "ru": "Выберите возможные варианты получения длины строки",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ee9",
+          "name": {
+            "ru": "const str = 'str'; const length = str.length;",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804eea",
+          "name": {
+            "ru": "const str = 'str'; const length = str.length();",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804eeb",
+          "name": {
+            "ru": "const str = 'str'; const length = str.lentgh;",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804eec",
+          "name": {
+            "ru": "console.log('str'.length);",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804eed",
+      "name": {
+        "ru": "Выберите допустимые варианты получения длины строки",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804eee",
+          "name": {
+            "ru": "let str = '' + ''; console.log(str.length);",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804eef",
+          "name": {
+            "ru": "let str = ' + '; console.log(str.lenght);",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ef0",
+          "name": {
+            "ru": "let str = ' + '.length; console.log(str);",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ef1",
+          "name": {
+            "ru": "let str = ' ;+; '; console.log(str.length);",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ef2",
+      "name": {
+        "ru": "При получении длины строки мы получим",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ef3",
+          "name": {
+            "ru": "число",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804ef4",
+          "name": {
+            "ru": "строку",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804ef7",
+      "name": {
+        "ru": "Что выведет код в консоль? const number = 'string'; console.log(typeof typeof number.length);",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804ef8",
+          "name": {
+            "ru": "number",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804ef9",
+          "name": {
+            "ru": "string",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804efa",
+          "name": {
+            "ru": "boolean",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804efb",
+          "name": {
+            "ru": "Ошибка",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804efc",
+      "name": {
+        "ru": "Может ли длина строки быть отрицательной?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804efd",
+          "name": {
+            "ru": "Да",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804efe",
+          "name": {
+            "ru": "Нет",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f01",
+      "name": {
+        "ru": "Что выведет код в консоль? const str = 'string'; console.log(str.length);",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f02",
+          "name": {
+            "ru": "string",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f03",
+          "name": {
+            "ru": "число 5",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f04",
+          "name": {
+            "ru": "число 6",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f05",
+          "name": {
+            "ru": "строку 6",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f06",
+      "name": {
+        "ru": "Можно ли изменить длину строки так?  const number = 'string'; number.length = 10;",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f07",
+          "name": {
+            "ru": "Да",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f08",
+          "name": {
+            "ru": "Нет",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f0b",
+      "name": {
+        "ru": "Свойство длины считает количество символов в строке, включая пробелы. Какой результат будет у выражения ' '.length?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f0c",
+          "name": {
+            "ru": "0",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f0d",
+          "name": {
+            "ru": "1",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f0e",
+          "name": {
+            "ru": "2",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f0f",
+          "name": {
+            "ru": "Ошибка",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

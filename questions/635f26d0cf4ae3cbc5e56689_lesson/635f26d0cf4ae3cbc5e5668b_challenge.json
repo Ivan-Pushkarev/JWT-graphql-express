@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e5668b",
+  "name": {
+    "ru": "Вычислите и выведите в консоль сумму чисел",
+    "en": "Calculate and display the sum of the numbers in the console",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Только одна строка.\n\nНапишите команду `console.log(2.5 + 3.14);`\n\nСоблюдайте пробелы и знаки пунктуации.",
+    "en": "Only one line.\n\nWrite the command `console.log(2.5 + 3.14);`\n\nObserve spaces and punctuation marks.",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log(2.5 + 3.14);",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

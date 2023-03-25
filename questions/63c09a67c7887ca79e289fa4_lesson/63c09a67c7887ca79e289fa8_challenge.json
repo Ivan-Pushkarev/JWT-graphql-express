@@ -1,0 +1,23 @@
+{
+  "_id": "63c09a67c7887ca79e289fa8",
+  "name": {
+    "ru": "Профиль сотрудника. Удаление свойства из объекта",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Функция `employeeCard` принимает параметр – объект с данными сотрудника:\n* `company` – название компании, строка\n* `firstName` – имя сотрудника, строка\n* `lastName` – фамилия сотрудника, строка\n* `age` – возраст сотрудника, число\n* `position` – должность сотрудника, строка\n\nНазвание параметра произвольное.\n\nНеобходимо удалить свойство `age` из объекта, а также добавить свойство `email`.\n\nПравила создания email:\n* первый символ имени сотрудника в нижнем регистре\n* точка\n* фамилия сотрудника в нижнем регистре\n* `@`\n* название компании в нижнем регистре\n* `.com`\n\nНапример, если у сотрудника имя `John`, фамилия `Doe`, компания `Wood`, то email будет выглядеть так: `j.doe@wood.com`\n\n\nФункция должна вернуть объект с измененными свойствами.\n\nПример запуска функции:\n```javascript\nemployeeCard({ company: 'Wood', firstName: 'John', lastName: 'Doe', age: 32, position: 'Manager' })\n// {company: 'Wood', firstName: 'John', lastName: 'Doe', position: 'Manager', email: `j.doe.wood.com` }\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "function\n\n}",
+  "completedSolution": "function employeeCard(employee) {\n  delete employee.age;\n  employee.email =\n    employee.firstName[0].toLowerCase() +\n    '.' +\n    employee.lastName.toLowerCase() +\n    '@' +\n    employee.company.toLowerCase() +\n    '.com';\n  return {\n    company: employee.company,\n    firstName: employee.firstName,\n    lastName: employee.lastName,\n    position: employee.position,\n    email: employee.email,\n  };\n}",
+  "openTest": "it('Created function employeeCard', () => {\n  expect(employeeCard).to.be.a('function');\n});\n\nit(`employeeCard({company: 'Wood', firstName: 'John', lastName: 'Doe', age: 39, position: 'Manager' }) return {company: 'Wood', firstName: 'John', lastName: 'Doe', position: 'Manager', email: 'j.doe@wood.com' }`, () => {\n  expect(\n    employeeCard({\n      company: 'Wood',\n      firstName: 'John',\n      lastName: 'Doe',\n      age: 39,\n      position: 'Manager',\n    }),\n  ).eql({\n    company: 'Wood',\n    firstName: 'John',\n    lastName: 'Doe',\n    position: 'Manager',\n    email: 'j.doe@wood.com',\n  });\n});\n\nit(`employeeCard({company: 'Amazon', firstName: 'Alex', lastName: 'Sheldon', age: 43, position: 'sales person'}) return {company: 'Amazon', firstName: 'Alex', lastName: 'Sheldon', age: 43, position: 'sales person', email: 'a.sheldon@amazon.com' }`, () => {\n  expect(\n    employeeCard({\n      company: 'Amazon',\n      firstName: 'Alex',\n      lastName: 'Sheldon',\n      age: 43,\n      position: 'sales person',\n    }),\n  ).eql({\n    company: 'Amazon',\n    firstName: 'Alex',\n    lastName: 'Sheldon',\n    position: 'sales person',\n    email: 'a.sheldon@amazon.com',\n  });\n});\n\nit(`employeeCard({company: 'Airfly', firstName: 'Jane', lastName: 'Doe', age: 33, position: 'CEO' }) return {company: 'Airfly', firstName: 'Jane', lastName: 'Doe', position: 'CEO', email: 'j.doe@airfly.com' }`, () => {\n  expect(\n    employeeCard({\n      company: 'Airfly',\n      firstName: 'Jane',\n      lastName: 'Doe',\n      age: 33,\n      position: 'CEO',\n    }),\n  ).eql({\n    company: 'Airfly',\n    firstName: 'Jane',\n    lastName: 'Doe',\n    position: 'CEO',\n    email: 'j.doe@airfly.com',\n  });\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

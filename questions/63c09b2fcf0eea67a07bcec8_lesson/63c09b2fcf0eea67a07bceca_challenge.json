@@ -1,0 +1,23 @@
+{
+  "_id": "63c09b2fcf0eea67a07bceca",
+  "name": {
+    "ru": "Найти длину массива",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `arrayLength`, которая принимает один параметр:\n* array - массив элементов.\n\nИспользуя свойство `length`, найдите длину массива.\n\nФункция должна вернуть число, которое равно длине массива.\n\nПример запуска функции:\n```javascript\narrayLength([1, 2, 3]) //3\n```\n\nПохожий пример:\n```javascript\nstrLength('Hello, world!');// 13\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function arrayLength(array) {\n  return array.length;\n}",
+  "openTest": "it('Created function arrayLength', () => {\n  expect(arrayLength).to.be.a('function');\n});\n\nit('arrayLength([3, 4, 3]) should return 3', () => {\n  expect(arrayLength([3, 4, 3])).to.equal(3);\n});\n\nit('arrayLength([5, 6, 7, 8, 9, 0, 3, 4, 1, 2]) should return 10', () => {\n  expect(arrayLength([5, 6, 7, 8, 9, 0, 3, 4, 1, 2])).to.equal(10);\n});\n\nit('arrayLength([]) should return 0', () => {\n  expect(arrayLength([])).to.equal(0);\n});\n\nit('arrayLength([1]) should return 1', () => {\n  expect(arrayLength([1])).to.equal(1);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

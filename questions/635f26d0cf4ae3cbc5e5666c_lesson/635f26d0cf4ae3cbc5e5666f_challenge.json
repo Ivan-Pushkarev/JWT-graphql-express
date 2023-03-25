@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e5666f",
+  "name": {
+    "ru": "Выведите в консоль строку '5 + 7'",
+    "en": "Output the string '5 + 7' to the console",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите команду `console.log('5 + 7');`",
+    "en": "Write the command `console.log('5 + 7');`",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log('5 + 7');",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "63689267157a0ef5c22aa32d",
+  "name": {
+    "ru": "True если первый аргумент больше второго",
+    "en": "True if the first argument is greater than the second",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `firstIsBigger`, которая принимает два числа `first` и `second`\nи возвращает `true`, если первое число `first` больше второго `second`, и `false` если меньше или равно.",
+    "en": "Write a function `firstIsBigger` that takes two numbers `first` and `second`\nand returns `true` if the first number `first` is greater than the second `second`, and `false` if less than or equal to it.",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function firstIsBigger(first, second) {\n  return first > second;\n}",
+  "openTest": "it('Created function firstIsBigger', () => {\n  expect(firstIsBigger).to.be.a('function');\n});\n\nit('firstIsBigger(1, 2) should return false', () => {\n  expect(firstIsBigger(1, 2)).to.equal(false);\n});\n\nit('firstIsBigger(2, 1) should return true', () => {\n  expect(firstIsBigger(2, 1)).to.equal(true);\n});\n\nit('firstIsBigger(1, 1) should return false', () => {\n  expect(firstIsBigger(1, 1)).to.equal(false);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

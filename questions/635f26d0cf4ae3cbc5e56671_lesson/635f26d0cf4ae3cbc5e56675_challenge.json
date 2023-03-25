@@ -1,0 +1,23 @@
+{
+  "_id": "635f26d0cf4ae3cbc5e56675",
+  "name": {
+    "ru": "Выведите в консоли строку с двойными кавычками Hello JavaScript",
+    "en": "Print in the console the string with double quotes Hello JavaScript",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Только одна строка. Соблюдайте пробелы и знаки пунктуации. В конце точка с запятой. Двойные кавычки. Напишите команду `console.log(\"Hello JavaScript\");`",
+    "en": "Only one line. Observe spaces and punctuation marks. A semicolon at the end. Double quotes. Write the command `console.log(\"Hello JavaScript\");`",
+    "es": ""
+  },
+  "initialSolution": "",
+  "completedSolution": "console.log(\"Hello JavaScript\");",
+  "openTest": "",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "equal"
+}

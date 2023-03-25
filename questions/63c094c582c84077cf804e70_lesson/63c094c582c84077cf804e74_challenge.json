@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e74",
+  "name": {
+    "ru": "Модифицировать строку в зависимости от ее длины",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `modifyString`, которая принимает строку в качестве параметра.\n\nЕсли длина строки четная, то есть делится на 2 без остатка, то функция должна вернуть строку, в которой каждый символ будет в верхнем регистре.\n\nЕсли длина строки нечетная, то функция должна вернуть строку, в которой каждый символ будет в нижнем регистре.\n\nПримеры запуска функции:\n```javascript\nmodifyString('Hello') // 'hello'\nmodifyString('Aa') // 'AA'\nmodifyString('aAa') // 'aaa'\n``",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function modifyString(str) {\n  if (str.length % 2 === 0) {\n    return str.toUpperCase();\n  }\n  return str.toLowerCase();\n}",
+  "openTest": "it('Created function modifyString', () => {\n  expect(modifyString).to.be.a('function');\n});\n\nit('modifyString(\"Hello\") should return \"hello\"', () => {\n  expect(modifyString('Hello')).to.equal('hello');\n});\n\nit('modifyString(\"Aa\") should return \"AA\"', () => {\n  expect(modifyString('Aa')).to.equal('AA');\n});\n\nit('modifyString(\"aAa\") should return \"aaa\"', () => {\n  expect(modifyString('aAa')).to.equal('aaa');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

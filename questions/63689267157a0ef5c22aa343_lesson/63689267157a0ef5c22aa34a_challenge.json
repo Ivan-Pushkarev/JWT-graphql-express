@@ -1,0 +1,23 @@
+{
+  "_id": "63689267157a0ef5c22aa34a",
+  "name": {
+    "ru": "Меньше 10 подарков не принимаем",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "На день рождения очень капризного малыша каждый гость должен принести не менее 10 подарков.\n\nНапишите функцию `isEnough`, которая принимает количество подарков от гостя, и возвращает `true`, если подарков достаточно, и `false`, если подарков недостаточно.\n\nКстати тут не обязательно использовать `if`, можно обойтись без него.\n\nПример с `if`:\n```javascript\nfunction isMoreThanFive(num) {\n  if (num > 5) {\n    return true;\n  } else {\n    return false;\n  }\n}\n\nРезультат сравнения `num > 5` будет `true` или `false`, поэтому можно сразу вернуть его:\n```javascript\nfunction isMoreThanFive(num) {\n  return num > 5;\n}\n```\n\nИспользуйте этот принцип в функции `isEnough`.",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function isEnough(num) {\n  return num >= 10;\n}",
+  "openTest": "it('Created function isEnough', () => {\n  expect(isEnough).to.be.a('function');\n});\n\nit('isEnough(10) should return true', () => {\n  expect(isEnough(10)).to.equal(true);\n});\n\nit('isEnough(9) should return false', () => {\n  expect(isEnough(9)).to.equal(false);\n});\n\nit('isEnough(0) should return false', () => {\n  expect(isEnough(0)).to.equal(false);\n});\n\nit('isEnough(-1) should return false', () => {\n  expect(isEnough(-1)).to.equal(false);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

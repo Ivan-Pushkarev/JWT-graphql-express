@@ -1,0 +1,532 @@
+{
+  "_id": "63c094c582c84077cf804e65",
+  "name": {
+    "ru": "Индексы в строке",
+    "en": "",
+    "es": ""
+  },
+  "acceptableMistakes": 1,
+  "active": true,
+  "questions": [
+    {
+      "_id": "63c094c582c84077cf804f10",
+      "name": {
+        "ru": "Индексы в строке нужны для выполнения следующей задачи",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f11",
+          "name": {
+            "ru": "Позволяют обращаться к символу с этим индексом",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f12",
+          "name": {
+            "ru": "Позволяют менять буквы в строке местами",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f13",
+          "name": {
+            "ru": "Используются для расчета длины строки",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f14",
+          "name": {
+            "ru": "Они ни для чего не используются",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f15",
+      "name": {
+        "ru": "Первый индекс в строке всегда равен",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f16",
+          "name": {
+            "ru": "1",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f17",
+          "name": {
+            "ru": "0",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f18",
+          "name": {
+            "ru": "-1",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f19",
+          "name": {
+            "ru": "str.length - 1",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f1a",
+      "name": {
+        "ru": "Укажите правильный синтаксис для обращения к символу строки по его индексу",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f1b",
+          "name": {
+            "ru": "str(i);",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f1c",
+          "name": {
+            "ru": "str['i'];",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f1d",
+          "name": {
+            "ru": "str[i];",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f1e",
+          "name": {
+            "ru": "str{i};",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f1f",
+      "name": {
+        "ru": "В каких случаях в консоли отобразится undefined, при условии что длина строки равна 5",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f20",
+          "name": {
+            "ru": "console.log(str[str.length]);",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f21",
+          "name": {
+            "ru": "console.log(str[4]);",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f22",
+          "name": {
+            "ru": "console.log(str[str.length - 1]);",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f23",
+          "name": {
+            "ru": "console.log(str[-1]);",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f24",
+      "name": {
+        "ru": "Какой вариант выведет в консоль последний символ строки 'Hello World'",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f25",
+          "name": {
+            "ru": "console.log(str[11]);",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f26",
+          "name": {
+            "ru": "console.log(str[str.length - 1]);",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f27",
+          "name": {
+            "ru": "console.log(str[10]);",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f28",
+          "name": {
+            "ru": "console.log(str['d']);",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f29",
+      "name": {
+        "ru": "Выберите верное утверждение",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f2a",
+          "name": {
+            "ru": "Каждый символ в строке находится на своем месте, и это место пронумеровано",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f2b",
+          "name": {
+            "ru": "Индексы в строке используются только для расчета ее длины",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f2c",
+          "name": {
+            "ru": "Каждому символу в строке мы должны самостоятельно присвоить индекс",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f2d",
+          "name": {
+            "ru": "К символам строки можно обращаться по их индексам",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f2e",
+      "name": {
+        "ru": "В строке 'I love JS' какой индекс имеет символ 'пробел'?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f2f",
+          "name": {
+            "ru": "2 и 7",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f30",
+          "name": {
+            "ru": "1 и 6",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f31",
+          "name": {
+            "ru": "0",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f32",
+          "name": {
+            "ru": "У пробела нет индекса, индекс есть только у букв",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f33",
+      "name": {
+        "ru": "Дана строка const str = 'How are you?'. Выберите корректный вариант работы кода",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f34",
+          "name": {
+            "ru": "console.log(str[0] + str[4] + str[8]); // Hay",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f35",
+          "name": {
+            "ru": "console.log(str.length - 2); // u",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f36",
+          "name": {
+            "ru": "console.log(str[-1]); // undefined",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f37",
+          "name": {
+            "ru": "console.log(str[0] + str[str.length - 1]); // H?",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f38",
+      "name": {
+        "ru": "Существует ли взаимосвязь между последним индексом и длиной строки?",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "single",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f39",
+          "name": {
+            "ru": "Они всегда равны",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f3a",
+          "name": {
+            "ru": "Никакой взаимосвязи нет",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f3b",
+          "name": {
+            "ru": "Это зависит от того, что написано в строке",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f3c",
+          "name": {
+            "ru": "Последний индекс равен длине строки минус 1",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    },
+    {
+      "_id": "63c094c582c84077cf804f3d",
+      "name": {
+        "ru": "Дана строка const str = 'Learn JavaScript'. Выберите корректный вариант работы кода",
+        "en": "",
+        "es": ""
+      },
+      "description": {
+        "ru": "",
+        "en": "",
+        "es": ""
+      },
+      "answerType": "multi",
+      "variants": [
+        {
+          "_id": "63c094c582c84077cf804f3e",
+          "name": {
+            "ru": "const i = 6; const j = 10; console.log(str[i] + str[j]); // JS",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f3f",
+          "name": {
+            "ru": "const i = 2; console.log(i); // a",
+            "en": "",
+            "es": ""
+          },
+          "correct": false
+        },
+        {
+          "_id": "63c094c582c84077cf804f40",
+          "name": {
+            "ru": "const i = 7; console.log(str[i] + str[i+1] + str[i+2]); // ava",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        },
+        {
+          "_id": "63c094c582c84077cf804f41",
+          "name": {
+            "ru": "const j = 16; console.log(str[j]); // undefined",
+            "en": "",
+            "es": ""
+          },
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

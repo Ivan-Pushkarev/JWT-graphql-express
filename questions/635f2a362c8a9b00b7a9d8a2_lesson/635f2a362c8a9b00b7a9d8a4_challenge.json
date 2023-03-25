@@ -1,0 +1,23 @@
+{
+  "_id": "635f2a362c8a9b00b7a9d8a4",
+  "name": {
+    "ru": "Напишите пустую функцию `hello`",
+    "en": "Write an empty function `hello`.",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите пустую функцию `hello`.\n\nПример пустой функции `time`:\n```javascript\nfunction time() {}\n```",
+    "en": "Write an empty function `hello`.\n\nAn example of an empty `time` function:\n```javascript\nfunction time() {}\n```",
+    "es": ""
+  },
+  "initialSolution": "function sum(num1, num2){\n\n}",
+  "completedSolution": "function hello() {}",
+  "openTest": "it('Created function hello', () => {\n  expect(hello).to.be.a('function');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

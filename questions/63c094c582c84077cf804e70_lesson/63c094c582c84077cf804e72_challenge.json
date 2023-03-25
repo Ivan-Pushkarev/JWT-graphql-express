@@ -1,0 +1,23 @@
+{
+  "_id": "63c094c582c84077cf804e72",
+  "name": {
+    "ru": "Перевести строку в верхний регистр",
+    "en": "",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `allUpper`, которая принимает строку и возвращает эту же строку, но в верхнем регистре.\n\nПримеры запуска функции:\n```javascript\nallUpper('Hello') // 'HELLO'\nallUpper('Hello World') // 'HELLO WORLD'\nallUpper('aaa') // 'AAA'\n```",
+    "en": "",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function allUpper(str) {\n  return str.toUpperCase();\n}",
+  "openTest": "it('Created function allUpper', () => {\n  expect(allUpper).to.be.a('function');\n});\n\nit('allUpper(\"Hello\") should return \"HELLO\"', () => {\n  expect(allUpper('Hello')).to.equal('HELLO');\n});\n\nit('allUpper(\"Hello World\") should return \"HELLO WORLD\"', () => {\n  expect(allUpper('Hello World')).to.equal('HELLO WORLD');\n});\n\nit('allUpper(\"aaa\") should return \"AAA\"', () => {\n  expect(allUpper('aaa')).to.equal('AAA');\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

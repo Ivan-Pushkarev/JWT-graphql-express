@@ -1,0 +1,23 @@
+{
+  "_id": "63689267157a0ef5c22aa325",
+  "name": {
+    "ru": "Преобразование в булево значение с помощью двойного отрицания",
+    "en": "Converting to a Boolean value using double negation",
+    "es": ""
+  },
+  "instruction": {
+    "ru": "Напишите функцию `toBoolean`, которая принимает одно значение, преобразует его в boolean и возвращает противоположное.\n\nИcпользуйте `!!`.",
+    "en": "Write a function `toBoolean` that takes one value, converts it to a boolean, and returns the opposite.\n\nUse `!!`.",
+    "es": ""
+  },
+  "initialSolution": "fun",
+  "completedSolution": "function toBoolean(value) {\n  return !!value;\n}",
+  "openTest": "it('Created function toBoolean', () => {\n  expect(toBoolean).to.be.a('function');\n} );\n\nit('toBoolean(true) should return true', () => {\n  expect(toBoolean(true)).to.equal(true);\n} );\n\nit('toBoolean(false) should return false', () => {\n  expect(toBoolean(false)).to.equal(false);\n} );\n\nit('function should contain !!', function () {\n  expect(toBoolean.toString().indexOf('!!')).to.not.equal(-1);\n});",
+  "hiddenTest": "",
+  "programmingLang": "JavaScript",
+  "status": "new",
+  "level": "Easy",
+  "showOpenTest": true,
+  "active": false,
+  "checker": "unit"
+}

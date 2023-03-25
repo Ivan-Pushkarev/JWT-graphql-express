@@ -1,0 +1,4 @@
+{
+  "name": "Converting to a Boolean value using double negation",
+  "instruction": "Write a function `toBoolean` that takes one value, converts it to a boolean, and returns the opposite.\n\nUse `!!`."
+}
